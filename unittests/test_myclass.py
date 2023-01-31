@@ -1,4 +1,4 @@
-from mypackage.mymodule import MyClass
+from fristenkalender_generator.mymodule import MyClass
 
 
 class TestMyClass:
