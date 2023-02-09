@@ -3,9 +3,9 @@ This a docstring for the module.
 """
 
 from datetime import date
-from bdew_datetimes.periods import get_nth_working_day_of_month, MonthType
+from bdew_datetimes.periods import get_nth_working_day_of_month, MonthType, get_previous_working_day
 from bdew_datetimes import create_bdew_calendar
-#from calendar import monthrange
+from calendar import monthrange
 import pandas as pd
 
 class Fristenkalender_generator:
@@ -20,7 +20,7 @@ class Fristenkalender_generator:
 
     def generate_fristen_liste_variable_WT(self, year, nth_day, fristen_type):
         """
-        generate the list of 5WT Fristen for a given year
+        generate the list of nth_day WT Fristen for a given year
         """
 
         df_fristen = pd.DataFrame()
@@ -59,6 +59,69 @@ class Fristenkalender_generator:
 
         return df_fristen
 
+    def generate_fristen_liste_LWT(self, year):
+        """
+        generate the list of LWT Fristen for a given year
+        """
+
+        df_fristen = pd.DataFrame()
+
+        # dez last year
+        last_day_of_Month = monthrange(year, 12)[1]
+        last_date_of_Month = date(year - 1, 12, last_day_of_Month)
+        df_fristen.loc[0, ('type', 'date')] = ['LWT', get_previous_working_day(last_date_of_Month)]
+
+        # this year
+        n_Months = 12
+        for i_Month in range(1, n_Months + 1):
+            last_day_of_Month = monthrange(year, i_Month)[1]
+            last_date_of_Month = date(year - 1, 12, last_day_of_Month)
+            df_fristen.loc[i_Month, ('type', 'date')] = ['LWT', get_previous_working_day(last_date_of_Month)]
+
+        # jan next year
+        last_day_of_Month = monthrange(year, 1)[1]
+        last_date_of_Month = date(year + 1, 1, last_day_of_Month)
+        df_fristen.loc[13, ('type', 'date')] = ['LWT', get_previous_working_day(last_date_of_Month)]
+
+        return df_fristen
+
+    def generate_fristen_liste_3LWT(self, year):
+        """
+        generate the list of LWT Fristen for a given year
+        """
+
+        df_fristen = pd.DataFrame()
+
+        # dez last year
+        last_day_of_Month = monthrange(year-1, 12)[1]
+        date_dummy = date(year - 1, 12, last_day_of_Month)
+        date_dummy = get_previous_working_day(date_dummy)
+        while last_day_of_Month - date_dummy.day < 3:
+            date_dummy = get_previous_working_day(date_dummy)
+        df_fristen.loc[0, ('type', 'date')] = ['3LWT', date_dummy]
+
+
+        # this year
+        n_Months = 12
+        for i_Month in range(1, n_Months + 1):
+            last_day_of_Month = monthrange(year, i_Month)[1]
+            last_date_of_Month = date(year, i_Month, last_day_of_Month)
+            date_dummy = date(year, i_Month, last_day_of_Month)
+            date_dummy = get_previous_working_day(date_dummy)
+            while last_day_of_Month - date_dummy.day < 3:
+                date_dummy = get_previous_working_day(date_dummy)
+            df_fristen.loc[i_Month, ('type', 'date')] = ['3LWT', date_dummy]
+
+        # jan next year
+        last_day_of_Month = monthrange(year + 1, 1)[1]
+        date_dummy = date(year + 1, 1, last_day_of_Month)
+        date_dummy = get_previous_working_day(date_dummy)
+        while last_day_of_Month - date_dummy.day < 3:
+            date_dummy = get_previous_working_day(date_dummy)
+        df_fristen.loc[13, ('type', 'date')] = ['3LWT', date_dummy]
+
+        return df_fristen
+
 
     def generate_fristen_df(self, year):
         df_fristen = pd.DataFrame()
@@ -74,6 +137,8 @@ class Fristenkalender_generator:
         df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 26, '26WT'), ignore_index=True)
         df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 30, '30WT'), ignore_index=True)
         df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 42, '42WT'), ignore_index=True)
+        df_fristen = df_fristen.append(generate_fristen_liste_LWT(2023), ignore_index=True)
+        df_fristen = df_fristen.append(generate_fristen_liste_3LWT(2023), ignore_index=True)
         return df_fristen
 
 
