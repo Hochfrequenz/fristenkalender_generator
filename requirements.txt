@@ -4,8 +4,8 @@
 #
 #    pip-compile '.\requirements.in'
 #
-bdew-datetimes==0.3.3
-    # via -r .\requirements.in
+bdew-datetimes==0.3.4
+    # via -r requirements.in
 convertdate==2.4.0
     # via holidays
 datetime==5.0
