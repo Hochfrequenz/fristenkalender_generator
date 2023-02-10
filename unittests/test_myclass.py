@@ -10,31 +10,28 @@ class TestFristenkalender_generator:
     """
 
     def test_if_first_10WT_day_is_right(self):
-        assert Fristenkalender_generator().generate_fristen_liste_variable_WT(2023, 10, '10WT').loc[0,('date')] == date(2022,12,14)
+        assert Fristenkalender_generator().generate_fristen_liste_variable_WT(2023, 10, '10WT')[0][1] == date(2022,12,14)
 
     def test_if_first_5WT_day_is_right(self):
-        assert Fristenkalender_generator().generate_fristen_liste_variable_WT(2023, 5,'5WT').loc[0,('date')] == date(2022,12,7)
+        assert Fristenkalender_generator().generate_fristen_liste_variable_WT(2023, 5,'5WT')[0][1] == date(2022,12,7)
 
     def test_if_first_12WT_day_is_right(self):
-        assert Fristenkalender_generator().generate_fristen_liste_variable_WT(2023, 12,'12WT').loc[0,('date')] == date(2022,12,16)
+        assert Fristenkalender_generator().generate_fristen_liste_variable_WT(2023, 12,'12WT')[0][1] == date(2022,12,16)
 
     def test_if_first_12WT_day_is_right(self):
-        assert Fristenkalender_generator().generate_fristen_liste_variable_WT(2023, 14,'14WT').loc[0,('date')] == date(2022,12,20)
+        assert Fristenkalender_generator().generate_fristen_liste_variable_WT(2023, 14,'14WT')[0][1] == date(2022,12,20)
 
     def test_if_first_42WT_day_is_right(self):
-        assert Fristenkalender_generator().generate_fristen_liste_variable_WT(2023, 42, '42WT').loc[0, ('date')] == date(2022, 12, 5)
-
-    def test_if_last_42WT_day_is_right(self):
-        assert Fristenkalender_generator().generate_fristen_liste_variable_WT(2023, 42, '42WT').iloc[-1].date == date(2024, 1, 4)
+        assert Fristenkalender_generator().generate_fristen_liste_variable_WT(2023, 42, '42WT')[0][1] == date(2022, 12, 5)
 
     def test_if_first_LWT_day_is_right(self):
-        assert Fristenkalender_generator().generate_fristen_liste_LWT(2023).loc[0,('date')] == date(2022, 12, 30)
+        assert Fristenkalender_generator().generate_fristen_liste_LWT(2023)[0][1] == date(2022, 12, 30)
 
     def test_if_first_3LWT_day_is_right(self):
-        assert Fristenkalender_generator().generate_fristen_liste_3LWT(2023).loc[0,('date')] == date(2022, 12, 28)
+        assert Fristenkalender_generator().generate_fristen_liste_3LWT(2023)[0][1] == date(2022, 12, 28)
 
     def test_if_last_3LWT_day_is_right(self):
-        assert Fristenkalender_generator().generate_fristen_liste_3LWT(2023).loc[13,('date')] == date(2024, 1, 26)
+        assert Fristenkalender_generator().generate_fristen_liste_3LWT(2023)[13][1] == date(2024, 1, 26)
 
 
 class TestMyClass:

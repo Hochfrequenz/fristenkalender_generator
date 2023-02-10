@@ -2,15 +2,14 @@
 This a docstring for the module.
 """
 
-from datetime import date
-from bdew_datetimes.periods import get_nth_working_day_of_month, MonthType, get_previous_working_day
-from bdew_datetimes import create_bdew_calendar
+from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from calendar import monthrange
-import pandas as pd
+from datetime import date
+
 
 class Fristenkalender_generator:
     """
-    This is a doctring for the class
+    This class is made to create a bedw fristen kalender for a given year
     """
 
     def __init__(self):
@@ -18,88 +17,84 @@ class Fristenkalender_generator:
         Initialize for the sake of initializing
         """
 
-    def generate_fristen_liste_variable_WT(self, year, nth_day, fristen_type):
+    def generate_fristen_liste_variable_WT(self, year: int, nth_day: int, fristen_type: str) -> list:
         """
         generate the list of nth_day WT Fristen for a given year
         """
 
-        df_fristen = pd.DataFrame()
-
-        i_fristen = 0
+        fristen_list = []
 
         # oct from last year, only if relevant for the current year's calender
-        nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day,start=date(year - 1, 10, 1))
+        nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 10, 1))
         if nth_working_day_of_month_date >= date(year - 1, 12, 1):
-            df_fristen.loc[i_fristen, ('type', 'date')] = [fristen_type, nth_working_day_of_month_date]
-            i_fristen += 1
+            fristen_list.append((fristen_type, nth_working_day_of_month_date))
 
         # nov from last year, only if relevant for the current year's calender
-        nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day,start=date(year - 1, 11, 1))
-        if nth_working_day_of_month_date >= date(year-1,12,1):
-            df_fristen.loc[i_fristen, ('type', 'date')] = [fristen_type, nth_working_day_of_month_date]
-            i_fristen += 1
+        nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 11, 1))
+        if nth_working_day_of_month_date >= date(year - 1, 12, 1):
+            fristen_list.append((fristen_type, nth_working_day_of_month_date))
 
         # dez from last year
-        nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day,start=date(year - 1, 12, 1))
-        df_fristen.loc[i_fristen,('type', 'date')] = [fristen_type, nth_working_day_of_month_date]
-        i_fristen += 1
+        nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 12, 1))
+        fristen_list.append((fristen_type, nth_working_day_of_month_date))
 
         # this year
         n_Months = 12
         for i_Month in range(1, n_Months + 1):
-            nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day,start=date(year, i_Month, 1))
+            nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year, i_Month, 1))
             if nth_working_day_of_month_date < date(year + 1, 2, 1):
-                df_fristen.loc[i_fristen, ('type', 'date')] = [fristen_type, nth_working_day_of_month_date]
-                i_fristen += 1
+                fristen_list.append((fristen_type, nth_working_day_of_month_date))
 
         # jan of next year
-        nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year + 1, 12, 1))  # dez form last year
+        nth_working_day_of_month_date = get_nth_working_day_of_month(
+            nth_day, start=date(year + 1, 12, 1)
+        )  # dez form last year
         if nth_working_day_of_month_date < date(year + 1, 2, 1):
-            df_fristen.loc[i_fristen, ('type', 'date')] = [fristen_type, nth_working_day_of_month_date]
+            fristen_list.append((fristen_type, nth_working_day_of_month_date))
 
-        return df_fristen
+        return fristen_list
 
-    def generate_fristen_liste_LWT(self, year):
+    def generate_fristen_liste_LWT(self, year: int) -> list:
         """
         generate the list of LWT Fristen for a given year
         """
 
-        df_fristen = pd.DataFrame()
+        fristen_type = "LWT"
+        fristen_list = []
 
         # dez last year
         last_day_of_Month = monthrange(year, 12)[1]
         last_date_of_Month = date(year - 1, 12, last_day_of_Month)
-        df_fristen.loc[0, ('type', 'date')] = ['LWT', get_previous_working_day(last_date_of_Month)]
+        fristen_list.append((fristen_type, get_previous_working_day(last_date_of_Month)))
 
         # this year
         n_Months = 12
         for i_Month in range(1, n_Months + 1):
             last_day_of_Month = monthrange(year, i_Month)[1]
             last_date_of_Month = date(year - 1, 12, last_day_of_Month)
-            df_fristen.loc[i_Month, ('type', 'date')] = ['LWT', get_previous_working_day(last_date_of_Month)]
+            fristen_list.append((fristen_type, get_previous_working_day(last_date_of_Month)))
 
         # jan next year
         last_day_of_Month = monthrange(year, 1)[1]
         last_date_of_Month = date(year + 1, 1, last_day_of_Month)
-        df_fristen.loc[13, ('type', 'date')] = ['LWT', get_previous_working_day(last_date_of_Month)]
+        fristen_list.append((fristen_type, get_previous_working_day(last_date_of_Month)))
 
-        return df_fristen
+        return fristen_list
 
-    def generate_fristen_liste_3LWT(self, year):
+    def generate_fristen_liste_3LWT(self, year: int) -> list:
         """
         generate the list of LWT Fristen for a given year
         """
 
-        df_fristen = pd.DataFrame()
+        fristen_type = "3LWT"
+        fristen_list = []
 
         # dez last year
-        last_day_of_Month = monthrange(year-1, 12)[1]
-        date_dummy = date(year - 1, 12, last_day_of_Month)
-        date_dummy = get_previous_working_day(date_dummy)
+        last_day_of_Month = monthrange(year - 1, 12)[1]
+        date_dummy = get_previous_working_day(date(year - 1, 12, last_day_of_Month))
         while last_day_of_Month - date_dummy.day < 3:
             date_dummy = get_previous_working_day(date_dummy)
-        df_fristen.loc[0, ('type', 'date')] = ['3LWT', date_dummy]
-
+        fristen_list.append((fristen_type, date_dummy))
 
         # this year
         n_Months = 12
@@ -110,7 +105,7 @@ class Fristenkalender_generator:
             date_dummy = get_previous_working_day(date_dummy)
             while last_day_of_Month - date_dummy.day < 3:
                 date_dummy = get_previous_working_day(date_dummy)
-            df_fristen.loc[i_Month, ('type', 'date')] = ['3LWT', date_dummy]
+            fristen_list.append((fristen_type, date_dummy))
 
         # jan next year
         last_day_of_Month = monthrange(year + 1, 1)[1]
@@ -118,38 +113,31 @@ class Fristenkalender_generator:
         date_dummy = get_previous_working_day(date_dummy)
         while last_day_of_Month - date_dummy.day < 3:
             date_dummy = get_previous_working_day(date_dummy)
-        df_fristen.loc[13, ('type', 'date')] = ['3LWT', date_dummy]
+        fristen_list.append((fristen_type, date_dummy))
 
-        return df_fristen
+        return fristen_list
 
+    def generate_fristen_df(self, year: int) -> list:
+        """
+        generate the list of all Fristen for a given year
+        """
+        fristen_list = []
+        fristen_list.append(generate_fristen_liste_variable_WT(year, 5, "5WT"))
+        fristen_list.append(generate_fristen_liste_variable_WT(year, 10, "10WT"))
+        fristen_list.append(generate_fristen_liste_variable_WT(year, 12, "12WT"))
+        fristen_list.append(generate_fristen_liste_variable_WT(year, 14, "14WT"))
+        fristen_list.append(generate_fristen_liste_variable_WT(year, 16, "16WT"))
+        fristen_list.append(generate_fristen_liste_variable_WT(year, 17, "17WT"))
+        fristen_list.append(generate_fristen_liste_variable_WT(year, 18, "18WT"))
+        fristen_list.append(generate_fristen_liste_variable_WT(year, 20, "20WT"))
+        fristen_list.append(generate_fristen_liste_variable_WT(year, 21, "21WT"))
+        fristen_list.append(generate_fristen_liste_variable_WT(year, 26, "26WT"))
+        fristen_list.append(generate_fristen_liste_variable_WT(year, 30, "30WT"))
+        fristen_list.append(generate_fristen_liste_variable_WT(year, 42, "42WT"))
+        fristen_list.append(generate_fristen_liste_LWT(year))
+        fristen_list.append(generate_fristen_liste_3LWT(year))
 
-    def generate_fristen_df(self, year):
-        df_fristen = pd.DataFrame()
-        df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 5, '5WT'), ignore_index=True)
-        df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 10, '10WT'), ignore_index=True)
-        df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 12, '12WT'), ignore_index=True)
-        df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 14, '14WT'), ignore_index=True)
-        df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 16, '16WT'), ignore_index=True)
-        df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 17, '17WT'), ignore_index=True)
-        df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 18, '18WT'), ignore_index=True)
-        df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 20, '20WT'), ignore_index=True)
-        df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 21, '21WT'), ignore_index=True)
-        df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 26, '26WT'), ignore_index=True)
-        df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 30, '30WT'), ignore_index=True)
-        df_fristen = df_fristen.append(generate_fristen_liste_variable_WT(2023, 42, '42WT'), ignore_index=True)
-        df_fristen = df_fristen.append(generate_fristen_liste_LWT(2023), ignore_index=True)
-        df_fristen = df_fristen.append(generate_fristen_liste_3LWT(2023), ignore_index=True)
-        return df_fristen
-
-
-
-
-
-
-#Fristenkalender_generator().kalender(2022)
-#
-
-# Frinstenkalender_generator.kalender(year)
+        return fristen_list
 
 
 class MyClass:  # pylint: disable=too-few-public-methods
