@@ -51,3 +51,4 @@ class TestFristenkalenderGenerator:
         fristen = FristenkalenderGenerator().generate_all_fristen_list(year)
         test_frist = expected
         assert test_frist in fristen
+        assert len(fristen) == len(set(fristen)), "There are duplicates in the list"
