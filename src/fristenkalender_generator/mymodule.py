@@ -22,7 +22,7 @@ class FristWithAttributes:
 @dataclasses.dataclass
 class DateWithAllItsFristen:
     """
-    This calss represents a day with all its Fristen
+    This class represents a calendar day with all its Fristen
     """
 
     date_of_the_day: datetime
