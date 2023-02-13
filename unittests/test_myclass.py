@@ -3,7 +3,7 @@ from datetime import date
 
 import pytest
 
-from fristenkalender_generator.mymodule import FristenkalenderGenerator, FristWithAttributes
+from fristenkalender_generator.bdew_calender_generator import FristenkalenderGenerator, FristWithAttributes
 
 
 class TestFristenkalenderGenerator:
@@ -36,11 +36,9 @@ class TestFristenkalenderGenerator:
     def test_if_last_3LWT_day_is_right(self):
         assert FristenkalenderGenerator().generate_fristen_list_3lwt(2023)[-1].date_of_the_frist == date(2024, 1, 26)
 
-    def test_if_last_frist_in_fristen_calender_is_right(self):
-        assert FristenkalenderGenerator().generate_all_fristen_list(2023)[-1].date_of_the_frist
-
     def test_if_duplicates_are_in_fristen_calender(self):
         fristen = FristenkalenderGenerator().generate_all_fristen_list(2023)
+
         assert len(fristen) == len(set(fristen)), "There are duplicates in the list"
 
     @pytest.mark.parametrize(
@@ -50,6 +48,7 @@ class TestFristenkalenderGenerator:
             pytest.param(2023, FristWithAttributes(date(2023, 3, 9), "26WT")),
             pytest.param(2023, FristWithAttributes(date(2023, 5, 22), "14WT")),
             pytest.param(2023, FristWithAttributes(date(2023, 9, 27), "3LWT")),
+            pytest.param(2023, FristWithAttributes(date(2024, 1, 30), "21LWT")),
         ],
     )
     def test_if_frist_is_in_fristen_calender(self, year: int, expected: FristWithAttributes):
