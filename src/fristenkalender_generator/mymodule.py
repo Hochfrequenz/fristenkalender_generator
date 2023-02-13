@@ -9,7 +9,7 @@ from datetime import date
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 
 
-@dataclasses.dataclass
+@dataclasses.dataclass(unsafe_hash=True)
 class FristWithAttributes:
     """
     This class represents a Frist with its attibutes:
