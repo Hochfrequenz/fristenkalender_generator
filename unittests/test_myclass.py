@@ -39,6 +39,10 @@ class TestFristenkalenderGenerator:
     def test_if_last_frist_in_fristen_calender_is_right(self):
         assert FristenkalenderGenerator().generate_all_fristen_list(2023)[-1].date_of_the_frist
 
+    def test_if_duplicates_are_in_fristen_calender(self):
+        fristen = FristenkalenderGenerator().generate_all_fristen_list(2023)
+        assert len(fristen) == len(set(fristen)), "There are duplicates in the list"
+
     @pytest.mark.parametrize(
         "year, expected",
         [
