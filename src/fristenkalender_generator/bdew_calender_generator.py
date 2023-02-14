@@ -15,8 +15,7 @@ class FristWithAttributes:
     This class represents a Frist with its attibutes
     """
 
-    # the variable name date is already defined. Therefore i put a longer name on date
-    date_of_the_frist: date  #: = date(y,m,d)
+    date: date  #: = date(y,m,d)
     label: str  #: can be for exmaple '5WT' (5 Werktage des Liefermonats)
 
 
@@ -58,7 +57,7 @@ class FristenkalenderGenerator:
         # until the end of January of the following year
         lower_bound = date(year - 1, 12, 1)
         upper_bound = date(year + 1, 2, 1)
-        fristen_filtered = [frist for frist in fristen if lower_bound <= frist.date_of_the_frist < upper_bound]
+        fristen_filtered = [frist for frist in fristen if lower_bound <= frist.date < upper_bound]
 
         return fristen_filtered
 
@@ -97,10 +96,11 @@ class FristenkalenderGenerator:
 
         return fristen
 
-    def generate_fristen(self, year: int) -> list[FristWithAttributes]:
+    def generate_all_fristen(self, year: int) -> list[FristWithAttributes]:
         """
         Generate the list of all Fristen in the calender for a given year
         """
+
         fristen: list[FristWithAttributes] = []
         fristen.extend(self.generate_fristen_list_variable_wt(year, 5, "5WT"))
         fristen.extend(self.generate_fristen_list_variable_wt(year, 10, "10WT"))
