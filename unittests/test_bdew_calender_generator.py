@@ -37,7 +37,7 @@ class TestFristenkalenderGenerator:
         assert FristenkalenderGenerator().generate_fristen_list_3lwt(2023)[-1].date_of_the_frist == date(2024, 1, 26)
 
     def test_if_duplicates_are_in_fristen_calender(self):
-        fristen = FristenkalenderGenerator().generate_all_fristen_list(2023)
+        fristen = FristenkalenderGenerator().generate_fristen(2023)
 
         assert len(fristen) == len(set(fristen)), "There are duplicates in the list"
 
@@ -48,16 +48,18 @@ class TestFristenkalenderGenerator:
             pytest.param(2023, FristWithAttributes(date(2023, 3, 9), "26WT")),
             pytest.param(2023, FristWithAttributes(date(2023, 5, 22), "14WT")),
             pytest.param(2023, FristWithAttributes(date(2023, 9, 27), "3LWT")),
-            pytest.param(2023, FristWithAttributes(date(2024, 1, 30), "21LWT")),
+            pytest.param(2023, FristWithAttributes(date(2024, 1, 30), "21WT")),
+            pytest.param(2023, FristWithAttributes(date(2023, 4, 28), "LWT")),
+            pytest.param(2023, FristWithAttributes(date(2023, 7, 26), "3LWT")),
         ],
     )
     def test_if_frist_is_in_fristen_calender(self, year: int, expected: FristWithAttributes):
-        fristen = FristenkalenderGenerator().generate_all_fristen_list(year)
+        fristen = FristenkalenderGenerator().generate_fristen(year)
         test_frist = expected
         assert test_frist in fristen
 
     def test_full_calendar_2023(self):
-        fristen = FristenkalenderGenerator().generate_all_fristen_list(2023)
+        fristen = FristenkalenderGenerator().generate_fristen(2023)
         # hack for pycharm: run this in the debugger and copy the value of str(fristen) from the variable window
         expected = [
             FristWithAttributes(date_of_the_frist=datetime.date(2022, 12, 7), label="5WT"),
