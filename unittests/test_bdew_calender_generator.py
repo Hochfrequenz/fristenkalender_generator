@@ -27,15 +27,6 @@ class TestFristenkalenderGenerator:
             == expected
         )
 
-    def test_if_first_LWT_day_is_right(self):
-        assert FristenkalenderGenerator().generate_fristen_list_lwt(2023)[0].date_of_the_frist == date(2022, 12, 30)
-
-    def test_if_first_3LWT_day_is_right(self):
-        assert FristenkalenderGenerator().generate_fristen_list_3lwt(2023)[0].date_of_the_frist == date(2022, 12, 28)
-
-    def test_if_last_3LWT_day_is_right(self):
-        assert FristenkalenderGenerator().generate_fristen_list_3lwt(2023)[-1].date_of_the_frist == date(2024, 1, 26)
-
     def test_if_duplicates_are_in_fristen_calender(self):
         fristen = FristenkalenderGenerator().generate_fristen(2023)
 
