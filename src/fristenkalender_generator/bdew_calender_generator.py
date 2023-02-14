@@ -31,11 +31,15 @@ class FristenkalenderGenerator:
 
         fristen: list[FristWithAttributes] = []
 
-        # oct from last year, only if relevant for the current year's calender
+        # some fristen starting in Oct/Nov/Dec of the previous year might be relevant
+        # we first add them all to the result list and later on remove those entries
+        # that are not relevant
+         
+        # oct from last year
         nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 10, 1))
         fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
 
-        # nov from last year, only if relevant for the current year's calender
+        # nov from last year
         nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 11, 1))
         fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
 
