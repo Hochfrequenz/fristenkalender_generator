@@ -68,6 +68,7 @@ class FristenkalenderGenerator:
         LWT are counted back into the month starting from the last day of the month.
         The last day of the month is counted irrespective if it is a wt or not.
         """
+
         fristen: list[FristWithAttributes] = []
 
         def generate_lwt_frist(year, month: int) -> FristWithAttributes:
@@ -116,5 +117,20 @@ class FristenkalenderGenerator:
         fristen.extend(self.generate_fristen_list_variable_wt(year, 42, "42WT"))
         fristen.extend(self.generate_fristen_list_variable_lwt(year, 0, "LWT"))
         fristen.extend(self.generate_fristen_list_variable_lwt(year, 3, "3LWT"))
+
+        return fristen
+
+    def generate_specific_fristen(self, year: int, days_and_labels: list[tuple[int, str]]) -> list[FristWithAttributes]:
+        """
+        Generate the list of Fristen in the calender for a given year for a given set of Fristen
+        The specification of the Fristen is for example: days_and_labels = [(5, '5WT'), (3, 'LWT), ...]
+        """
+
+        fristen = []
+        for days, label in days_and_labels:
+            if label[-3:] == "LWT":
+                fristen += self.generate_fristen_list_variable_lwt(year, days, label)
+            else:
+                fristen += self.generate_fristen_list_variable_wt(year, days, label)
 
         return fristen

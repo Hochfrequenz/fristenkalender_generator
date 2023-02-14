@@ -46,6 +46,12 @@ class TestFristenkalenderGenerator:
         test_frist = expected
         assert test_frist in fristen
 
+    def test_generate_specific_fristen(self):
+        expected = FristenkalenderGenerator().generate_fristen_list_variable_lwt(2023, 3, "3LWT")
+        expected += FristenkalenderGenerator().generate_fristen_list_variable_wt(2023, 5, "5WT")
+        days_and_labels = [(3, "3LWT"), (5, "5WT")]
+        assert FristenkalenderGenerator().generate_specific_fristen(2023, days_and_labels) == expected
+
     def test_full_calendar_2023(self):
         fristen = FristenkalenderGenerator().generate_all_fristen(2023)
         # hack for pycharm: run this in the debugger and copy the value of str(fristen) from the variable window
