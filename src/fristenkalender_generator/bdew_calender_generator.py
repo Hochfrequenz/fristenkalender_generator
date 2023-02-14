@@ -118,6 +118,7 @@ class FristenkalenderGenerator:
         fristen.extend(self.generate_fristen_list_variable_lwt(year, 0, "LWT"))
         fristen.extend(self.generate_fristen_list_variable_lwt(year, 3, "3LWT"))
 
+        fristen.sort(key=lambda fwa: fwa.date)
         return fristen
 
     def generate_specific_fristen(self, year: int, days_and_labels: list[tuple[int, str]]) -> list[FristWithAttributes]:
