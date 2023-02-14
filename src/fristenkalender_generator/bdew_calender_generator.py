@@ -34,7 +34,7 @@ class FristenkalenderGenerator:
         # some fristen starting in Oct/Nov/Dec of the previous year might be relevant
         # we first add them all to the result list and later on remove those entries
         # that are not relevant
-         
+
         # oct from last year
         nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 10, 1))
         fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
@@ -82,6 +82,8 @@ class FristenkalenderGenerator:
             date_dummy = get_previous_working_day(first_day_of_next_month)
             # the last day of the month counts, regardless if its a wt or not
             i_relevant_days = last_day_of_month - date_dummy.day
+            if i_relevant_days > 1:
+                i_relevant_days = 1
             while i_relevant_days < nth_day:
                 date_dummy = get_previous_working_day(date_dummy)
                 i_relevant_days += 1

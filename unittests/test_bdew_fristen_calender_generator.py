@@ -39,6 +39,7 @@ class TestFristenkalenderGenerator:
             pytest.param(2023, FristWithAttributes(date(2024, 1, 30), "21WT")),
             pytest.param(2023, FristWithAttributes(date(2023, 4, 28), "LWT")),
             pytest.param(2023, FristWithAttributes(date(2023, 7, 26), "3LWT")),
+            pytest.param(2023, FristWithAttributes(date(2023, 12, 27), "3LWT")),
         ],
     )
     def test_if_frist_is_in_fristen_calender(self, year: int, expected: FristWithAttributes):
@@ -121,8 +122,8 @@ class TestFristenkalenderGenerator:
             FristWithAttributes(date=datetime.date(2023, 4, 20), label="12WT"),
             FristWithAttributes(date=datetime.date(2023, 4, 24), label="14WT"),
             FristWithAttributes(date=datetime.date(2023, 4, 26), label="16WT"),
+            FristWithAttributes(date=datetime.date(2023, 4, 26), label="3LWT"),
             FristWithAttributes(date=datetime.date(2023, 4, 27), label="17WT"),
-            FristWithAttributes(date=datetime.date(2023, 4, 27), label="3LWT"),
             FristWithAttributes(date=datetime.date(2023, 4, 28), label="18WT"),
             FristWithAttributes(date=datetime.date(2023, 4, 28), label="LWT"),
             FristWithAttributes(date=datetime.date(2023, 5, 3), label="20WT"),
@@ -234,8 +235,8 @@ class TestFristenkalenderGenerator:
             FristWithAttributes(date=datetime.date(2023, 12, 20), label="14WT"),
             FristWithAttributes(date=datetime.date(2023, 12, 22), label="16WT"),
             FristWithAttributes(date=datetime.date(2023, 12, 27), label="17WT"),
+            FristWithAttributes(date=datetime.date(2023, 12, 27), label="3LWT"),
             FristWithAttributes(date=datetime.date(2023, 12, 28), label="18WT"),
-            FristWithAttributes(date=datetime.date(2023, 12, 28), label="3LWT"),
             FristWithAttributes(date=datetime.date(2023, 12, 29), label="LWT"),
             FristWithAttributes(date=datetime.date(2024, 1, 2), label="20WT"),
             FristWithAttributes(date=datetime.date(2024, 1, 3), label="21WT"),
