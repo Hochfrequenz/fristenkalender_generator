@@ -75,7 +75,7 @@ class FristenkalenderGenerator:
 
         fristen: list[FristWithAttributes] = []
 
-        def generate_lwt_frist(year, month: int) -> FristWithAttributes:
+        def generate_lwt_frist(year: int, month: int) -> FristWithAttributes:
             last_day_of_month = monthrange(year, month)[1]
             last_date_of_month = date(year, month, last_day_of_month)
             first_day_of_next_month = last_date_of_month + timedelta(days=1)
