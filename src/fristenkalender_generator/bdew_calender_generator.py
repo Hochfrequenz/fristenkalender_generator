@@ -4,7 +4,7 @@ This module can produce a list of calender entries with bdew Fristen
 
 import dataclasses
 from calendar import monthrange
-from datetime import date
+from datetime import date, timedelta
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 
@@ -12,13 +12,11 @@ from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_wo
 @dataclasses.dataclass(unsafe_hash=True)
 class FristWithAttributes:
     """
-    This class represents a Frist with its attibutes:
-    date_of_the_frist = date(y,m,d)
-    label = str, where label can be for example '5WT' (5 Werktage des Liefermonats)
+    This class represents a Frist with its attibutes
     """
-
-    date_of_the_frist: date  # the variable name is longer since date is already defined
-    label: str
+    # the variable name date is already defined. Therefore i put a longer name on date
+    date_of_the_frist: date  #: = date(y,m,d)
+    label: str  #: can be for exmaple '5WT' (5 Werktage des Liefermonats)
 
 
 class FristenkalenderGenerator:
@@ -28,25 +26,18 @@ class FristenkalenderGenerator:
 
     def generate_fristen_list_variable_wt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
         """
-        generate the list of nth_day WT Fristen for a given year
+        Generate the list of fristen for a given year that are on the nth WT (Werktag) of each month of the calender
         """
-
-        # the Hochfrequenz Fristenkalender ranges from December of the previous year
-        # until the end of January of the following year
-        lower_bound = date(year - 1, 12, 1)
-        upper_bound = date(year + 1, 2, 1)
 
         fristen: list[FristWithAttributes] = []
 
         # oct from last year, only if relevant for the current year's calender
         nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 10, 1))
-        if nth_working_day_of_month_date >= lower_bound:
-            fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
+        fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
 
         # nov from last year, only if relevant for the current year's calender
         nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 11, 1))
-        if nth_working_day_of_month_date >= lower_bound:
-            fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
+        fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
 
         # dez from last year
         nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 12, 1))
@@ -56,73 +47,58 @@ class FristenkalenderGenerator:
         n_months = 12
         for i_month in range(1, n_months + 1):
             nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year, i_month, 1))
-            if nth_working_day_of_month_date < upper_bound:
-                fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
+            fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
 
         # jan of next year
         nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year + 1, 1, 1))
-        if nth_working_day_of_month_date < upper_bound:
-            fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
+        fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
 
-        return fristen
+        # the Hochfrequenz Fristenkalender ranges from December of the previous year
+        # until the end of January of the following year
+        lower_bound = date(year - 1, 12, 1)
+        upper_bound = date(year + 1, 2, 1)
+        fristen_filtered = [frist for frist in fristen if lower_bound <= frist.date_of_the_frist < upper_bound]
 
-    def generate_fristen_list_lwt(self, year: int) -> list[FristWithAttributes]:
+        return fristen_filtered
+
+    def generate_fristen_list_variable_lwt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
         """
-        generate the list of LWT Fristen for a given year
+        Generate the list of fristen for a given year that are on the nth LWT (letzer Werktag)
+        of each month of the calender
+        LWT are counted back into the month starting from the last day of the month.
+        The last day of the month is counted irrespective if it is a wt or not.
         """
-
-        label = "LWT"
         fristen: list[FristWithAttributes] = []
 
-        def generate_frist(year, month):
+        def generate_lwt_frist(year, month:int) -> FristWithAttributes:
             last_day_of_month = monthrange(year, month)[1]
             last_date_of_month = date(year, month, last_day_of_month)
-            return FristWithAttributes(get_previous_working_day(last_date_of_month), label)
-
-        # dez last year
-        fristen.append(generate_frist(year - 1, 12))
-
-        # this year
-        n_months = 12
-        for i_month in range(1, n_months + 1):
-            fristen.append(generate_frist(year, i_month))
-
-        # jan next year
-        fristen.append(generate_frist(year + 1, 1))
-
-        return fristen
-
-    def generate_fristen_list_3lwt(self, year: int) -> list[FristWithAttributes]:
-        """
-        generate the list of 3LWT Fristen for a given year
-        """
-
-        label = "3LWT"
-        fristen: list[FristWithAttributes] = []
-
-        def generate_frist(year, month):
-            last_day_of_month = monthrange(year, month)[1]
-            date_dummy = get_previous_working_day(date(year, month, last_day_of_month))
-            while last_day_of_month - date_dummy.day < 3:
+            first_day_of_next_month = last_date_of_month + timedelta(days=1)
+            date_dummy = get_previous_working_day(first_day_of_next_month)
+            # the last day of the month counts, regardless if its a wt or not
+            i_relevant_days = last_day_of_month - date_dummy.day
+            while i_relevant_days < nth_day:
                 date_dummy = get_previous_working_day(date_dummy)
-            return date_dummy
+                i_relevant_days += 1
+
+            return FristWithAttributes(date_dummy, label)
 
         # dez last year
-        fristen.append(FristWithAttributes(generate_frist(year - 1, 12), label))
+        fristen.append(generate_lwt_frist(year - 1, 12))
 
         # this year
         n_months = 12
         for i_month in range(1, n_months + 1):
-            fristen.append(FristWithAttributes(generate_frist(year, i_month), label))
+            fristen.append(generate_lwt_frist(year, i_month))
 
         # jan next year
-        fristen.append(FristWithAttributes(generate_frist(year + 1, 1), label))
+        fristen.append(generate_lwt_frist(year + 1, 1))
 
         return fristen
 
-    def generate_all_fristen_list(self, year: int) -> list[FristWithAttributes]:
+    def generate_fristen(self, year: int) -> list[FristWithAttributes]:
         """
-        generate the list of all Fristen for a given year
+        Generate the list of all Fristen in the calender for a given year
         """
         fristen: list[FristWithAttributes] = []
         fristen.extend(self.generate_fristen_list_variable_wt(year, 5, "5WT"))
@@ -137,7 +113,7 @@ class FristenkalenderGenerator:
         fristen.extend(self.generate_fristen_list_variable_wt(year, 26, "26WT"))
         fristen.extend(self.generate_fristen_list_variable_wt(year, 30, "30WT"))
         fristen.extend(self.generate_fristen_list_variable_wt(year, 42, "42WT"))
-        fristen.extend(self.generate_fristen_list_lwt(year))
-        fristen.extend(self.generate_fristen_list_3lwt(year))
+        fristen.extend(self.generate_fristen_list_variable_lwt(year, 0, "LWT"))
+        fristen.extend(self.generate_fristen_list_variable_lwt(year, 3, "3LWT"))
 
         return fristen
