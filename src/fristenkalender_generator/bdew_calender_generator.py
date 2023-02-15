@@ -7,7 +7,7 @@ from calendar import monthrange
 from datetime import date, datetime, timedelta
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
-from icalendar import (Calendar, Event)  # type: ignore[import]
+from icalendar import Calendar, Event  # type: ignore[import]
 
 
 @dataclasses.dataclass(unsafe_hash=True)
