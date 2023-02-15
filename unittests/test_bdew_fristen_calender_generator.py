@@ -56,6 +56,9 @@ class TestFristenkalenderGenerator:
         assert FristenkalenderGenerator().generate_specific_fristen(2023, days_and_labels) == expected
 
     def test_full_calendar_2023(self):
+        """
+        This reference data set was checked against the existing calender from 2032 by a human.
+        """
         fristen = FristenkalenderGenerator().generate_all_fristen(2023)
         # hack for pycharm: run this in the debugger and copy the value of str(fristen) from the variable window
         expected = [
