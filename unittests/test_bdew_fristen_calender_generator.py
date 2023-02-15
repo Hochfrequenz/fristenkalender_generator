@@ -20,8 +20,8 @@ class TestFristenkalenderGenerator:
         assert FristenkalenderGenerator().create_ical_event(frist)["SUMMARY"] == expected
 
     def test_create_ical(self):
-        fristen = [FristWithAttributes(date(2023, i, 1), "21WT") for i in range(1,6)]
-        attendee = 'nicola.soeker@hochfrquenz.de'
+        fristen = [FristWithAttributes(date(2023, i, 1), "21WT") for i in range(1, 6)]
+        attendee = "nicola.soeker@hochfrquenz.de"
         expected = 5
         cal = FristenkalenderGenerator().create_ical(attendee, fristen)
         assert len(cal.subcomponents) == expected
