@@ -65,7 +65,7 @@ class FristenkalenderGenerator:
 
         return fristen_filtered
 
-    def __generate_lwt_frist(self, year: int, month: int, nth_day: int, label: str):
+    def _generate_lwt_frist(self, year: int, month: int, nth_day: int, label: str):
         """
         Generate a frist with a given last working day.
         The last day in the month is counted irrespective if its a working day or not.
@@ -93,15 +93,15 @@ class FristenkalenderGenerator:
         fristen: list[FristWithAttributes] = []
 
         # dez last year
-        fristen.append(self.__generate_lwt_frist(year - 1, 12, nth_day, label))
+        fristen.append(self._generate_lwt_frist(year - 1, 12, nth_day, label))
 
         # this year
         n_months = 12
         for i_month in range(1, n_months + 1):
-            fristen.append(self.__generate_lwt_frist(year, i_month, nth_day, label))
+            fristen.append(self._generate_lwt_frist(year, i_month, nth_day, label))
 
         # jan next year
-        fristen.append(self.__generate_lwt_frist(year + 1, 1, nth_day, label))
+        fristen.append(self._generate_lwt_frist(year + 1, 1, nth_day, label))
 
         return fristen
 
