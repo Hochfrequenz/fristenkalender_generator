@@ -7,7 +7,7 @@ from calendar import monthrange
 from datetime import date, datetime, timedelta
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
-from icalendar import Calendar, Event
+from icalendar import Calendar, Event  # type: ignore[import]
 
 
 @dataclasses.dataclass(unsafe_hash=True)
@@ -169,8 +169,7 @@ class FristenkalenderGenerator:
         """
         cal = Calendar()
         cal.add("attendee", attendee)
-        enumerate()
-        for i in range(len(fristen)):
-            cal.add_component(self.create_ical_event(fristen[i]))
+        for frist in fristen:
+            cal.add_component(self.create_ical_event(frist))
 
         return cal

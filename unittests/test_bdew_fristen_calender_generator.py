@@ -14,19 +14,17 @@ class TestFristenkalenderGenerator:
     """
 
     def test_create_ical_event(self):
-        fristen = FristenkalenderGenerator().generate_all_fristen(2023)
-        frist = fristen[0]
-        # attendee = 'nicola.soeker@hochfrquenz.de'
-        expected1 = vText("21WT")
+        frist = FristWithAttributes(date(2023, 1, 1), "21WT")
+        expected = vText("21WT")
 
-        assert FristenkalenderGenerator().create_ical_event(frist)["SUMMARY"] == expected1
+        assert FristenkalenderGenerator().create_ical_event(frist)["SUMMARY"] == expected
 
-    # def test_create_ical(self):
-    #    fristen = FristenkalenderGenerator().generate_all_fristen(2023)
-    #    attendee = 'nicola.soeker@hochfrquenz.de'
-    #    expected = vText('21WT')
-
-    #    assert FristenkalenderGenerator().create_ical(attendee, fristen)['SUMMARY'] == expected
+    def test_create_ical(self):
+        fristen = [FristWithAttributes(date(2023, i, 1), "21WT") for i in range(1,6)]
+        attendee = 'nicola.soeker@hochfrquenz.de'
+        expected = 5
+        cal = FristenkalenderGenerator().create_ical(attendee, fristen)
+        assert len(cal.subcomponents) == expected
 
     @pytest.mark.parametrize(
         "year, nth_day, label, expected",
