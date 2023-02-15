@@ -143,7 +143,10 @@ class FristenkalenderGenerator:
         for days, label in days_and_labels:
             if label.endswith("LWT"):
                 fristen += self.generate_all_fristen_for_given_lwt(year, days, label)
-            else:
+            elif label.endswith("WT"):
                 fristen += self.generate_all_fristen_for_given_wt(year, days, label)
+            else:
+                raise ValueError(f"The label '{label}' must end with either 'WT' or 'LWT'")
+
         fristen.sort(key=lambda fwa: fwa.date)
         return fristen
