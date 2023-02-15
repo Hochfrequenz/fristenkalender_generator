@@ -154,7 +154,7 @@ class FristenkalenderGenerator:
 
     def create_ical_event(self, frist: FristWithAttributes) -> Event:
         """
-        create an ical event for a given mail address with a given frist
+        Create an ical event for a given frist
         """
         event = Event()
         event.add("summary", frist.label)
@@ -164,8 +164,12 @@ class FristenkalenderGenerator:
         return event
 
     def create_ical(self, attendee: str, fristen: list[FristWithAttributes]) -> Calendar:
+        """
+        Create an ical calender with a given mail address and a given set of firsten
+        """
         cal = Calendar()
         cal.add("attendee", attendee)
+        enumerate()
         for i in range(len(fristen)):
             cal.add_component(self.create_ical_event(fristen[i]))
 
