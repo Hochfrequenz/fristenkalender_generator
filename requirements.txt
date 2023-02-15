@@ -12,6 +12,8 @@ hijri-converter==2.2.4
     # via holidays
 holidays==0.19
     # via bdew-datetimes
+icalendar==5.0.4
+    # via -r .\requirements.in
 korean-lunar-calendar==0.3.1
     # via holidays
 pymeeus==0.5.12
@@ -22,7 +24,10 @@ python-dateutil==2.8.2
     # via
     #   bdew-datetimes
     #   holidays
+    #   icalendar
 pytz==2022.7.1
-    # via bdew-datetimes
+    # via
+    #   bdew-datetimes
+    #   icalendar
 six==1.16.0
     # via python-dateutil
