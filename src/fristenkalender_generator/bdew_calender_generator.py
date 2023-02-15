@@ -8,7 +8,8 @@ from datetime import date, datetime, timedelta
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event  # type: ignore[import]
-
+import os
+from pathlib import Path
 
 @dataclasses.dataclass(unsafe_hash=True)
 class FristWithAttributes:
@@ -173,3 +174,8 @@ class FristenkalenderGenerator:
             cal.add_component(self.create_ical_event(frist))
 
         return cal
+
+    def create_ical_file(self, directory: str, filename: str, cal: Calendar):
+        with open(os.path.join(directory, filename), "wb") as f:
+            f.write(cal.to_ical())
+        return
