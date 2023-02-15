@@ -2,7 +2,7 @@ import datetime
 from datetime import date
 
 import pytest
-from icalendar import vText
+from icalendar import vText  # type: ignore[import]
 
 from fristenkalender_generator.bdew_calender_generator import FristenkalenderGenerator, FristWithAttributes
 
