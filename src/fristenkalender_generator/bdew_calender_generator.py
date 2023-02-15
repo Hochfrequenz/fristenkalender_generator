@@ -4,9 +4,10 @@ This module can produce a list of calender entries with bdew Fristen
 
 import dataclasses
 from calendar import monthrange
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
+from icalendar import Calendar, Event
 
 
 @dataclasses.dataclass(unsafe_hash=True)
@@ -150,3 +151,22 @@ class FristenkalenderGenerator:
 
         fristen.sort(key=lambda fwa: fwa.date)
         return fristen
+
+    def create_ical_event(self, frist: FristWithAttributes) -> Event:
+        """
+        create an ical event for a given mail address with a given frist
+        """
+        event = Event()
+        event.add("summary", frist.label)
+        event.add("dtstart", frist.date)
+        event.add("dtstamp", datetime.utcnow())
+
+        return event
+
+    def create_ical(self, attendee: str, fristen: list[FristWithAttributes]) -> Calendar:
+        cal = Calendar()
+        cal.add("attendee", attendee)
+        for i in range(len(fristen)):
+            cal.add_component(self.create_ical_event(fristen[i]))
+
+        return cal
