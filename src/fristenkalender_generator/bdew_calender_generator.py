@@ -3,13 +3,13 @@ This module can produce a list of calender entries with bdew Fristen
 """
 
 import dataclasses
+import os
 from calendar import monthrange
 from datetime import date, datetime, timedelta
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event  # type: ignore[import]
-import os
-from pathlib import Path
+
 
 @dataclasses.dataclass(unsafe_hash=True)
 class FristWithAttributes:
@@ -175,7 +175,9 @@ class FristenkalenderGenerator:
 
         return cal
 
-    def create_ical_file(self, directory: str, filename: str, cal: Calendar):
-        with open(os.path.join(directory, filename), "wb") as f:
-            f.write(cal.to_ical())
-        return
+    def export_ical(self, directory: str, filename: str, cal: Calendar):
+        """
+        Write .ics file from calender
+        """
+        with open(os.path.join(directory, filename), "wb") as file:
+            file.write(cal.to_ical())
