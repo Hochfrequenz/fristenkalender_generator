@@ -133,10 +133,10 @@ class FristenkalenderGenerator:
 
     def generate_specific_fristen(self, year: int, days_and_labels: list[tuple[int, str]]) -> list[FristWithAttributes]:
         """
-        Generate the list of Fristen in the calender for a given year for a given set of Fristen
+        Generate the list of Fristen in the calendar for a given year for a given set of Fristen
         The specification of the Fristen is for example: days_and_labels = [(5, '5WT'), (3, 'LWT), ...]
         The only two valid format for the label string is an integer followed by one of the two endings:
-        WT (Werktag) or LWT (letzer Werktag)
+        WT (Werktag) or LWT (letzter Werktag)
         """
 
         fristen = []
