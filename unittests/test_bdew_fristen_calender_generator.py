@@ -8,7 +8,8 @@ from fristenkalender_generator.bdew_calender_generator import FristenkalenderGen
 
 class TestFristenkalenderGenerator:
     """
-    A class with pytest unit tests.
+    Testing the methods of FristenkalenderGenerator.
+    The output is tested against the existing calender for the year 2023.
     """
 
     @pytest.mark.parametrize(
@@ -22,7 +23,7 @@ class TestFristenkalenderGenerator:
         ],
     )
     def test_generate_friste_list_variable_wt(self, year: int, nth_day: int, label: str, expected: date):
-        assert FristenkalenderGenerator().generate_fristen_list_variable_wt(year, nth_day, label)[0].date == expected
+        assert FristenkalenderGenerator().generate_all_fristen_for_given_wt(year, nth_day, label)[0].date == expected
 
     def test_if_duplicates_are_in_fristen_calender(self):
         fristen = FristenkalenderGenerator().generate_all_fristen(2023)
@@ -48,8 +49,9 @@ class TestFristenkalenderGenerator:
         assert test_frist in fristen
 
     def test_generate_specific_fristen(self):
-        expected = FristenkalenderGenerator().generate_fristen_list_variable_lwt(2023, 3, "3LWT")
-        expected += FristenkalenderGenerator().generate_fristen_list_variable_wt(2023, 5, "5WT")
+        expected = FristenkalenderGenerator().generate_all_fristen_for_given_lwt(2023, 3, "3LWT")
+        expected += FristenkalenderGenerator().generate_all_fristen_for_given_wt(2023, 5, "5WT")
+        expected.sort(key=lambda fwa: fwa.date)
         days_and_labels = [(3, "3LWT"), (5, "5WT")]
         assert FristenkalenderGenerator().generate_specific_fristen(2023, days_and_labels) == expected
 

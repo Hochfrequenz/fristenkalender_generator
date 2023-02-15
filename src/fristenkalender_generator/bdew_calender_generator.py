@@ -24,7 +24,7 @@ class FristenkalenderGenerator:
     This class can generate a bdew fristen calender for a given year
     """
 
-    def generate_fristen_list_variable_wt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
+    def generate_all_fristen_for_given_wt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
         """
         Generate the list of fristen for a given year that are on the nth WT (Werktag) of each month of the calender
         """
@@ -65,41 +65,43 @@ class FristenkalenderGenerator:
 
         return fristen_filtered
 
-    def generate_fristen_list_variable_lwt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
+    def __generate_lwt_frist(self, year: int, month: int, nth_day: int, label: str):
         """
-        Generate the list of fristen for a given year that are on the nth LWT (letzer Werktag)
-        of each month of the calender
+        Generate a frist with a given last working day.
+        The last day in the month is counted irrespective if its a working day or not.
+        """
+        last_day_of_month = monthrange(year, month)[1]
+        last_date_of_month = date(year, month, last_day_of_month)
+        first_day_of_next_month = last_date_of_month + timedelta(days=1)
+        date_dummy = get_previous_working_day(first_day_of_next_month)
+        # the last day of the month counts, regardless if its a wt or not
+        i_relevant_days = min(last_day_of_month - date_dummy.day, 1)
+        while i_relevant_days < nth_day:
+            date_dummy = get_previous_working_day(date_dummy)
+            i_relevant_days += 1
+
+        return FristWithAttributes(date_dummy, label)
+
+    def generate_all_fristen_for_given_lwt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
+        """
+        Generate the list of fristen for a given year that are on the nth LWT (letzer Werktag, last working day)
+        of each month of the calender.
         LWT are counted back into the month starting from the last day of the month.
         The last day of the month is counted irrespective if it is a wt or not.
         """
 
         fristen: list[FristWithAttributes] = []
 
-        def generate_lwt_frist(year: int, month: int) -> FristWithAttributes:
-            last_day_of_month = monthrange(year, month)[1]
-            last_date_of_month = date(year, month, last_day_of_month)
-            first_day_of_next_month = last_date_of_month + timedelta(days=1)
-            date_dummy = get_previous_working_day(first_day_of_next_month)
-            # the last day of the month counts, regardless if its a wt or not
-            i_relevant_days = last_day_of_month - date_dummy.day
-            if i_relevant_days > 1:
-                i_relevant_days = 1
-            while i_relevant_days < nth_day:
-                date_dummy = get_previous_working_day(date_dummy)
-                i_relevant_days += 1
-
-            return FristWithAttributes(date_dummy, label)
-
         # dez last year
-        fristen.append(generate_lwt_frist(year - 1, 12))
+        fristen.append(self.__generate_lwt_frist(year - 1, 12, nth_day, label))
 
         # this year
         n_months = 12
         for i_month in range(1, n_months + 1):
-            fristen.append(generate_lwt_frist(year, i_month))
+            fristen.append(self.__generate_lwt_frist(year, i_month, nth_day, label))
 
         # jan next year
-        fristen.append(generate_lwt_frist(year + 1, 1))
+        fristen.append(self.__generate_lwt_frist(year + 1, 1, nth_day, label))
 
         return fristen
 
@@ -108,21 +110,23 @@ class FristenkalenderGenerator:
         Generate the list of all Fristen in the calender for a given year
         """
 
-        fristen: list[FristWithAttributes] = []
-        fristen.extend(self.generate_fristen_list_variable_wt(year, 5, "5WT"))
-        fristen.extend(self.generate_fristen_list_variable_wt(year, 10, "10WT"))
-        fristen.extend(self.generate_fristen_list_variable_wt(year, 12, "12WT"))
-        fristen.extend(self.generate_fristen_list_variable_wt(year, 14, "14WT"))
-        fristen.extend(self.generate_fristen_list_variable_wt(year, 16, "16WT"))
-        fristen.extend(self.generate_fristen_list_variable_wt(year, 17, "17WT"))
-        fristen.extend(self.generate_fristen_list_variable_wt(year, 18, "18WT"))
-        fristen.extend(self.generate_fristen_list_variable_wt(year, 20, "20WT"))
-        fristen.extend(self.generate_fristen_list_variable_wt(year, 21, "21WT"))
-        fristen.extend(self.generate_fristen_list_variable_wt(year, 26, "26WT"))
-        fristen.extend(self.generate_fristen_list_variable_wt(year, 30, "30WT"))
-        fristen.extend(self.generate_fristen_list_variable_wt(year, 42, "42WT"))
-        fristen.extend(self.generate_fristen_list_variable_lwt(year, 0, "LWT"))
-        fristen.extend(self.generate_fristen_list_variable_lwt(year, 3, "3LWT"))
+        days_and_labels = [
+            (5, "5WT"),
+            (10, "10WT"),
+            (12, "12WT"),
+            (14, "14WT"),
+            (16, "16WT"),
+            (17, "17WT"),
+            (18, "18WT"),
+            (20, "20WT"),
+            (21, "21WT"),
+            (26, "26WT"),
+            (30, "30WT"),
+            (42, "42WT"),
+            (0, "LWT"),
+            (3, "3LWT"),
+        ]
+        fristen = self.generate_specific_fristen(year, days_and_labels)
 
         fristen.sort(key=lambda fwa: fwa.date)
         return fristen
@@ -131,13 +135,15 @@ class FristenkalenderGenerator:
         """
         Generate the list of Fristen in the calender for a given year for a given set of Fristen
         The specification of the Fristen is for example: days_and_labels = [(5, '5WT'), (3, 'LWT), ...]
+        The only two valid format for the label string is an integer followed by one of the two endings:
+        WT (Werktag) or LWT (letzer Werktag)
         """
 
         fristen = []
         for days, label in days_and_labels:
-            if label[-3:] == "LWT":
-                fristen += self.generate_fristen_list_variable_lwt(year, days, label)
+            if label.endswith("LWT"):
+                fristen += self.generate_all_fristen_for_given_lwt(year, days, label)
             else:
-                fristen += self.generate_fristen_list_variable_wt(year, days, label)
-
+                fristen += self.generate_all_fristen_for_given_wt(year, days, label)
+        fristen.sort(key=lambda fwa: fwa.date)
         return fristen
