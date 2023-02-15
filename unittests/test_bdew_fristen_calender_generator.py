@@ -2,6 +2,7 @@ import datetime
 from datetime import date
 
 import pytest
+from icalendar import vText  # type: ignore[import]
 
 from fristenkalender_generator.bdew_calender_generator import FristenkalenderGenerator, FristWithAttributes
 
@@ -11,6 +12,19 @@ class TestFristenkalenderGenerator:
     Testing the methods of FristenkalenderGenerator.
     The output is tested against the existing calender for the year 2023.
     """
+
+    def test_create_ical_event(self):
+        frist = FristWithAttributes(date(2023, 1, 1), "21WT")
+        expected = vText("21WT")
+
+        assert FristenkalenderGenerator().create_ical_event(frist)["SUMMARY"] == expected
+
+    def test_create_ical(self):
+        fristen = [FristWithAttributes(date(2023, i, 1), "21WT") for i in range(1, 6)]
+        attendee = "nicola.soeker@hochfrquenz.de"
+        expected = 5
+        cal = FristenkalenderGenerator().create_ical(attendee, fristen)
+        assert len(cal.subcomponents) == expected
 
     @pytest.mark.parametrize(
         "year, nth_day, label, expected",
