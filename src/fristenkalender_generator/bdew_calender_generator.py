@@ -182,5 +182,8 @@ class FristenkalenderGenerator:
         with open(os.path.join(directory, filename), "wb") as file:
             file.write(cal.to_ical())
 
-    def create_and_export_whole_calender(self, directory: str, filename: str, attendee: "str", year: int):
+    def generate_and_export_whole_calender(self, directory: str, filename: str, attendee: "str", year: int):
+        """
+        Generates a calender for a given year and exports it to an .ics file
+        """
         self.export_ical(directory, filename, self.create_ical(attendee, self.generate_all_fristen(year)))
