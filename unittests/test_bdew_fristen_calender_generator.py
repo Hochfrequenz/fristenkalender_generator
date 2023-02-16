@@ -4,7 +4,7 @@ from datetime import date
 import pytest
 from icalendar import vText  # type: ignore[import]
 
-from fristenkalender_generator.bdew_calender_generator import FristenkalenderGenerator, FristWithAttributes
+from fristenkalender_generator.bdew_calendar_generator import FristenkalenderGenerator, FristWithAttributes
 
 from pathlib import Path
 
