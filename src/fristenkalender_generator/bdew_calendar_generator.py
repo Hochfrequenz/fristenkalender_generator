@@ -3,7 +3,6 @@ This module can produce a list of calendar entries with bdew Fristen
 """
 
 import dataclasses
-import os
 from calendar import monthrange
 from datetime import date, datetime, timedelta
 from pathlib import Path
