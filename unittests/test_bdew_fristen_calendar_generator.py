@@ -1,16 +1,17 @@
 import datetime
 from datetime import date
+from pathlib import Path
 
 import pytest
 from icalendar import vText  # type: ignore[import]
 
-from fristenkalender_generator.bdew_calender_generator import FristenkalenderGenerator, FristWithAttributes
+from fristenkalender_generator.bdew_calendar_generator import FristenkalenderGenerator, FristWithAttributes
 
 
 class TestFristenkalenderGenerator:
     """
     Testing the methods of FristenkalenderGenerator.
-    The output is tested against the existing calender for the year 2023.
+    The output is tested against the existing calendar for the year 2023.
     """
 
     def test_create_ical_event(self):
@@ -25,6 +26,18 @@ class TestFristenkalenderGenerator:
         expected = 5
         cal = FristenkalenderGenerator().create_ical(attendee, fristen)
         assert len(cal.subcomponents) == expected
+
+    def test_create_and_export_whole_calender(self, tmpdir_factory):
+        test_dir_name = "test_dir"
+        mydir = tmpdir_factory.mktemp(test_dir_name)
+        attendee = "mail@test.de"
+        year = 2023
+        filename = "example.ics"
+        my_file = Path(mydir) / Path(filename)
+        FristenkalenderGenerator().generate_and_export_whole_calendar(my_file, attendee, year)
+
+        assert my_file.is_file()
+        assert my_file.stat().st_size != 0
 
     @pytest.mark.parametrize(
         "year, nth_day, label, expected",
@@ -71,7 +84,7 @@ class TestFristenkalenderGenerator:
 
     def test_full_calendar_2023(self):
         """
-        This reference data set was checked against the existing calender from 2032 by a human.
+        This reference data set was checked against the existing calendar from 2032 by a human.
         """
         fristen = FristenkalenderGenerator().generate_all_fristen(2023)
         # hack for pycharm: run this in the debugger and copy the value of str(fristen) from the variable window

@@ -1,10 +1,11 @@
 """
-This module can produce a list of calender entries with bdew Fristen
+This module can produce a list of calendar entries with bdew Fristen
 """
 
 import dataclasses
 from calendar import monthrange
 from datetime import date, datetime, timedelta
+from pathlib import Path
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event  # type: ignore[import]
@@ -22,12 +23,12 @@ class FristWithAttributes:
 
 class FristenkalenderGenerator:
     """
-    This class can generate a bdew fristen calender for a given year
+    This class can generate a bdew fristen calendar for a given year
     """
 
     def generate_all_fristen_for_given_wt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
         """
-        Generate the list of fristen for a given year that are on the nth WT (Werktag) of each month of the calender
+        Generate the list of fristen for a given year that are on the nth WT (Werktag) of each month of the calendar
         """
 
         fristen: list[FristWithAttributes] = []
@@ -86,7 +87,7 @@ class FristenkalenderGenerator:
     def generate_all_fristen_for_given_lwt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
         """
         Generate the list of fristen for a given year that are on the nth LWT (letzer Werktag, last working day)
-        of each month of the calender.
+        of each month of the calendar.
         LWT are counted back into the month starting from the last day of the month.
         The last day of the month is counted irrespective if it is a wt or not.
         """
@@ -108,7 +109,7 @@ class FristenkalenderGenerator:
 
     def generate_all_fristen(self, year: int) -> list[FristWithAttributes]:
         """
-        Generate the list of all Fristen in the calender for a given year
+        Generate the list of all Fristen in the calendar for a given year
         """
 
         days_and_labels = [
@@ -165,7 +166,7 @@ class FristenkalenderGenerator:
 
     def create_ical(self, attendee: str, fristen: list[FristWithAttributes]) -> Calendar:
         """
-        Create an ical calender with a given mail address and a given set of firsten
+        Create an ical calendar with a given mail address and a given set of firsten
         """
         cal = Calendar()
         cal.add("attendee", attendee)
@@ -173,3 +174,16 @@ class FristenkalenderGenerator:
             cal.add_component(self.create_ical_event(frist))
 
         return cal
+
+    def export_ical(self, file_path: Path, cal: Calendar):
+        """
+        Write .ics file from calendar
+        """
+        with open(file_path, "wb") as file:
+            file.write(cal.to_ical())
+
+    def generate_and_export_whole_calendar(self, file_path: Path, attendee: str, year: int):
+        """
+        Generates a calendar for a given year and exports it to an .ics file
+        """
+        self.export_ical(file_path, self.create_ical(attendee, self.generate_all_fristen(year)))
