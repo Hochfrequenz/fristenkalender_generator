@@ -34,10 +34,10 @@ class TestFristenkalenderGenerator:
         attendee = "mail@test.de"
         year = 2023
         filename = "example.ics"
-        FristenkalenderGenerator().generate_and_export_whole_calender(mydir, filename, year)
+        FristenkalenderGenerator().generate_and_export_whole_calender(mydir, filename,attendee,year)
         my_file = Path(test_dir_name) / Path(filename)
         assert my_file.is_file()
-        assert mypath.stat().st_size != 0
+        assert my_file.stat().st_size != 0
 
     @pytest.mark.parametrize(
         "year, nth_day, label, expected",
