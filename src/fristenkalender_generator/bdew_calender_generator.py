@@ -177,13 +177,13 @@ class FristenkalenderGenerator:
 
     def export_ical(self, directory: str, filename: str, cal: Calendar):
         """
-        Write .ics file from calender
+        Write .ics file from calendar
         """
         with open(os.path.join(directory, filename), "wb") as file:
             file.write(cal.to_ical())
 
     def generate_and_export_whole_calender(self, directory: str, filename: str, attendee: str, year: int):
         """
-        Generates a calender for a given year and exports it to an .ics file
+        Generates a calendar for a given year and exports it to an .ics file
         """
         self.export_ical(directory, filename, self.create_ical(attendee, self.generate_all_fristen(year)))
