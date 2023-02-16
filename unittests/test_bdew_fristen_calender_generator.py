@@ -28,14 +28,15 @@ class TestFristenkalenderGenerator:
         cal = FristenkalenderGenerator().create_ical(attendee, fristen)
         assert len(cal.subcomponents) == expected
 
-    def create_and_export_whole_calender(self, tmpdir_factory):
+    def test_create_and_export_whole_calender(self, tmpdir_factory):
         test_dir_name = "test_dir"
         mydir = tmpdir_factory.mktemp(test_dir_name)
         attendee = "mail@test.de"
         year = 2023
         filename = "example.ics"
-        FristenkalenderGenerator().generate_and_export_whole_calender(mydir, filename,attendee,year)
-        my_file = Path(test_dir_name) / Path(filename)
+        my_file = Path(mydir) / Path(filename)
+        FristenkalenderGenerator().generate_and_export_whole_calender(my_file,attendee,year)
+
         assert my_file.is_file()
         assert my_file.stat().st_size != 0
 
