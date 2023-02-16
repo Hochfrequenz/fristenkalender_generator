@@ -12,7 +12,7 @@ from pathlib import Path
 class TestFristenkalenderGenerator:
     """
     Testing the methods of FristenkalenderGenerator.
-    The output is tested against the existing calender for the year 2023.
+    The output is tested against the existing calendar for the year 2023.
     """
 
     def test_create_ical_event(self):
@@ -85,7 +85,7 @@ class TestFristenkalenderGenerator:
 
     def test_full_calendar_2023(self):
         """
-        This reference data set was checked against the existing calender from 2032 by a human.
+        This reference data set was checked against the existing calendar from 2032 by a human.
         """
         fristen = FristenkalenderGenerator().generate_all_fristen(2023)
         # hack for pycharm: run this in the debugger and copy the value of str(fristen) from the variable window
