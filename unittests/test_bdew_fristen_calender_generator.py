@@ -6,6 +6,8 @@ from icalendar import vText  # type: ignore[import]
 
 from fristenkalender_generator.bdew_calender_generator import FristenkalenderGenerator, FristWithAttributes
 
+from pathlib import Path
+
 
 class TestFristenkalenderGenerator:
     """
@@ -25,6 +27,16 @@ class TestFristenkalenderGenerator:
         expected = 5
         cal = FristenkalenderGenerator().create_ical(attendee, fristen)
         assert len(cal.subcomponents) == expected
+
+    def create_and_export_whole_calender(self, tmpdir_factory):
+        test_dir_name = "test_dir"
+        mydir = tmpdir_factory.mktemp(test_dir_name)
+        attendee = "mail@test.de"
+        year = 2023
+        filename = "example.ics"
+        FristenkalenderGenerator().create_and_export_whole_calender(mydir, filename, year)
+        my_file = Path(test_dir_name) / Path(filename)
+        assert my_file.is_file()
 
     @pytest.mark.parametrize(
         "year, nth_day, label, expected",
