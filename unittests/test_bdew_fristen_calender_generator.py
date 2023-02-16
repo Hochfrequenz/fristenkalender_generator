@@ -1,12 +1,11 @@
 import datetime
 from datetime import date
+from pathlib import Path
 
 import pytest
 from icalendar import vText  # type: ignore[import]
 
 from fristenkalender_generator.bdew_calendar_generator import FristenkalenderGenerator, FristWithAttributes
-
-from pathlib import Path
 
 
 class TestFristenkalenderGenerator:

@@ -6,11 +6,11 @@ import dataclasses
 import os
 from calendar import monthrange
 from datetime import date, datetime, timedelta
+from pathlib import Path
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event  # type: ignore[import]
 
-from pathlib import Path
 
 @dataclasses.dataclass(unsafe_hash=True)
 class FristWithAttributes:
@@ -176,14 +176,14 @@ class FristenkalenderGenerator:
 
         return cal
 
-    def export_ical(self, file_path:Path, cal: Calendar):
+    def export_ical(self, file_path: Path, cal: Calendar):
         """
         Write .ics file from calendar
         """
         with open(file_path, "wb") as file:
             file.write(cal.to_ical())
 
-    def generate_and_export_whole_calendar(self, file_path:Path, attendee: str, year: int):
+    def generate_and_export_whole_calendar(self, file_path: Path, attendee: str, year: int):
         """
         Generates a calendar for a given year and exports it to an .ics file
         """
