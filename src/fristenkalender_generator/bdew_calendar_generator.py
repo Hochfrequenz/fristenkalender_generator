@@ -168,12 +168,12 @@ class FristenkalenderGenerator:
         """
         Create an ical calendar with a given mail address and a given set of firsten
         """
-        cal = Calendar()
-        cal.add("attendee", attendee)
+        calender = Calendar()
+        calender.add("attendee", attendee)
         for frist in fristen:
-            cal.add_component(self.create_ical_event(frist))
+            calender.add_component(self.create_ical_event(frist))
 
-        return cal
+        return calender
 
     def export_ical(self, file_path: Path, cal: Calendar):
         """
@@ -186,4 +186,6 @@ class FristenkalenderGenerator:
         """
         Generates a calendar for a given year and exports it to an .ics file
         """
-        self.export_ical(file_path, self.create_ical(attendee, self.generate_all_fristen(year)))
+        all_fristen = self.generate_all_fristen(year)
+        calender = self.create_ical(attendee, all_fristen)
+        self.export_ical(file_path, calender)
