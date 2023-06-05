@@ -71,6 +71,8 @@ class FristenkalenderGenerator:
                 nth_day = 0
             elif label == "3LWT":
                 nth_day = 3
+            elif "LWT" in label:
+                raise NotImplementedError("Only LWT and 3LWT are implemented at the moment")
             else:
                 nth_day = int(re.findall(r"\d+", label)[0])
             days_and_labels = [(nth_day, label)]
