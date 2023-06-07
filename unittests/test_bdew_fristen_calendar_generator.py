@@ -5,7 +5,11 @@ from pathlib import Path
 import pytest
 from icalendar import vText  # type: ignore[import]
 
-from fristenkalender_generator.bdew_calendar_generator import FristenkalenderGenerator, FristWithAttributes
+from fristenkalender_generator.bdew_calendar_generator import (
+    FristenkalenderGenerator,
+    FristWithAttributes,
+    FristWithAttributesAndType,
+)
 
 
 class TestFristenkalenderGenerator:
@@ -81,6 +85,28 @@ class TestFristenkalenderGenerator:
         expected.sort(key=lambda fwa: fwa.date)
         days_and_labels = [(3, "3LWT"), (5, "5WT")]
         assert FristenkalenderGenerator().generate_specific_fristen(2023, days_and_labels) == expected
+
+    def test_generate_fristen_for_type(self):
+        fristen_with_attr_and_type = FristenkalenderGenerator().generate_fristen_for_type(2023, "GPKE")
+
+        expected = [
+            FristWithAttributesAndType(date=datetime.date(2022, 12, 28), label="3LWT", type="GPKE"),
+            FristWithAttributesAndType(date=datetime.date(2023, 1, 26), label="3LWT", type="GPKE"),
+            FristWithAttributesAndType(date=datetime.date(2023, 2, 23), label="3LWT", type="GPKE"),
+            FristWithAttributesAndType(date=datetime.date(2023, 3, 28), label="3LWT", type="GPKE"),
+            FristWithAttributesAndType(date=datetime.date(2023, 4, 26), label="3LWT", type="GPKE"),
+            FristWithAttributesAndType(date=datetime.date(2023, 5, 25), label="3LWT", type="GPKE"),
+            FristWithAttributesAndType(date=datetime.date(2023, 6, 27), label="3LWT", type="GPKE"),
+            FristWithAttributesAndType(date=datetime.date(2023, 7, 26), label="3LWT", type="GPKE"),
+            FristWithAttributesAndType(date=datetime.date(2023, 8, 28), label="3LWT", type="GPKE"),
+            FristWithAttributesAndType(date=datetime.date(2023, 9, 27), label="3LWT", type="GPKE"),
+            FristWithAttributesAndType(date=datetime.date(2023, 10, 26), label="3LWT", type="GPKE"),
+            FristWithAttributesAndType(date=datetime.date(2023, 11, 27), label="3LWT", type="GPKE"),
+            FristWithAttributesAndType(date=datetime.date(2023, 12, 27), label="3LWT", type="GPKE"),
+            FristWithAttributesAndType(date=datetime.date(2024, 1, 26), label="3LWT", type="GPKE"),
+        ]
+
+        assert fristen_with_attr_and_type == expected
 
     def test_full_calendar_2023(self):
         """

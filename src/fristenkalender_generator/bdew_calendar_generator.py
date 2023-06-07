@@ -6,25 +6,82 @@ import dataclasses
 from calendar import monthrange
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from enum import StrEnum
+import re
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event  # type: ignore[import]
 
 
+class FristenType(StrEnum):
+    """
+    This class represents a type of a Frist
+    """
+
+    MABIS = "MABIS"
+    GPKE = "GPKE"
+    GELI = "GELI"
+    KOV = "KOV"
+
+
 @dataclasses.dataclass(unsafe_hash=True)
 class FristWithAttributes:
     """
-    This class represents a Frist with its attibutes
+    This class represents a Frist with its attributes
     """
 
     date: date  #: = date(y,m,d)
     label: str  #: can be for exmaple '5WT' (5 Werktage des Liefermonats)
 
 
+@dataclasses.dataclass(unsafe_hash=True)
+class FristWithAttributesAndType(FristWithAttributes):
+    """
+    This class represents a Frist with a type
+    """
+
+    type: FristenType
+
+
+_fristen_type_to_label_mapping: dict[FristenType, list[str]] = {
+    FristenType.MABIS: ["5WT", "12WT", "17WT", "18WT", "20WT", "30WT", "42WT", "LWT"],
+    FristenType.GELI: ["16WT"],
+    FristenType.KOV: ["5WT", "10WT", "12WT", "14WT", "17WT", "18WT", "20WT", "21WT", "26WT"],
+    FristenType.GPKE: ["3LWT"],
+}
+"""
+maps a fristen type to the different fristen associated with the type
+"""
+
+
 class FristenkalenderGenerator:
     """
     This class can generate a bdew fristen calendar for a given year
+
     """
+
+    def generate_fristen_for_type(self, year: int, fristen_type: FristenType) -> list[FristWithAttributesAndType]:
+        """
+        Generate the list of fristen for a given year with a given type
+        """
+        fristen: list[FristWithAttributesAndType] = []
+
+        for label in _fristen_type_to_label_mapping[fristen_type]:
+            if label == "LWT":
+                nth_day = 0
+            elif label == "3LWT":
+                nth_day = 3
+            elif "LWT" in label:
+                raise NotImplementedError("Only LWT and 3LWT are implemented at the moment")
+            else:
+                nth_day = int(re.findall(r"\d+", label)[0])
+            days_and_labels = [(nth_day, label)]
+            fristen_with_attributes = self.generate_specific_fristen(year, days_and_labels)
+            for frist in fristen_with_attributes:
+                frist_with_attributes_and_type = FristWithAttributesAndType(frist.date, frist.label, fristen_type)
+                fristen.append(frist_with_attributes_and_type)
+
+        return fristen
 
     def generate_all_fristen_for_given_wt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
         """
