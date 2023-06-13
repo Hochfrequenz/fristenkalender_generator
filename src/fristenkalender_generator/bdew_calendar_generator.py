@@ -3,17 +3,17 @@ This module can produce a list of calendar entries with bdew Fristen
 """
 
 import dataclasses
+import re
 from calendar import monthrange
 from datetime import date, datetime, timedelta
+from enum import Enum
 from pathlib import Path
-from enum import StrEnum
-import re
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event  # type: ignore[import]
 
 
-class FristenType(StrEnum):
+class FristenType(Enum):
     """
     This class represents a type of a Frist
     """
@@ -43,11 +43,11 @@ class FristWithAttributesAndType(FristWithAttributes):
     type: FristenType
 
 
-_fristen_type_to_label_mapping: dict[FristenType, list[str]] = {
-    FristenType.MABIS: ["5WT", "12WT", "17WT", "18WT", "20WT", "30WT", "42WT", "LWT"],
-    FristenType.GELI: ["16WT"],
-    FristenType.KOV: ["5WT", "10WT", "12WT", "14WT", "17WT", "18WT", "20WT", "21WT", "26WT"],
-    FristenType.GPKE: ["3LWT"],
+_fristen_type_to_label_mapping: dict[str, list[str]] = {
+    FristenType.MABIS.value: ["5WT", "12WT", "17WT", "18WT", "20WT", "30WT", "42WT", "LWT"],
+    FristenType.GELI.value: ["16WT"],
+    FristenType.KOV.value: ["5WT", "10WT", "12WT", "14WT", "17WT", "18WT", "20WT", "21WT", "26WT"],
+    FristenType.GPKE.value: ["3LWT"],
 }
 """
 maps a fristen type to the different fristen associated with the type
@@ -66,7 +66,9 @@ class FristenkalenderGenerator:
         """
         fristen: list[FristWithAttributesAndType] = []
 
-        for label in _fristen_type_to_label_mapping[fristen_type]:
+        stringified_fristen_type: str = fristen_type.value
+
+        for label in _fristen_type_to_label_mapping[stringified_fristen_type]:
             if label == "LWT":
                 nth_day = 0
             elif label == "3LWT":
