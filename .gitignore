@@ -132,3 +132,6 @@ dmypy.json
 
 # vscode settings
 .vscode/
+
+# ignore auto generated version file
+src/_fristenkalender_generator_version.py
