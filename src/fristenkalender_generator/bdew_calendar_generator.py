@@ -32,6 +32,7 @@ class FristWithAttributes:
 
     date: date  #: = date(y,m,d)
     label: str  #: can be for exmaple '5WT' (5 Werktage des Liefermonats)
+    ref_not_in_the_same_month: bool = False
 
 
 @dataclasses.dataclass(unsafe_hash=True)
@@ -40,7 +41,7 @@ class FristWithAttributesAndType(FristWithAttributes):
     This class represents a Frist with a type
     """
 
-    type: FristenType
+    fristen_type: FristenType
 
 
 _fristen_type_to_label_mapping: dict[str, list[str]] = {
@@ -50,7 +51,7 @@ _fristen_type_to_label_mapping: dict[str, list[str]] = {
     FristenType.GPKE.value: ["3LWT"],
 }
 """
-maps a fristen type to the different fristen associated with the type
+maps a fristen type to  different fristen associated with the type
 """
 
 
@@ -62,7 +63,7 @@ class FristenkalenderGenerator:
 
     def generate_fristen_for_type(self, year: int, fristen_type: FristenType) -> list[FristWithAttributesAndType]:
         """
-        Generate the list of fristen for a given year with a given type
+        Generate a list of fristen for a given year with a given type
         """
         fristen: list[FristWithAttributesAndType] = []
 
@@ -80,7 +81,7 @@ class FristenkalenderGenerator:
             days_and_labels = [(nth_day, label)]
             fristen_with_attributes = self.generate_specific_fristen(year, days_and_labels)
             for frist in fristen_with_attributes:
-                frist_with_attributes_and_type = FristWithAttributesAndType(frist.date, frist.label, fristen_type)
+                frist_with_attributes_and_type = FristWithAttributesAndType(date=frist.date, label=frist.label, ref_not_in_the_same_month=frist.ref_not_in_the_same_month, fristen_type=fristen_type)
                 fristen.append(frist_with_attributes_and_type)
 
         return fristen
@@ -97,26 +98,36 @@ class FristenkalenderGenerator:
         # that are not relevant
 
         # oct from last year
-        nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 10, 1))
-        fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
+        
+        for month in range(10,12):
+            nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 10, 1))
+            ref_not_in_the_same_month  = nth_working_day_of_month_date.month != month
+            fristen.append(FristWithAttributes(nth_working_day_of_month_date, label, ref_not_in_the_same_month=ref_not_in_the_same_month))
+       
+        # nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 10, 1))
+        # if nth_working_day_of_month_date.month != 10:
+        #     fristen.append(FristWithAttributes(nth_working_day_of_month_date, label, ref_not_in_the_same_month=True))
 
-        # nov from last year
-        nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 11, 1))
-        fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
+        # # nov from last year
+        # nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 11, 1))
+        # if nth_working_day_of_month_date.month != 11:
+        #     fristen.append(FristWithAttributes(nth_working_day_of_month_date, label, ref_not_in_the_same_month=True))
 
-        # dez from last year
-        nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 12, 1))
-        fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
+        # # dez from last year
+        # nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 12, 1))
+        # if nth_working_day_of_month_date.month != 12:
+        #     fristen.append(FristWithAttributes(nth_working_day_of_month_date, label, ref_not_in_the_same_month=True ))
 
         # this year
         n_months = 12
         for i_month in range(1, n_months + 1):
-            nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year, i_month, 1))
-            fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
+            start=date(year, i_month, 1)
+            nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start)
+            fristen.append(FristWithAttributes(nth_working_day_of_month_date, label, ref_not_in_the_same_month=nth_working_day_of_month_date.month != i_month))
 
         # jan of next year
         nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year + 1, 1, 1))
-        fristen.append(FristWithAttributes(nth_working_day_of_month_date, label))
+        fristen.append(FristWithAttributes(nth_working_day_of_month_date, label, ref_not_in_the_same_month=nth_working_day_of_month_date.month != 1))
 
         # the Hochfrequenz Fristenkalender ranges from December of the previous year
         # until the end of January of the following year
@@ -141,7 +152,7 @@ class FristenkalenderGenerator:
             date_dummy = get_previous_working_day(date_dummy)
             i_relevant_days += 1
 
-        return FristWithAttributes(date_dummy, label)
+        return FristWithAttributes(date_dummy, label, ref_not_in_the_same_month=False)
 
     def generate_all_fristen_for_given_lwt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
         """
