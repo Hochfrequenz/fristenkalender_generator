@@ -131,7 +131,9 @@ class FristenkalenderGenerator:
         n_months = 12
         for i_month in range(1, n_months + 1):
             start = date(year, i_month, 1)
-            nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start)
+            nth_working_day_of_month_date = get_nth_working_day_of_month(
+                number_of_working_day_in_month=nth_day, start=start
+            )
             fristen.append(
                 FristWithAttributes(
                     nth_working_day_of_month_date,
