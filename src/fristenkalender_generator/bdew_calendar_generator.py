@@ -104,8 +104,8 @@ class FristenkalenderGenerator:
 
         # oct from last year
 
-        for month in range(10, 12):
-            nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 10, 1))
+        for month in range(10, 13):
+            nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, month, 1))
             ref_not_in_the_same_month = nth_working_day_of_month_date.month != month
             fristen.append(
                 FristWithAttributes(
@@ -130,10 +130,7 @@ class FristenkalenderGenerator:
         # this year
         n_months = 12
         for i_month in range(1, n_months + 1):
-            start = date(year, i_month, 1)
-            nth_working_day_of_month_date = get_nth_working_day_of_month(
-                number_of_working_day_in_month=nth_day, start=start
-            )
+            nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, date(year, i_month, 1))
             fristen.append(
                 FristWithAttributes(
                     nth_working_day_of_month_date,
