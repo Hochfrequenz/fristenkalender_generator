@@ -232,7 +232,7 @@ class FristenkalenderGenerator:
         Create an ical event for a given frist
         """
         event = Event()
-        summary:str = frist.label
+        summary: str = frist.label
         if frist.ref_not_in_the_same_month:
             summary += " (⭐)"
         event.add("summary", summary)
