@@ -113,7 +113,6 @@ class FristenkalenderGenerator:
                 )
             )
 
-        
         # this year
         n_months = 12
         for i_month in range(1, n_months + 1):
