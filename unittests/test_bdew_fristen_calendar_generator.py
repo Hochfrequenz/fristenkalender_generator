@@ -21,13 +21,13 @@ class TestFristenkalenderGenerator:
     """
 
     def test_create_ical_event(self):
-        frist = FristWithAttributes(date(2023, 1, 1), "21WT")
+        frist = FristWithAttributes(date(2023, 1, 1), "21WT", ref_not_in_the_same_month=False)
         expected = vText("21WT")
 
         assert FristenkalenderGenerator().create_ical_event(frist)["SUMMARY"] == expected
 
     def test_create_ical(self):
-        fristen = [FristWithAttributes(date(2023, i, 1), "21WT") for i in range(1, 6)]
+        fristen = [FristWithAttributes(date(2023, i, 1), "21WT", ref_not_in_the_same_month=False) for i in range(1, 6)]
         attendee = "nicola.soeker@hochfrquenz.de"
         expected = 5
         cal = FristenkalenderGenerator().create_ical(attendee, fristen)
@@ -66,14 +66,14 @@ class TestFristenkalenderGenerator:
     @pytest.mark.parametrize(
         "year, expected",
         [
-            pytest.param(2023, FristWithAttributes(date(2023, 3, 1), "42WT")),
-            pytest.param(2023, FristWithAttributes(date(2023, 3, 9), "26WT")),
-            pytest.param(2023, FristWithAttributes(date(2023, 5, 22), "14WT")),
-            pytest.param(2023, FristWithAttributes(date(2023, 9, 27), "3LWT")),
-            pytest.param(2023, FristWithAttributes(date(2024, 1, 30), "21WT")),
-            pytest.param(2023, FristWithAttributes(date(2023, 4, 28), "LWT")),
-            pytest.param(2023, FristWithAttributes(date(2023, 7, 26), "3LWT")),
-            pytest.param(2023, FristWithAttributes(date(2023, 12, 27), "3LWT")),
+            pytest.param(2023, FristWithAttributes(date(2023, 3, 1), label="42WT", ref_not_in_the_same_month=True)),
+            pytest.param(2023, FristWithAttributes(date(2023, 3, 9), label="26WT", ref_not_in_the_same_month=True)),
+            pytest.param(2023, FristWithAttributes(date(2023, 5, 22), label="14WT", ref_not_in_the_same_month=False)),
+            pytest.param(2023, FristWithAttributes(date(2023, 9, 27), label="3LWT", ref_not_in_the_same_month=False)),
+            pytest.param(2023, FristWithAttributes(date(2024, 1, 30), label="21WT", ref_not_in_the_same_month=False)),
+            pytest.param(2023, FristWithAttributes(date(2023, 4, 28), label="LWT", ref_not_in_the_same_month=False)),
+            pytest.param(2023, FristWithAttributes(date(2023, 7, 26), label="3LWT", ref_not_in_the_same_month=False)),
+            pytest.param(2023, FristWithAttributes(date(2023, 12, 27), label="3LWT", ref_not_in_the_same_month=False)),
         ],
     )
     def test_if_frist_is_in_fristen_calender(self, year: int, expected: FristWithAttributes):
@@ -92,20 +92,48 @@ class TestFristenkalenderGenerator:
         fristen_with_attr_and_type = FristenkalenderGenerator().generate_fristen_for_type(2023, FristenType.GPKE)
 
         expected = [
-            FristWithAttributesAndType(date=date(2022, 12, 28), label="3LWT", type=FristenType.GPKE),
-            FristWithAttributesAndType(date=date(2023, 1, 26), label="3LWT", type=FristenType.GPKE),
-            FristWithAttributesAndType(date=date(2023, 2, 23), label="3LWT", type=FristenType.GPKE),
-            FristWithAttributesAndType(date=date(2023, 3, 28), label="3LWT", type=FristenType.GPKE),
-            FristWithAttributesAndType(date=date(2023, 4, 26), label="3LWT", type=FristenType.GPKE),
-            FristWithAttributesAndType(date=date(2023, 5, 25), label="3LWT", type=FristenType.GPKE),
-            FristWithAttributesAndType(date=date(2023, 6, 27), label="3LWT", type=FristenType.GPKE),
-            FristWithAttributesAndType(date=date(2023, 7, 26), label="3LWT", type=FristenType.GPKE),
-            FristWithAttributesAndType(date=date(2023, 8, 28), label="3LWT", type=FristenType.GPKE),
-            FristWithAttributesAndType(date=date(2023, 9, 27), label="3LWT", type=FristenType.GPKE),
-            FristWithAttributesAndType(date=date(2023, 10, 26), label="3LWT", type=FristenType.GPKE),
-            FristWithAttributesAndType(date=date(2023, 11, 27), label="3LWT", type=FristenType.GPKE),
-            FristWithAttributesAndType(date=date(2023, 12, 27), label="3LWT", type=FristenType.GPKE),
-            FristWithAttributesAndType(date=date(2024, 1, 26), label="3LWT", type=FristenType.GPKE),
+            FristWithAttributesAndType(
+                date=date(2022, 12, 28), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
+            FristWithAttributesAndType(
+                date=date(2023, 1, 26), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
+            FristWithAttributesAndType(
+                date=date(2023, 2, 23), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
+            FristWithAttributesAndType(
+                date=date(2023, 3, 28), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
+            FristWithAttributesAndType(
+                date=date(2023, 4, 26), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
+            FristWithAttributesAndType(
+                date=date(2023, 5, 25), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
+            FristWithAttributesAndType(
+                date=date(2023, 6, 27), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
+            FristWithAttributesAndType(
+                date=date(2023, 7, 26), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
+            FristWithAttributesAndType(
+                date=date(2023, 8, 28), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
+            FristWithAttributesAndType(
+                date=date(2023, 9, 27), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
+            FristWithAttributesAndType(
+                date=date(2023, 10, 26), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
+            FristWithAttributesAndType(
+                date=date(2023, 11, 27), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
+            FristWithAttributesAndType(
+                date=date(2023, 12, 27), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
+            FristWithAttributesAndType(
+                date=date(2024, 1, 26), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=False
+            ),
         ]
 
         assert fristen_with_attr_and_type == expected
