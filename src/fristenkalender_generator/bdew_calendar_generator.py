@@ -102,7 +102,7 @@ class FristenkalenderGenerator:
         # we first add them all to the result list and later on remove those entries
         # that are not relevant
 
-        # oct from last year
+        # oct, nov and dec from last year
 
         for month in range(10, 13):
             nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, month, 1))
@@ -113,20 +113,7 @@ class FristenkalenderGenerator:
                 )
             )
 
-        # nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 10, 1))
-        # if nth_working_day_of_month_date.month != 10:
-        #     fristen.append(FristWithAttributes(nth_working_day_of_month_date, label, ref_not_in_the_same_month=True))
-
-        # # nov from last year
-        # nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 11, 1))
-        # if nth_working_day_of_month_date.month != 11:
-        #     fristen.append(FristWithAttributes(nth_working_day_of_month_date, label, ref_not_in_the_same_month=True))
-
-        # # dez from last year
-        # nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, 12, 1))
-        # if nth_working_day_of_month_date.month != 12:
-        #     fristen.append(FristWithAttributes(nth_working_day_of_month_date, label, ref_not_in_the_same_month=True ))
-
+        
         # this year
         n_months = 12
         for i_month in range(1, n_months + 1):
