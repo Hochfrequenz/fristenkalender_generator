@@ -234,6 +234,7 @@ class FristenkalenderGenerator:
         event = Event()
         event.add("summary", frist.label)
         event.add("dtstart", frist.date)
+        event.add("ref_not_in_the_same_month", frist.ref_not_in_the_same_month)
         event.add("dtstamp", datetime.utcnow())
 
         return event
