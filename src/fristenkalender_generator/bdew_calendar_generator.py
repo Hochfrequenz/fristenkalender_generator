@@ -3,12 +3,12 @@ This module can produce a list of calendar entries with bdew Fristen
 """
 
 import dataclasses
-from typing import Optional
 import re
 from calendar import monthrange
 from datetime import date, datetime, timedelta
 from enum import Enum
 from pathlib import Path
+from typing import Optional
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event  # type: ignore[import]
