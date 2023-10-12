@@ -42,7 +42,7 @@ class TestFristenkalenderGenerator:
         year = 2023
         filename = "2023.ics"
         # my_file = Path(mydir) / Path(filename)
-        my_file =  Path(filename)
+        my_file = Path(filename)
         FristenkalenderGenerator().generate_and_export_whole_calendar(my_file, attendee, year)
 
         assert my_file.is_file()
