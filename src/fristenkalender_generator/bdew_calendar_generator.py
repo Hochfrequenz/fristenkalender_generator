@@ -3,6 +3,7 @@ This module can produce a list of calendar entries with bdew Fristen
 """
 
 import dataclasses
+from typing import Optional
 import re
 from calendar import monthrange
 from datetime import date, datetime, timedelta
@@ -32,7 +33,7 @@ class FristWithAttributes:
 
     date: date  #: = date(y,m,d)
     label: str  #: can be for exmaple '5WT' (5 Werktage des Liefermonats)
-    ref_not_in_the_same_month: bool  #: True if the Frist is not in the same month as the reference date
+    ref_not_in_the_same_month: Optional[int]  #: None if the Frist is in the same month as the reference date
 
 
 @dataclasses.dataclass(unsafe_hash=True)
@@ -106,7 +107,10 @@ class FristenkalenderGenerator:
 
         for month in range(10, 13):
             nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, month, 1))
-            ref_not_in_the_same_month = nth_working_day_of_month_date.month != month
+            if nth_working_day_of_month_date.month != month:
+                ref_not_in_the_same_month = month - 1
+            else:
+                ref_not_in_the_same_month = None
             fristen.append(
                 FristWithAttributes(
                     nth_working_day_of_month_date, label, ref_not_in_the_same_month=ref_not_in_the_same_month
@@ -117,19 +121,29 @@ class FristenkalenderGenerator:
         n_months = 12
         for i_month in range(1, n_months + 1):
             nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year, i_month, 1))
+            if nth_working_day_of_month_date.month != i_month:
+                ref_not_in_the_same_month = i_month - 1
+                if ref_not_in_the_same_month < 1:
+                    ref_not_in_the_same_month += 12
+            else:
+                ref_not_in_the_same_month = None
             fristen.append(
                 FristWithAttributes(
                     nth_working_day_of_month_date,
                     label,
-                    ref_not_in_the_same_month=nth_working_day_of_month_date.month != i_month,
+                    ref_not_in_the_same_month=ref_not_in_the_same_month,
                 )
             )
 
         # jan of next year
         nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year + 1, 1, 1))
+        if nth_working_day_of_month_date.month != 1:
+            ref_not_in_the_same_month = 11
+        else:
+            ref_not_in_the_same_month = None
         fristen.append(
             FristWithAttributes(
-                nth_working_day_of_month_date, label, ref_not_in_the_same_month=nth_working_day_of_month_date.month != 1
+                nth_working_day_of_month_date, label, ref_not_in_the_same_month=ref_not_in_the_same_month
             )
         )
 
@@ -156,7 +170,7 @@ class FristenkalenderGenerator:
             date_dummy = get_previous_working_day(date_dummy)
             i_relevant_days += 1
 
-        return FristWithAttributes(date_dummy, label, ref_not_in_the_same_month=False)
+        return FristWithAttributes(date_dummy, label, ref_not_in_the_same_month=None)
 
     def generate_all_fristen_for_given_lwt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
         """
@@ -233,8 +247,8 @@ class FristenkalenderGenerator:
         """
         event = Event()
         summary: str = frist.label
-        if frist.ref_not_in_the_same_month:
-            summary += " (⭐)"
+        if frist.ref_not_in_the_same_month is not None:
+            summary += f" (⭐{frist.ref_not_in_the_same_month})"
         event.add("summary", summary)
         event.add("dtstart", frist.date)
         event.add("dtstamp", datetime.utcnow())
