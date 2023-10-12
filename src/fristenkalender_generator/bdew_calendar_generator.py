@@ -33,7 +33,9 @@ class FristWithAttributes:
 
     date: date  #: = date(y,m,d)
     label: str  #: can be for exmaple '5WT' (5 Werktage des Liefermonats)
-    ref_not_in_the_same_month: Optional[int]  #: None if the Frist is in the same month as the reference date, integer (number of the month to which the Frist belongs) if the Frist is not in the same month
+    ref_not_in_the_same_month: Optional[
+        int
+    ]  #: None if the Frist is in the same month as the ref. date, otherwise is a month number when the Frist started
 
 
 @dataclasses.dataclass(unsafe_hash=True)
