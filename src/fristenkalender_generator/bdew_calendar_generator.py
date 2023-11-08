@@ -243,7 +243,7 @@ class FristenkalenderGenerator:
         fristen.sort(key=lambda fwa: fwa.date)
         return fristen
 
-    def create_ical_event(self, frist: FristWithAttributes) -> Event:
+    def create_ical_event(self, frist: FristWithAttributes | FristWithAttributesAndType ) -> Event:
         """
         Create an ical event for a given frist
         """
@@ -251,13 +251,15 @@ class FristenkalenderGenerator:
         summary: str = frist.label
         if frist.ref_not_in_the_same_month is not None:
             summary += f" (⭐{frist.ref_not_in_the_same_month})"
+        if hasattr(frist, 'fristen_type'):
+            summary += f" {frist.fristen_type}"
         event.add("summary", summary)
         event.add("dtstart", frist.date)
         event.add("dtstamp", datetime.utcnow())
 
         return event
 
-    def create_ical(self, attendee: str, fristen: list[FristWithAttributes]) -> Calendar:
+    def create_ical(self, attendee: str, fristen: list[FristWithAttributes | FristWithAttributesAndType ]) -> Calendar:
         """
         Create an ical calendar with a given mail address and a given set of firsten
         """
