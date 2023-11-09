@@ -67,6 +67,22 @@ class TestFristenkalenderGenerator:
         assert my_file.is_file()
         assert my_file.stat().st_size != 0
 
+    
+    def test_create_and_export_fristen_for_type(self):
+        # , tmpdir_factory
+        # test_dir_name = "test_dir"
+        # mydir = tmpdir_factory.mktemp(test_dir_name)
+        attendee = "mail@test.de"
+        year = 2023
+        fristen_type = FristenType.MABIS
+        filename = "MABIS.ics"
+        # my_file = Path(mydir) / Path(filename)
+        my_file = Path(filename)
+        FristenkalenderGenerator().generate_and_export_fristen_for_type(my_file, attendee, year, fristen_type)
+
+        assert my_file.is_file()
+        assert my_file.stat().st_size != 0
+
     @pytest.mark.parametrize(
         "year, nth_day, label, expected",
         [
