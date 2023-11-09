@@ -24,29 +24,40 @@ class TestFristenkalenderGenerator:
     @pytest.mark.parametrize(
         "frist, expected",
         [
-            pytest.param(FristWithAttributes(date(2023, 1, 2), "42WT", ref_not_in_the_same_month=10), vText("42WT (⭐10)")),
-            pytest.param(FristWithAttributesAndType(date(2024, 1, 26), "3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None), vText("3LWT FristenType.GPKE")),
-            
+            pytest.param(
+                FristWithAttributes(date(2023, 1, 2), "42WT", ref_not_in_the_same_month=10), vText("42WT (⭐10)")
+            ),
+            pytest.param(
+                FristWithAttributesAndType(
+                    date(2024, 1, 26), "3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                ),
+                vText("3LWT"),
+            ),
         ],
     )
-    
     def test_create_ical_event(self, frist: FristWithAttributes | FristWithAttributesAndType, expected: vText):
         # frist = FristWithAttributes(date(2023, 1, 2), "42WT", ref_not_in_the_same_month=10)
         # expected = vText("42WT (⭐10)")
 
         assert FristenkalenderGenerator().create_ical_event(frist)["SUMMARY"] == expected
-        
-    
+
     @pytest.mark.parametrize(
         "fristen",
         [
-            pytest.param([FristWithAttributes(date(2023, i, 1), "21WT", ref_not_in_the_same_month=None) for i in range(1, 6)] ),
-            pytest.param([FristWithAttributesAndType(date(2023, i, 26),"3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None) for i in range(1, 6)]),
-            
+            pytest.param(
+                [FristWithAttributes(date(2023, i, 1), "21WT", ref_not_in_the_same_month=None) for i in range(1, 6)]
+            ),
+            pytest.param(
+                [
+                    FristWithAttributesAndType(
+                        date(2023, i, 26), "3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                    )
+                    for i in range(1, 6)
+                ]
+            ),
         ],
     )
-    
-    def test_create_ical(self, fristen: list[ FristWithAttributes | FristWithAttributesAndType] ):
+    def test_create_ical(self, fristen: list[FristWithAttributes | FristWithAttributesAndType]):
         # fristen = [FristWithAttributes(date(2023, i, 1), "21WT", ref_not_in_the_same_month=None) for i in range(1, 6)]
         attendee = "nicola.soeker@hochfrquenz.de"
         expected = 5
@@ -67,7 +78,6 @@ class TestFristenkalenderGenerator:
         assert my_file.is_file()
         assert my_file.stat().st_size != 0
 
-    
     def test_create_and_export_fristen_for_type(self):
         # , tmpdir_factory
         # test_dir_name = "test_dir"
