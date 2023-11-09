@@ -251,8 +251,8 @@ class FristenkalenderGenerator:
         summary: str = frist.label
         if frist.ref_not_in_the_same_month is not None:
             summary += f" (⭐{frist.ref_not_in_the_same_month})"
-        if hasattr(frist, 'fristen_type'):
-            summary += f" {frist.fristen_type}"
+        # if hasattr(frist, 'fristen_type'):
+        #     summary += f" {frist.fristen_type}"
         event.add("summary", summary)
         event.add("dtstart", frist.date)
         event.add("dtstamp", datetime.utcnow())
@@ -276,6 +276,15 @@ class FristenkalenderGenerator:
         """
         with open(file_path, "wb") as file:
             file.write(cal.to_ical())
+            
+    def generate_and_export_fristen_for_type(self, file_path: Path, attendee: str, year:int, fristen_type: FristenType):
+        """
+        Generates fristen for a given type and exports it to an .ics file
+        """
+        fristen_for_type = self.generate_fristen_for_type(year, fristen_type)
+        calender = self.create_ical(attendee, fristen_for_type)
+        self.export_ical(file_path, calender)
+        
 
     def generate_and_export_whole_calendar(self, file_path: Path, attendee: str, year: int):
         """
