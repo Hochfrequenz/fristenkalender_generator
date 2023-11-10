@@ -284,7 +284,7 @@ class FristenkalenderGenerator:
         Generates fristen for a given type and exports it to an .ics file
         """
         fristen_for_type = self.generate_fristen_for_type(year, fristen_type)
-        calender = self.create_ical(attendee, fristen_for_type) # type: ignore[arg-type]
+        calender = self.create_ical(attendee, fristen_for_type)  # type: ignore[arg-type]
         self.export_ical(file_path, calender)
 
     def generate_and_export_whole_calendar(self, file_path: Path, attendee: str, year: int):
