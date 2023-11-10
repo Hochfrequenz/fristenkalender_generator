@@ -261,7 +261,7 @@ class FristenkalenderGenerator:
         self, attendee: str, fristen: list[Union[FristWithAttributes, FristWithAttributesAndType]]
     ) -> Calendar:
         """
-        Create an ical calendar with a given mail address and a given set of firsten
+        Create an ical calendar with a given mail address and a given set of fristen
         """
         calender = Calendar()
         calender.add("attendee", attendee)

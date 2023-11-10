@@ -36,9 +36,6 @@ class TestFristenkalenderGenerator:
         ],
     )
     def test_create_ical_event(self, frist: Union[FristWithAttributes, FristWithAttributesAndType], expected: vText):
-        # frist = FristWithAttributes(date(2023, 1, 2), "42WT", ref_not_in_the_same_month=10)
-        # expected = vText("42WT (⭐10)")
-
         assert FristenkalenderGenerator().create_ical_event(frist)["SUMMARY"] == expected
 
     @pytest.mark.parametrize(
@@ -58,13 +55,13 @@ class TestFristenkalenderGenerator:
         ],
     )
     def test_create_ical(self, fristen: list[Union[FristWithAttributes, FristWithAttributesAndType]]):
-        # fristen = [FristWithAttributes(date(2023, i, 1), "21WT", ref_not_in_the_same_month=None) for i in range(1, 6)]
         attendee = "nicola.soeker@hochfrquenz.de"
         expected = 5
         cal = FristenkalenderGenerator().create_ical(attendee, fristen)
         assert len(cal.subcomponents) == expected
 
     def test_create_and_export_whole_calender(self):
+        # if you don't want to see the files generated from this test uncomment following lines
         # , tmpdir_factory
         # test_dir_name = "test_dir"
         # mydir = tmpdir_factory.mktemp(test_dir_name)
@@ -79,6 +76,7 @@ class TestFristenkalenderGenerator:
         assert my_file.stat().st_size != 0
 
     def test_create_and_export_fristen_for_type(self):
+        # if you don't want to see the files generated from this test uncomment following lines
         # , tmpdir_factory
         # test_dir_name = "test_dir"
         # mydir = tmpdir_factory.mktemp(test_dir_name)
