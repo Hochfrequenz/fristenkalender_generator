@@ -8,7 +8,7 @@ from calendar import monthrange
 from datetime import date, datetime, timedelta
 from enum import Enum
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Union
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event  # type: ignore[import]
@@ -243,7 +243,7 @@ class FristenkalenderGenerator:
         fristen.sort(key=lambda fwa: fwa.date)
         return fristen
 
-    def create_ical_event(self, frist: FristWithAttributes) -> Event:
+    def create_ical_event(self, frist: Union[FristWithAttributes, FristWithAttributesAndType]) -> Event:
         """
         Create an ical event for a given frist
         """
@@ -257,9 +257,11 @@ class FristenkalenderGenerator:
 
         return event
 
-    def create_ical(self, attendee: str, fristen: list[FristWithAttributes]) -> Calendar:
+    def create_ical(
+        self, attendee: str, fristen: list[Union[FristWithAttributes, FristWithAttributesAndType]]
+    ) -> Calendar:
         """
-        Create an ical calendar with a given mail address and a given set of firsten
+        Create an ical calendar with a given mail address and a given set of fristen
         """
         calender = Calendar()
         calender.add("attendee", attendee)
@@ -274,6 +276,16 @@ class FristenkalenderGenerator:
         """
         with open(file_path, "wb") as file:
             file.write(cal.to_ical())
+
+    def generate_and_export_fristen_for_type(
+        self, file_path: Path, attendee: str, year: int, fristen_type: FristenType
+    ):
+        """
+        Generates fristen for a given type and exports it to an .ics file
+        """
+        fristen_for_type = self.generate_fristen_for_type(year, fristen_type)
+        calender = self.create_ical(attendee, fristen_for_type)  # type: ignore[arg-type]
+        self.export_ical(file_path, calender)
 
     def generate_and_export_whole_calendar(self, file_path: Path, attendee: str, year: int):
         """
