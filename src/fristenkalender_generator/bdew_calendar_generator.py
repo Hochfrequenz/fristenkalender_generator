@@ -243,7 +243,7 @@ class FristenkalenderGenerator:
         fristen.sort(key=lambda fwa: fwa.date)
         return fristen
 
-    def create_ical_event(self, frist: Union[FristWithAttributes, FristWithAttributesAndType] ) -> Event: 
+    def create_ical_event(self, frist: Union[FristWithAttributes, FristWithAttributesAndType]) -> Event:
         """
         Create an ical event for a given frist
         """
@@ -257,7 +257,9 @@ class FristenkalenderGenerator:
 
         return event
 
-    def create_ical(self, attendee: str, fristen: list[Union[FristWithAttributes, FristWithAttributesAndType]]) -> Calendar:
+    def create_ical(
+        self, attendee: str, fristen: list[Union[FristWithAttributes, FristWithAttributesAndType]]
+    ) -> Calendar:
         """
         Create an ical calendar with a given mail address and a given set of firsten
         """
