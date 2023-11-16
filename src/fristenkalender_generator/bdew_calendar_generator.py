@@ -57,6 +57,23 @@ _fristen_type_to_label_mapping: dict[str, list[str]] = {
 maps a fristen type to  different fristen associated with the type
 """
 
+fristen_description: dict[str, str] = {
+    "5WT": "Versand der BG-SummenZR (Kat B.) (ÜNB NB) Versand Netzzeitreihen (VNB BIKO) Abrechnungs-ZR endg. BRW (VNB LF)",
+    "10WT": "Eingang Netzzeitreihen (VNB VNB)",
+    "12WT": "BK-SummenZR (VNB/ÜNB -> BIKO & BIKO BKV) LF-SummenZR (VNB LF (bei Zuordnungsermächt.) BK-Summen vorl./endg. BRW (VNB MGV)",
+    "14WT": "BK-Summen vorl./endg. BRW (MGV BKV)",
+    "16WT": "Zuordnungslisten (VNB LF)",
+    "17WT": "BK-Zuordnungsliste (VNB BKV) Deklarationsliste (VNB MGV)",
+    "18WT": "Dateneingang der DZR Stand 15. WT (BIKO <- VNB) Deklarationsmitteilung (MGV BKV)",
+    "20WT": "Ausgleichsenergiepreise (BIKO BKV) Abstimmung NKP zw. VNB",
+    "21WT": "NKP (VNB MGV) 42",
+    "26WT": "NKP MG-Überlappung (VNB MGV)",
+    "30WT": "letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO",
+    "42WT": "BK-Abrechnung (BIKO BKV) Werktag nach",
+    "LWT": "BK-Zuordnungsliste (VNB BKV)",
+    "3LWT": "Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
+}
+
 
 class FristenkalenderGenerator:
     """
@@ -252,6 +269,7 @@ class FristenkalenderGenerator:
         if frist.ref_not_in_the_same_month is not None:
             summary += f" (⭐{frist.ref_not_in_the_same_month})"
         event.add("summary", summary)
+        event.add("description", fristen_description[frist.label])
         event.add("dtstart", frist.date)
         event.add("dtstamp", datetime.utcnow())
 
