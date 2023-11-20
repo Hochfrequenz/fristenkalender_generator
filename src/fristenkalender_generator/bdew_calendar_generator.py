@@ -74,10 +74,10 @@ specific_description: dict[str, str] = {
     "3LWT": "Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
 }
 
-greeting: str = "Digitaler Hochfrequenz Fristenkalender \n"
-general_description: str = "Um die Kalendereignisse einfach zu löschen,\n geben sie 'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein und bearbeiten sie die Liste nach Wunsch.\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/"
+greeting: str = "Digitaler Hochfrequenz Fristenkalender "
+general_description: str = "\nUm die Kalendereignisse einfach zu löschen,\n geben sie 'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein und bearbeiten sie die Liste nach Wunsch.\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/"
 
-fristen_description = {k: greeting + v + general_description for (k, v) in specific_description.items()}
+description = {k: greeting + v + general_description for (k, v) in specific_description.items()}
 
 
 class FristenkalenderGenerator:
@@ -85,6 +85,16 @@ class FristenkalenderGenerator:
     This class can generate a bdew fristen calendar for a given year
 
     """
+
+    def generate_fristen_description(self, frist_date: date, label: str) -> dict[str, str]:
+        number: int = re.findall(r"\d+", label)
+        year: int = frist_date.year
+        month: str = frist_date.month.strftime("%B")
+        another_part: str = number + ".Werktag des Fristenmonats " + month + year
+        fristen_description = {
+            k: greeting + another_part + v + general_description for (k, v) in specific_description.items()
+        }
+        return fristen_description
 
     def generate_fristen_for_type(self, year: int, fristen_type: FristenType) -> list[FristWithAttributesAndType]:
         """
@@ -274,7 +284,7 @@ class FristenkalenderGenerator:
         if frist.ref_not_in_the_same_month is not None:
             summary += f" (⭐{frist.ref_not_in_the_same_month})"
         event.add("summary", summary)
-        event.add("description", fristen_description[frist.label])
+        event.add("description", self.generate_fristen_description(frist.date, frist.label))
         event.add("dtstart", frist.date)
         event.add("dtstamp", datetime.utcnow())
 
