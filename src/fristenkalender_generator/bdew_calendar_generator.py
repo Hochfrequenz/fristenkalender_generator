@@ -57,7 +57,7 @@ _fristen_type_to_label_mapping: dict[str, list[str]] = {
 maps a fristen type to  different fristen associated with the type
 """
 
-fristen_description: dict[str, str] = {
+specific_description: dict[str, str] = {
     "5WT": "Versand der BG-SummenZR (Kat B.) (ÜNB NB) Versand Netzzeitreihen (VNB BIKO) Abrechnungs-ZR endg. BRW (VNB LF)",
     "10WT": "Eingang Netzzeitreihen (VNB VNB)",
     "12WT": "BK-SummenZR (VNB/ÜNB -> BIKO & BIKO BKV) LF-SummenZR (VNB LF (bei Zuordnungsermächt.) BK-Summen vorl./endg. BRW (VNB MGV)",
@@ -73,6 +73,11 @@ fristen_description: dict[str, str] = {
     "LWT": "BK-Zuordnungsliste (VNB BKV)",
     "3LWT": "Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
 }
+
+greeting: str = "Digitaler Hochfrequenz Fristenkalender \n"
+general_description: str = "Um die Kalendereignisse einfach zu löschen,\n geben sie 'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein und bearbeiten sie die Liste nach Wunsch.\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/"
+
+fristen_description = {k: greeting + v + general_description for (k, v) in specific_description.items()}
 
 
 class FristenkalenderGenerator:
