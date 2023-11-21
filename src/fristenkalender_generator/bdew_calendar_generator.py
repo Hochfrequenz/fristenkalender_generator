@@ -111,7 +111,7 @@ class FristenkalenderGenerator:
         month: str = frist_date.strftime("%B")
         another_part: str = number + ". Werktag des Fristenmonats " + month + " " + year + " \n"
         frist_description: str = (
-            greeting + "\n" + another_part + "\n" + specific_description[label] + "\n" + general_description + "\n"
+            greeting + "\n" + another_part + "\n" + specific_description[label] + "\n" + general_description
         )
 
         return frist_description
