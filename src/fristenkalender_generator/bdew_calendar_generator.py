@@ -58,9 +58,15 @@ maps a fristen type to  different fristen associated with the type
 """
 
 specific_description: dict[str, str] = {
-    "5WT": "Versand der BG-SummenZR (Kat B.) (ÜNB NB) Versand Netzzeitreihen (VNB BIKO) Abrechnungs-ZR endg. BRW (VNB LF)",
+    "5WT": (
+        "Versand der BG-SummenZR (Kat B.) (ÜNB NB) Versand Netzzeitreihen"
+        " (VNB BIKO) Abrechnungs-ZR endg. BRW (VNB LF)"
+    ),
     "10WT": "Eingang Netzzeitreihen (VNB VNB)",
-    "12WT": "BK-SummenZR (VNB/ÜNB -> BIKO & BIKO BKV) LF-SummenZR (VNB LF (bei Zuordnungsermächt.) BK-Summen vorl./endg. BRW (VNB MGV)",
+    "12WT": (
+        "BK-SummenZR (VNB/ÜNB -> BIKO & BIKO BKV) LF-SummenZR (VNB LF (bei Zuordnungsermächt.)"
+        " BK-Summen vorl./endg. BRW (VNB MGV)"
+    ),
     "14WT": "BK-Summen vorl./endg. BRW (MGV BKV)",
     "16WT": "Zuordnungslisten (VNB LF)",
     "17WT": "BK-Zuordnungsliste (VNB BKV) Deklarationsliste (VNB MGV)",
@@ -74,13 +80,14 @@ specific_description: dict[str, str] = {
     "3LWT": "Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
 }
 """
-A dictionary with a specific description of a frist
+A dictionary with a specific descriptions of the frists
 
 """
 
 greeting: str = "Digitaler Hochfrequenz Fristenkalender \n"
 general_description: str = (
-    "\nUm die Kalendereignisse einfach zu löschen, geben sie 'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \n"
+    "\nUm die Kalendereignisse einfach zu löschen, geben sie "
+    "'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \n"
     "und bearbeiten sie die Liste nach Wunsch.\n"
     "Hochfrequenz Unternehmensberatung GmbH\n"
     "Nördliche Münchner Straße 27A\n"
@@ -99,7 +106,7 @@ class FristenkalenderGenerator:
         """
         Generates a description of frist for a given date with a given label
         """
-        number: str = str(re.findall(r"\d+", label)).strip("['']")
+        number: str = str(re.findall(r"\d+", label)).strip("[']")
         year: str = str(frist_date.year)
         month: str = frist_date.strftime("%B")
         another_part: str = number + ". Werktag des Fristenmonats " + month + " " + year + " \n"
