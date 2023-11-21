@@ -73,11 +73,20 @@ specific_description: dict[str, str] = {
     "LWT": "BK-Zuordnungsliste (VNB BKV)",
     "3LWT": "Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
 }
+"""
+A dictionary with a specific description of a frist
 
-greeting: str = "Digitaler Hochfrequenz Fristenkalender "
-general_description: str = "\nUm die Kalendereignisse einfach zu löschen,\n geben sie 'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein und bearbeiten sie die Liste nach Wunsch.\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/"
+"""
 
-description = {k: greeting + v + general_description for (k, v) in specific_description.items()}
+greeting: str = "Digitaler Hochfrequenz Fristenkalender \n"
+general_description: str = (
+    "\nUm die Kalendereignisse einfach zu löschen, geben sie 'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \n"
+    "und bearbeiten sie die Liste nach Wunsch.\n"
+    "Hochfrequenz Unternehmensberatung GmbH\n"
+    "Nördliche Münchner Straße 27A\n"
+    "D-82031 Grünwald\n"
+    "https://www.hochfrequenz.de/"
+)
 
 
 class FristenkalenderGenerator:
@@ -86,19 +95,23 @@ class FristenkalenderGenerator:
 
     """
 
-    def generate_fristen_description(self, frist_date: date, label: str) -> dict[str, str]:
-        number: int = re.findall(r"\d+", label)
-        year: int = frist_date.year
-        month: str = frist_date.month.strftime("%B")
-        another_part: str = number + ".Werktag des Fristenmonats " + month + year
-        fristen_description = {
-            k: greeting + another_part + v + general_description for (k, v) in specific_description.items()
-        }
-        return fristen_description
+    def generate_frist_description(self, frist_date: date, label: str) -> str:
+        """
+        Generates a description of frist for a given date with a given label
+        """
+        number: str = str(re.findall(r"\d+", label)).strip("['']")
+        year: str = str(frist_date.year)
+        month: str = frist_date.strftime("%B")
+        another_part: str = number + ". Werktag des Fristenmonats " + month + " " + year + " \n"
+        frist_description: str = (
+            greeting + "\n" + another_part + "\n" + specific_description[label] + "\n" + general_description + "\n"
+        )
+
+        return frist_description
 
     def generate_fristen_for_type(self, year: int, fristen_type: FristenType) -> list[FristWithAttributesAndType]:
         """
-        Generate a list of fristen for a given year with a given type
+        Generates a list of fristen for a given year with a given type
         """
         fristen: list[FristWithAttributesAndType] = []
 
@@ -284,7 +297,7 @@ class FristenkalenderGenerator:
         if frist.ref_not_in_the_same_month is not None:
             summary += f" (⭐{frist.ref_not_in_the_same_month})"
         event.add("summary", summary)
-        event.add("description", self.generate_fristen_description(frist.date, frist.label))
+        event.add("description", self.generate_frist_description(frist.date, frist.label))
         event.add("dtstart", frist.date)
         event.add("dtstamp", datetime.utcnow())
 
