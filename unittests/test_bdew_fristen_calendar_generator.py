@@ -218,5 +218,5 @@ class TestFristenkalenderGenerator:
         ],
     )
     def test_generate_frist_description(self, frist_date: date, label: str, expected: str):
-        actual = FristenkalenderGenerator.generate_frist_description(self, frist_date, label)
+        actual = FristenkalenderGenerator().generate_frist_description(frist_date, label)
         assert actual == expected
