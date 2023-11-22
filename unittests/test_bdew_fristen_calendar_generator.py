@@ -203,3 +203,20 @@ class TestFristenkalenderGenerator:
         actual = FristenkalenderGenerator().generate_all_fristen(year)
         # hack for pycharm: run this in the debugger and copy the value of str(actual) from the variable window
         assert actual == expected
+
+    @pytest.mark.parametrize(
+        "frist_date, label, expected",
+        [
+            pytest.param(
+                date(2023, 9, 12),
+                "30WT",
+                (
+                    "Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fristenmonats September 2023 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO\n\nUm die Kalendereignisse einfach zu löschen, geben sie 'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/"
+                ),
+                id="",
+            )
+        ],
+    )
+    def test_generate_frist_description(self, frist_date: date, label: str, expected: str):
+        actual = FristenkalenderGenerator().generate_frist_description(frist_date, label)
+        assert actual == expected

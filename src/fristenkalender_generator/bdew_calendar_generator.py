@@ -57,6 +57,44 @@ _fristen_type_to_label_mapping: dict[str, list[str]] = {
 maps a fristen type to  different fristen associated with the type
 """
 
+specific_description: dict[str, str] = {
+    "5WT": (
+        "Versand der BG-SummenZR (Kat B.) (ÜNB NB) Versand Netzzeitreihen"
+        " (VNB BIKO) Abrechnungs-ZR endg. BRW (VNB LF)"
+    ),
+    "10WT": "Eingang Netzzeitreihen (VNB VNB)",
+    "12WT": (
+        "BK-SummenZR (VNB/ÜNB -> BIKO & BIKO BKV) LF-SummenZR (VNB LF (bei Zuordnungsermächt.)"
+        " BK-Summen vorl./endg. BRW (VNB MGV)"
+    ),
+    "14WT": "BK-Summen vorl./endg. BRW (MGV BKV)",
+    "16WT": "Zuordnungslisten (VNB LF)",
+    "17WT": "BK-Zuordnungsliste (VNB BKV) Deklarationsliste (VNB MGV)",
+    "18WT": "Dateneingang der DZR Stand 15. WT (BIKO <- VNB) Deklarationsmitteilung (MGV BKV)",
+    "20WT": "Ausgleichsenergiepreise (BIKO BKV) Abstimmung NKP zw. VNB",
+    "21WT": "NKP (VNB MGV) 42",
+    "26WT": "NKP MG-Überlappung (VNB MGV)",
+    "30WT": "letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO",
+    "42WT": "BK-Abrechnung (BIKO BKV) Werktag nach",
+    "LWT": "BK-Zuordnungsliste (VNB BKV)",
+    "3LWT": "Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
+}
+"""
+A dictionary with a specific descriptions of the frists
+
+"""
+
+greeting: str = "Digitaler Hochfrequenz Fristenkalender \n"
+general_description: str = (
+    "\nUm die Kalendereignisse einfach zu löschen, geben sie "
+    "'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \n"
+    "und bearbeiten sie die Liste nach Wunsch.\n\n"
+    "Hochfrequenz Unternehmensberatung GmbH\n"
+    "Nördliche Münchner Straße 27A\n"
+    "D-82031 Grünwald\n"
+    "https://www.hochfrequenz.de/"
+)
+
 
 class FristenkalenderGenerator:
     """
@@ -64,9 +102,28 @@ class FristenkalenderGenerator:
 
     """
 
+    def generate_frist_description(self, frist_date: date, label: str) -> str:
+        """
+        Generates a description of frist for a given date with a given label
+        """
+        if label == "LWT":
+            wt = "letzter"
+        elif label == "3LWT":
+            wt = "3. letzter"
+        else:
+            wt = str(re.findall(r"\d+", label)[0]).strip("'") + "."
+        year: str = str(frist_date.year)
+        month: str = frist_date.strftime("%B")
+        another_part: str = wt + " Werktag des Fristenmonats " + month + " " + year + " \n"
+        frist_description: str = (
+            greeting + "\n" + another_part + "\n" + specific_description[label] + "\n" + general_description
+        )
+
+        return frist_description
+
     def generate_fristen_for_type(self, year: int, fristen_type: FristenType) -> list[FristWithAttributesAndType]:
         """
-        Generate a list of fristen for a given year with a given type
+        Generates a list of fristen for a given year with a given type
         """
         fristen: list[FristWithAttributesAndType] = []
 
@@ -252,6 +309,7 @@ class FristenkalenderGenerator:
         if frist.ref_not_in_the_same_month is not None:
             summary += f" (⭐{frist.ref_not_in_the_same_month})"
         event.add("summary", summary)
+        event.add("description", self.generate_frist_description(frist.date, frist.label))
         event.add("dtstart", frist.date)
         event.add("dtstamp", datetime.utcnow())
 
