@@ -88,7 +88,7 @@ greeting: str = "Digitaler Hochfrequenz Fristenkalender \n"
 general_description: str = (
     "\nUm die Kalendereignisse einfach zu löschen, geben sie "
     "'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \n"
-    "und bearbeiten sie die Liste nach Wunsch.\n"
+    "und bearbeiten sie die Liste nach Wunsch.\n\n"
     "Hochfrequenz Unternehmensberatung GmbH\n"
     "Nördliche Münchner Straße 27A\n"
     "D-82031 Grünwald\n"
@@ -106,10 +106,15 @@ class FristenkalenderGenerator:
         """
         Generates a description of frist for a given date with a given label
         """
-        number: str = str(re.findall(r"\d+", label)).strip("[']")
+        if label == "LWT":
+            wt = "letzter"
+        elif label == "3LWT":
+            wt = "3. letzter"
+        else:
+            wt = str(re.findall(r"\d+", label)[0]).strip("'") + "."
         year: str = str(frist_date.year)
         month: str = frist_date.strftime("%B")
-        another_part: str = number + ". Werktag des Fristenmonats " + month + " " + year + " \n"
+        another_part: str = wt + " Werktag des Fristenmonats " + month + " " + year + " \n"
         frist_description: str = (
             greeting + "\n" + another_part + "\n" + specific_description[label] + "\n" + general_description
         )
