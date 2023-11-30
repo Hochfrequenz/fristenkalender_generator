@@ -36,6 +36,7 @@ class FristWithAttributes:
     ref_not_in_the_same_month: Optional[
         int
     ]  #: None if the Frist is in the same month as the ref. date, otherwise is a month number when the Frist started
+    description: str  #: contains  specific description of each frist
 
 
 @dataclasses.dataclass(unsafe_hash=True)
@@ -59,24 +60,26 @@ maps a fristen type to  different fristen associated with the type
 
 specific_description: dict[str, str] = {
     "5WT": (
-        "Versand der BG-SummenZR (Kat B.) (ÜNB NB) Versand Netzzeitreihen"
-        " (VNB BIKO) Abrechnungs-ZR endg. BRW (VNB LF)"
+        "Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)"
+        "Versand Netzzeitreihen (VNB -> BIKO)"
+        "Abrechnungs-ZR endg. BRW (VNB -> LF)"
     ),
-    "10WT": "Eingang Netzzeitreihen (VNB VNB)",
+    "10WT": "Eingang Netzzeitreihen (VNB -> VNB)",
     "12WT": (
-        "BK-SummenZR (VNB/ÜNB -> BIKO & BIKO BKV) LF-SummenZR (VNB LF (bei Zuordnungsermächt.)"
-        " BK-Summen vorl./endg. BRW (VNB MGV)"
+        "BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)"
+        "LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))"
+        "BK-Summen vorl./endg. BRW (VNB -> MGV)"
     ),
-    "14WT": "BK-Summen vorl./endg. BRW (MGV BKV)",
-    "16WT": "Zuordnungslisten (VNB LF)",
-    "17WT": "BK-Zuordnungsliste (VNB BKV) Deklarationsliste (VNB MGV)",
-    "18WT": "Dateneingang der DZR Stand 15. WT (BIKO <- VNB) Deklarationsmitteilung (MGV BKV)",
-    "20WT": "Ausgleichsenergiepreise (BIKO BKV) Abstimmung NKP zw. VNB",
-    "21WT": "NKP (VNB MGV) 42",
-    "26WT": "NKP MG-Überlappung (VNB MGV)",
+    "14WT": "BK-Summen vorl./endg. BRW (MGV -> BKV)",
+    "16WT": "Zuordnungslisten (VNB -> LF)",
+    "17WT": "BK-Zuordnungsliste (VNB -> BKV)" "Deklarationsliste (VNB -> MGV)",
+    "18WT": "Dateneingang der DZR Stand 15. WT (BIKO <- VNB)" "Deklarationsmitteilung (MGV -> BKV)",
+    "20WT": "Ausgleichsenergiepreise (BIKO -> BKV)" "Abstimmung NKP zw. VNB",
+    "21WT": "NKP (VNB -> MGV) 42",
+    "26WT": "NKP MG-Überlappung (VNB -> MGV)",
     "30WT": "letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO",
-    "42WT": "BK-Abrechnung (BIKO BKV) Werktag nach",
-    "LWT": "BK-Zuordnungsliste (VNB BKV)",
+    "42WT": "BK-Abrechnung (BIKO -> BKV) Werktag nach",
+    "LWT": "BK-Zuordnungsliste (VNB -> BKV)",
     "3LWT": "Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
 }
 """
@@ -145,6 +148,7 @@ class FristenkalenderGenerator:
                     date=frist.date,
                     label=frist.label,
                     ref_not_in_the_same_month=frist.ref_not_in_the_same_month,
+                    description=specific_description[label],
                     fristen_type=fristen_type,
                 )
                 fristen.append(frist_with_attributes_and_type)
@@ -163,16 +167,17 @@ class FristenkalenderGenerator:
         # that are not relevant
 
         # oct, nov and dec from last year
-
+        print(label)
         for month in range(10, 13):
             nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, month, 1))
             if nth_working_day_of_month_date.month != month:
                 ref_not_in_the_same_month = month - 1
             else:
                 ref_not_in_the_same_month = None
+
             fristen.append(
                 FristWithAttributes(
-                    nth_working_day_of_month_date, label, ref_not_in_the_same_month=ref_not_in_the_same_month
+                    nth_working_day_of_month_date, label, ref_not_in_the_same_month, specific_description[label]
                 )
             )
 
@@ -188,9 +193,7 @@ class FristenkalenderGenerator:
                 ref_not_in_the_same_month = None
             fristen.append(
                 FristWithAttributes(
-                    nth_working_day_of_month_date,
-                    label,
-                    ref_not_in_the_same_month=ref_not_in_the_same_month,
+                    nth_working_day_of_month_date, label, ref_not_in_the_same_month, specific_description[label]
                 )
             )
 
@@ -202,7 +205,7 @@ class FristenkalenderGenerator:
             ref_not_in_the_same_month = None
         fristen.append(
             FristWithAttributes(
-                nth_working_day_of_month_date, label, ref_not_in_the_same_month=ref_not_in_the_same_month
+                nth_working_day_of_month_date, label, ref_not_in_the_same_month, specific_description[label]
             )
         )
 
@@ -229,7 +232,7 @@ class FristenkalenderGenerator:
             date_dummy = get_previous_working_day(date_dummy)
             i_relevant_days += 1
 
-        return FristWithAttributes(date_dummy, label, ref_not_in_the_same_month=None)
+        return FristWithAttributes(date_dummy, label, None, specific_description[label])
 
     def generate_all_fristen_for_given_lwt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
         """
