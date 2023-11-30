@@ -25,11 +25,21 @@ class TestFristenkalenderGenerator:
         "frist, expected",
         [
             pytest.param(
-                FristWithAttributes(date(2023, 1, 2), "42WT", ref_not_in_the_same_month=10), vText("42WT (⭐10)")
+                FristWithAttributes(
+                    date(2023, 1, 2),
+                    "42WT",
+                    ref_not_in_the_same_month=10,
+                    description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+                ),
+                vText("42WT (⭐10)"),
             ),
             pytest.param(
                 FristWithAttributesAndType(
-                    date(2024, 1, 26), "3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                    date(2024, 1, 26),
+                    "3LWT",
+                    fristen_type=FristenType.GPKE,
+                    ref_not_in_the_same_month=None,
+                    description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
                 ),
                 vText("3LWT"),
             ),
@@ -42,12 +52,21 @@ class TestFristenkalenderGenerator:
         "fristen",
         [
             pytest.param(
-                [FristWithAttributes(date(2023, i, 1), "21WT", ref_not_in_the_same_month=None) for i in range(1, 6)]
+                [
+                    FristWithAttributes(
+                        date(2023, i, 1), "21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+                    )
+                    for i in range(1, 6)
+                ]
             ),
             pytest.param(
                 [
                     FristWithAttributesAndType(
-                        date(2023, i, 26), "3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                        date(2023, i, 26),
+                        "3LWT",
+                        fristen_type=FristenType.GPKE,
+                        ref_not_in_the_same_month=None,
+                        description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
                     )
                     for i in range(1, 6)
                 ]
@@ -112,14 +131,75 @@ class TestFristenkalenderGenerator:
     @pytest.mark.parametrize(
         "year, expected",
         [
-            pytest.param(2023, FristWithAttributes(date(2023, 3, 1), label="42WT", ref_not_in_the_same_month=12)),
-            pytest.param(2023, FristWithAttributes(date(2023, 3, 9), label="26WT", ref_not_in_the_same_month=1)),
-            pytest.param(2023, FristWithAttributes(date(2023, 5, 22), label="14WT", ref_not_in_the_same_month=None)),
-            pytest.param(2023, FristWithAttributes(date(2023, 9, 27), label="3LWT", ref_not_in_the_same_month=None)),
-            pytest.param(2023, FristWithAttributes(date(2024, 1, 30), label="21WT", ref_not_in_the_same_month=None)),
-            pytest.param(2023, FristWithAttributes(date(2023, 4, 28), label="LWT", ref_not_in_the_same_month=None)),
-            pytest.param(2023, FristWithAttributes(date(2023, 7, 26), label="3LWT", ref_not_in_the_same_month=None)),
-            pytest.param(2023, FristWithAttributes(date(2023, 12, 27), label="3LWT", ref_not_in_the_same_month=None)),
+            pytest.param(
+                2023,
+                FristWithAttributes(
+                    date(2023, 3, 1),
+                    label="42WT",
+                    ref_not_in_the_same_month=12,
+                    description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+                ),
+            ),
+            pytest.param(
+                2023,
+                FristWithAttributes(
+                    date(2023, 3, 9),
+                    label="26WT",
+                    ref_not_in_the_same_month=1,
+                    description="NKP MG-Überlappung (VNB -> MGV)",
+                ),
+            ),
+            pytest.param(
+                2023,
+                FristWithAttributes(
+                    date(2023, 5, 22),
+                    label="14WT",
+                    ref_not_in_the_same_month=None,
+                    description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+                ),
+            ),
+            pytest.param(
+                2023,
+                FristWithAttributes(
+                    date(2023, 9, 27),
+                    label="3LWT",
+                    ref_not_in_the_same_month=None,
+                    description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
+                ),
+            ),
+            pytest.param(
+                2023,
+                FristWithAttributes(
+                    date(2024, 1, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+                ),
+            ),
+            pytest.param(
+                2023,
+                FristWithAttributes(
+                    date(2023, 4, 28),
+                    label="LWT",
+                    ref_not_in_the_same_month=None,
+                    description="BK-Zuordnungsliste (VNB -> BKV)",
+                ),
+            ),
+            pytest.param(
+                2023,
+                FristWithAttributes(
+                    date(2023, 7, 26),
+                    label="3LWT",
+                    ref_not_in_the_same_month=None,
+                    description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
+                ),
+            ),
+            pytest.param(
+                2023,
+                FristWithAttributes(
+                    date(2023, 12, 27),
+                    label="3LWT",
+                    ref_not_in_the_same_month=None,
+                    description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
+                ),
+            ),
         ],
     )
     def test_if_frist_is_in_fristen_calender(self, year: int, expected: FristWithAttributes):
@@ -139,73 +219,129 @@ class TestFristenkalenderGenerator:
 
         expected = [
             FristWithAttributesAndType(
-                date=date(2022, 12, 28), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2022, 12, 28),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
             FristWithAttributesAndType(
-                date=date(2023, 1, 26), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2023, 1, 26),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
             FristWithAttributesAndType(
-                date=date(2023, 2, 23), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2023, 2, 23),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
             FristWithAttributesAndType(
-                date=date(2023, 3, 28), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2023, 3, 28),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
             FristWithAttributesAndType(
-                date=date(2023, 4, 26), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2023, 4, 26),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
             FristWithAttributesAndType(
-                date=date(2023, 5, 25), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2023, 5, 25),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
             FristWithAttributesAndType(
-                date=date(2023, 6, 27), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2023, 6, 27),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
             FristWithAttributesAndType(
-                date=date(2023, 7, 26), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2023, 7, 26),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
             FristWithAttributesAndType(
-                date=date(2023, 8, 28), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2023, 8, 28),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
             FristWithAttributesAndType(
-                date=date(2023, 9, 27), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2023, 9, 27),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
             FristWithAttributesAndType(
-                date=date(2023, 10, 26), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2023, 10, 26),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
             FristWithAttributesAndType(
-                date=date(2023, 11, 27), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2023, 11, 27),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
             FristWithAttributesAndType(
-                date=date(2023, 12, 27), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2023, 12, 27),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
             FristWithAttributesAndType(
-                date=date(2024, 1, 26), label="3LWT", fristen_type=FristenType.GPKE, ref_not_in_the_same_month=None
+                date=date(2024, 1, 26),
+                label="3LWT",
+                fristen_type=FristenType.GPKE,
+                ref_not_in_the_same_month=None,
+                description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
             ),
         ]
 
         assert fristen_with_attr_and_type == expected
 
     @pytest.mark.parametrize(
-        "year,expected",
+        "year",
         [
             pytest.param(
                 2023,
-                all_fristen_2023,
+                # all_fristen_2023,
                 id="This reference data set was checked against the existing calendar from 2023 by a human.",
             ),
-            pytest.param(
-                2024,
-                all_fristen_2024,
-                id="not yet checked manually⚠",
-            ),
+            # pytest.param(
+            #     2024,
+            #     all_fristen_2024,
+            #     id="not yet checked manually⚠",
+            # ),
         ],
     )
-    def test_full_calendar_for_a_single_year(self, year: int, expected: list[FristWithAttributes]):
+    def test_full_calendar_for_a_single_year(self, year: int):
         actual = FristenkalenderGenerator().generate_all_fristen(year)
         # hack for pycharm: run this in the debugger and copy the value of str(actual) from the variable window
-        assert actual == expected
+        assert actual == "ops"
 
     @pytest.mark.parametrize(
-        "frist_date, label, expected",
+        "frist_date, label,  expected",
         [
             pytest.param(
                 date(2023, 9, 12),
