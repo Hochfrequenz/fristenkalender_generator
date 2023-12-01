@@ -167,7 +167,7 @@ class FristenkalenderGenerator:
         # that are not relevant
 
         # oct, nov and dec from last year
-        print(label)
+
         for month in range(10, 13):
             nth_working_day_of_month_date = get_nth_working_day_of_month(nth_day, start=date(year - 1, month, 1))
             if nth_working_day_of_month_date.month != month:
