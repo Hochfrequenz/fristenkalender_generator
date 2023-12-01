@@ -321,24 +321,24 @@ class TestFristenkalenderGenerator:
         assert fristen_with_attr_and_type == expected
 
     @pytest.mark.parametrize(
-        "year",
+        "year, expected",
         [
             pytest.param(
                 2023,
-                # all_fristen_2023,
+                all_fristen_2023,
                 id="This reference data set was checked against the existing calendar from 2023 by a human.",
             ),
-            # pytest.param(
-            #     2024,
-            #     all_fristen_2024,
-            #     id="not yet checked manually⚠",
-            # ),
+            pytest.param(
+                2024,
+                all_fristen_2024,
+                id="not yet checked manually⚠",
+            ),
         ],
     )
-    def test_full_calendar_for_a_single_year(self, year: int):
+    def test_full_calendar_for_a_single_year(self, year: int, expected: list[FristWithAttributes]):
         actual = FristenkalenderGenerator().generate_all_fristen(year)
         # hack for pycharm: run this in the debugger and copy the value of str(actual) from the variable window
-        assert actual == "ops"
+        assert actual == expected
 
     @pytest.mark.parametrize(
         "frist_date, label,  expected",
