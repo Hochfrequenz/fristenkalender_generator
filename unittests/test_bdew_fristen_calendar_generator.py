@@ -341,7 +341,7 @@ class TestFristenkalenderGenerator:
         assert actual == expected
 
     @pytest.mark.parametrize(
-        "frist_date, label,  expected",
+        "frist_date, label, expected",
         [
             pytest.param(
                 date(2023, 9, 12),
