@@ -8,7 +8,7 @@ from calendar import monthrange
 from datetime import date, datetime, timedelta
 from enum import Enum
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Union
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event  # type: ignore[import]
@@ -36,6 +36,7 @@ class FristWithAttributes:
     ref_not_in_the_same_month: Optional[
         int
     ]  #: None if the Frist is in the same month as the ref. date, otherwise is a month number when the Frist started
+    description: str  #: contains  specific description of each frist
 
 
 @dataclasses.dataclass(unsafe_hash=True)
@@ -57,6 +58,46 @@ _fristen_type_to_label_mapping: dict[str, list[str]] = {
 maps a fristen type to  different fristen associated with the type
 """
 
+specific_description: dict[str, str] = {
+    "5WT": (
+        "Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)"
+        "Versand Netzzeitreihen (VNB -> BIKO)"
+        "Abrechnungs-ZR endg. BRW (VNB -> LF)"
+    ),
+    "10WT": "Eingang Netzzeitreihen (VNB -> VNB)",
+    "12WT": (
+        "BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)"
+        "LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))"
+        "BK-Summen vorl./endg. BRW (VNB -> MGV)"
+    ),
+    "14WT": "BK-Summen vorl./endg. BRW (MGV -> BKV)",
+    "16WT": "Zuordnungslisten (VNB -> LF)",
+    "17WT": "BK-Zuordnungsliste (VNB -> BKV)" "Deklarationsliste (VNB -> MGV)",
+    "18WT": "Dateneingang der DZR Stand 15. WT (BIKO <- VNB)" "Deklarationsmitteilung (MGV -> BKV)",
+    "20WT": "Ausgleichsenergiepreise (BIKO -> BKV)" "Abstimmung NKP zw. VNB",
+    "21WT": "NKP (VNB -> MGV) 42",
+    "26WT": "NKP MG-Überlappung (VNB -> MGV)",
+    "30WT": "letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO",
+    "42WT": "BK-Abrechnung (BIKO -> BKV) Werktag nach",
+    "LWT": "BK-Zuordnungsliste (VNB -> BKV)",
+    "3LWT": "Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
+}
+"""
+A dictionary with a specific descriptions of the frists
+
+"""
+
+greeting: str = "Digitaler Hochfrequenz Fristenkalender \n"
+general_description: str = (
+    "\nUm die Kalendereignisse einfach zu löschen, geben sie "
+    "'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \n"
+    "und bearbeiten sie die Liste nach Wunsch.\n\n"
+    "Hochfrequenz Unternehmensberatung GmbH\n"
+    "Nördliche Münchner Straße 27A\n"
+    "D-82031 Grünwald\n"
+    "https://www.hochfrequenz.de/"
+)
+
 
 class FristenkalenderGenerator:
     """
@@ -64,9 +105,28 @@ class FristenkalenderGenerator:
 
     """
 
+    def generate_frist_description(self, frist_date: date, label: str) -> str:
+        """
+        Generates a description of frist for a given date with a given label
+        """
+        if label == "LWT":
+            wt = "letzter"
+        elif label == "3LWT":
+            wt = "3. letzter"
+        else:
+            wt = str(re.findall(r"\d+", label)[0]).strip("'") + "."
+        year: str = str(frist_date.year)
+        month: str = frist_date.strftime("%B")
+        another_part: str = wt + " Werktag des Fristenmonats " + month + " " + year + " \n"
+        frist_description: str = (
+            greeting + "\n" + another_part + "\n" + specific_description[label] + "\n" + general_description
+        )
+
+        return frist_description
+
     def generate_fristen_for_type(self, year: int, fristen_type: FristenType) -> list[FristWithAttributesAndType]:
         """
-        Generate a list of fristen for a given year with a given type
+        Generates a list of fristen for a given year with a given type
         """
         fristen: list[FristWithAttributesAndType] = []
 
@@ -88,6 +148,7 @@ class FristenkalenderGenerator:
                     date=frist.date,
                     label=frist.label,
                     ref_not_in_the_same_month=frist.ref_not_in_the_same_month,
+                    description=specific_description[label],
                     fristen_type=fristen_type,
                 )
                 fristen.append(frist_with_attributes_and_type)
@@ -113,9 +174,10 @@ class FristenkalenderGenerator:
                 ref_not_in_the_same_month = month - 1
             else:
                 ref_not_in_the_same_month = None
+
             fristen.append(
                 FristWithAttributes(
-                    nth_working_day_of_month_date, label, ref_not_in_the_same_month=ref_not_in_the_same_month
+                    nth_working_day_of_month_date, label, ref_not_in_the_same_month, specific_description[label]
                 )
             )
 
@@ -131,9 +193,7 @@ class FristenkalenderGenerator:
                 ref_not_in_the_same_month = None
             fristen.append(
                 FristWithAttributes(
-                    nth_working_day_of_month_date,
-                    label,
-                    ref_not_in_the_same_month=ref_not_in_the_same_month,
+                    nth_working_day_of_month_date, label, ref_not_in_the_same_month, specific_description[label]
                 )
             )
 
@@ -145,7 +205,7 @@ class FristenkalenderGenerator:
             ref_not_in_the_same_month = None
         fristen.append(
             FristWithAttributes(
-                nth_working_day_of_month_date, label, ref_not_in_the_same_month=ref_not_in_the_same_month
+                nth_working_day_of_month_date, label, ref_not_in_the_same_month, specific_description[label]
             )
         )
 
@@ -172,7 +232,7 @@ class FristenkalenderGenerator:
             date_dummy = get_previous_working_day(date_dummy)
             i_relevant_days += 1
 
-        return FristWithAttributes(date_dummy, label, ref_not_in_the_same_month=None)
+        return FristWithAttributes(date_dummy, label, None, specific_description[label])
 
     def generate_all_fristen_for_given_lwt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
         """
@@ -243,7 +303,7 @@ class FristenkalenderGenerator:
         fristen.sort(key=lambda fwa: fwa.date)
         return fristen
 
-    def create_ical_event(self, frist: FristWithAttributes) -> Event:
+    def create_ical_event(self, frist: Union[FristWithAttributes, FristWithAttributesAndType]) -> Event:
         """
         Create an ical event for a given frist
         """
@@ -252,14 +312,17 @@ class FristenkalenderGenerator:
         if frist.ref_not_in_the_same_month is not None:
             summary += f" (⭐{frist.ref_not_in_the_same_month})"
         event.add("summary", summary)
+        event.add("description", self.generate_frist_description(frist.date, frist.label))
         event.add("dtstart", frist.date)
         event.add("dtstamp", datetime.utcnow())
 
         return event
 
-    def create_ical(self, attendee: str, fristen: list[FristWithAttributes]) -> Calendar:
+    def create_ical(
+        self, attendee: str, fristen: list[Union[FristWithAttributes, FristWithAttributesAndType]]
+    ) -> Calendar:
         """
-        Create an ical calendar with a given mail address and a given set of firsten
+        Create an ical calendar with a given mail address and a given set of fristen
         """
         calender = Calendar()
         calender.add("attendee", attendee)
@@ -274,6 +337,16 @@ class FristenkalenderGenerator:
         """
         with open(file_path, "wb") as file:
             file.write(cal.to_ical())
+
+    def generate_and_export_fristen_for_type(
+        self, file_path: Path, attendee: str, year: int, fristen_type: FristenType
+    ):
+        """
+        Generates fristen for a given type and exports it to an .ics file
+        """
+        fristen_for_type = self.generate_fristen_for_type(year, fristen_type)
+        calender = self.create_ical(attendee, fristen_for_type)  # type: ignore[arg-type]
+        self.export_ical(file_path, calender)
 
     def generate_and_export_whole_calendar(self, file_path: Path, attendee: str, year: int):
         """
