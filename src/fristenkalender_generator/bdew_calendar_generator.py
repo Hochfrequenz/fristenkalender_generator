@@ -60,26 +60,26 @@ maps a fristen type to  different fristen associated with the type
 
 specific_description: dict[str, str] = {
     "5WT": (
-        "Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)"
-        "Versand Netzzeitreihen (VNB -> BIKO)"
-        "Abrechnungs-ZR endg. BRW (VNB -> LF)"
+        "Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\n"
+        "Versand Netzzeitreihen (VNB ⟶ BIKO)\n"
+        "Abrechnungs-ZR endg. BRW (VNB ⟶ LF)\n"
     ),
-    "10WT": "Eingang Netzzeitreihen (VNB -> VNB)",
+    "10WT": "Eingang Netzzeitreihen (VNB ⟶ VNB)",
     "12WT": (
-        "BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)"
-        "LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))"
-        "BK-Summen vorl./endg. BRW (VNB -> MGV)"
+        "BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\n"
+        "LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\n"
+        "BK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n"
     ),
-    "14WT": "BK-Summen vorl./endg. BRW (MGV -> BKV)",
-    "16WT": "Zuordnungslisten (VNB -> LF)",
-    "17WT": "BK-Zuordnungsliste (VNB -> BKV)" "Deklarationsliste (VNB -> MGV)",
-    "18WT": "Dateneingang der DZR Stand 15. WT (BIKO <- VNB)" "Deklarationsmitteilung (MGV -> BKV)",
-    "20WT": "Ausgleichsenergiepreise (BIKO -> BKV)" "Abstimmung NKP zw. VNB",
-    "21WT": "NKP (VNB -> MGV) 42",
-    "26WT": "NKP MG-Überlappung (VNB -> MGV)",
+    "14WT": "BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
+    "16WT": "Zuordnungslisten (VNB ⟶ LF)",
+    "17WT": ("BK-Zuordnungsliste (VNB ⟶ BKV)\n" "Deklarationsliste (VNB ⟶ MGV)\n"),
+    "18WT": ("Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\n" "Deklarationsmitteilung (MGV ⟶ BKV)\n"),
+    "20WT": ("Ausgleichsenergiepreise (BIKO ⟶ BKV)\n" "Abstimmung NKP zw. VNB\n"),
+    "21WT": "NKP (VNB ⟶ MGV)",
+    "26WT": "NKP MG-Überlappung (VNB ⟶ MGV)",
     "30WT": "letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO",
-    "42WT": "BK-Abrechnung (BIKO -> BKV) Werktag nach",
-    "LWT": "BK-Zuordnungsliste (VNB -> BKV)",
+    "42WT": "BK-Abrechnung (BIKO ⟶ BKV)",
+    "LWT": "BK-Zuordnungsliste (VNB ⟶ BKV)",
     "3LWT": "Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
 }
 """
@@ -89,7 +89,7 @@ A dictionary with a specific descriptions of the frists
 
 greeting: str = "Digitaler Hochfrequenz Fristenkalender \n"
 general_description: str = (
-    "\nUm die Kalendereignisse einfach zu löschen, geben sie "
+    "\n Um die Kalendereignisse einfach zu löschen, geben sie \n"
     "'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \n"
     "und bearbeiten sie die Liste nach Wunsch.\n\n"
     "Hochfrequenz Unternehmensberatung GmbH\n"
