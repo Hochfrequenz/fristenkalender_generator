@@ -4,31 +4,25 @@ from fristenkalender_generator.bdew_calendar_generator import FristWithAttribute
 
 all_fristen_2023 = [
     FristWithAttributes(
-        date=date(2022, 12, 1), label="21WT", ref_not_in_the_same_month=10, description="NKP (VNB -> MGV) 42"
+        date=date(2022, 12, 1), label="21WT", ref_not_in_the_same_month=10, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2022, 12, 5),
-        label="42WT",
-        ref_not_in_the_same_month=9,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2022, 12, 5), label="42WT", ref_not_in_the_same_month=9, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2022, 12, 7),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2022, 12, 8),
-        label="26WT",
-        ref_not_in_the_same_month=10,
-        description="NKP MG-Überlappung (VNB -> MGV)",
+        date=date(2022, 12, 8), label="26WT", ref_not_in_the_same_month=10, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2022, 12, 14),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2022, 12, 14),
@@ -40,31 +34,28 @@ all_fristen_2023 = [
         date=date(2022, 12, 16),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2022, 12, 20),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2022, 12, 22),
-        label="16WT",
-        ref_not_in_the_same_month=None,
-        description="Zuordnungslisten (VNB -> LF)",
+        date=date(2022, 12, 22), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2022, 12, 23),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2022, 12, 27),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2022, 12, 28),
@@ -76,31 +67,28 @@ all_fristen_2023 = [
         date=date(2022, 12, 29),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2022, 12, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2022, 12, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2022, 12, 30),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 1, 2),
-        label="42WT",
-        ref_not_in_the_same_month=10,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2023, 1, 2), label="42WT", ref_not_in_the_same_month=10, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2023, 1, 9),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2023, 1, 9), label="26WT", ref_not_in_the_same_month=11, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2023, 1, 9), label="26WT", ref_not_in_the_same_month=11, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 1, 13),
@@ -112,34 +100,34 @@ all_fristen_2023 = [
         date=date(2023, 1, 16),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2023, 1, 18),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 1, 20),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 1, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2023, 1, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2023, 1, 25),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 1, 26),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 1, 26),
@@ -151,31 +139,28 @@ all_fristen_2023 = [
         date=date(2023, 1, 30),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2023, 1, 31), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2023, 1, 31), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2023, 1, 31),
-        label="42WT",
-        ref_not_in_the_same_month=11,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2023, 1, 31), label="42WT", ref_not_in_the_same_month=11, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2023, 1, 31),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
         date=date(2023, 2, 7),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2023, 2, 7), label="26WT", ref_not_in_the_same_month=12, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2023, 2, 7), label="26WT", ref_not_in_the_same_month=12, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 2, 13),
@@ -187,28 +172,28 @@ all_fristen_2023 = [
         date=date(2023, 2, 14),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2023, 2, 16),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 2, 20),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 2, 22), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2023, 2, 22), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2023, 2, 23),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 2, 23),
@@ -220,43 +205,40 @@ all_fristen_2023 = [
         date=date(2023, 2, 24),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 2, 28),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
         date=date(2023, 2, 28),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 3, 1), label="21WT", ref_not_in_the_same_month=1, description="NKP (VNB -> MGV) 42"
+        date=date(2023, 3, 1), label="21WT", ref_not_in_the_same_month=1, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2023, 3, 1),
-        label="42WT",
-        ref_not_in_the_same_month=12,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2023, 3, 1), label="42WT", ref_not_in_the_same_month=12, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2023, 3, 7),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2023, 3, 9), label="26WT", ref_not_in_the_same_month=1, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2023, 3, 9), label="26WT", ref_not_in_the_same_month=1, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 3, 15),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2023, 3, 15),
@@ -268,28 +250,28 @@ all_fristen_2023 = [
         date=date(2023, 3, 17),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 3, 21),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 3, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2023, 3, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2023, 3, 24),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 3, 27),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 3, 28),
@@ -301,31 +283,28 @@ all_fristen_2023 = [
         date=date(2023, 3, 29),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2023, 3, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2023, 3, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2023, 3, 31),
-        label="42WT",
-        ref_not_in_the_same_month=1,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2023, 3, 31), label="42WT", ref_not_in_the_same_month=1, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2023, 3, 31),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 4, 6), label="26WT", ref_not_in_the_same_month=2, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2023, 4, 6), label="26WT", ref_not_in_the_same_month=2, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 4, 11),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
         date=date(2023, 4, 14),
@@ -337,22 +316,22 @@ all_fristen_2023 = [
         date=date(2023, 4, 18),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2023, 4, 20),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 4, 24),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 4, 26), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2023, 4, 26), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2023, 4, 26),
@@ -364,55 +343,52 @@ all_fristen_2023 = [
         date=date(2023, 4, 27),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 4, 28),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 4, 28),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
         date=date(2023, 5, 3),
         label="20WT",
         ref_not_in_the_same_month=3,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2023, 5, 3),
-        label="42WT",
-        ref_not_in_the_same_month=2,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2023, 5, 3), label="42WT", ref_not_in_the_same_month=2, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
-        date=date(2023, 5, 4), label="21WT", ref_not_in_the_same_month=3, description="NKP (VNB -> MGV) 42"
+        date=date(2023, 5, 4), label="21WT", ref_not_in_the_same_month=3, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 5, 8),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2023, 5, 11), label="26WT", ref_not_in_the_same_month=3, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2023, 5, 11), label="26WT", ref_not_in_the_same_month=3, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 5, 15),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2023, 5, 17),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 5, 17),
@@ -424,16 +400,16 @@ all_fristen_2023 = [
         date=date(2023, 5, 22),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 5, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2023, 5, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2023, 5, 25),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 5, 25),
@@ -445,43 +421,40 @@ all_fristen_2023 = [
         date=date(2023, 5, 26),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 5, 31),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
         date=date(2023, 5, 31),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 6, 1), label="21WT", ref_not_in_the_same_month=4, description="NKP (VNB -> MGV) 42"
+        date=date(2023, 6, 1), label="21WT", ref_not_in_the_same_month=4, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2023, 6, 6),
-        label="42WT",
-        ref_not_in_the_same_month=3,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2023, 6, 6), label="42WT", ref_not_in_the_same_month=3, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2023, 6, 7),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2023, 6, 9), label="26WT", ref_not_in_the_same_month=4, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2023, 6, 9), label="26WT", ref_not_in_the_same_month=4, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 6, 15),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2023, 6, 15),
@@ -493,28 +466,28 @@ all_fristen_2023 = [
         date=date(2023, 6, 19),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 6, 21),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 6, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2023, 6, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2023, 6, 26),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 6, 27),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 6, 27),
@@ -526,31 +499,28 @@ all_fristen_2023 = [
         date=date(2023, 6, 29),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2023, 6, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2023, 6, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 6, 30),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 7, 3),
-        label="42WT",
-        ref_not_in_the_same_month=4,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2023, 7, 3), label="42WT", ref_not_in_the_same_month=4, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2023, 7, 7),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2023, 7, 7), label="26WT", ref_not_in_the_same_month=5, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2023, 7, 7), label="26WT", ref_not_in_the_same_month=5, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 7, 13),
@@ -562,34 +532,34 @@ all_fristen_2023 = [
         date=date(2023, 7, 14),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2023, 7, 18),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 7, 20),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 7, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2023, 7, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2023, 7, 25),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 7, 26),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 7, 26),
@@ -601,31 +571,28 @@ all_fristen_2023 = [
         date=date(2023, 7, 28),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2023, 7, 31), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2023, 7, 31), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2023, 7, 31),
-        label="42WT",
-        ref_not_in_the_same_month=5,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2023, 7, 31), label="42WT", ref_not_in_the_same_month=5, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2023, 7, 31),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
         date=date(2023, 8, 7),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2023, 8, 7), label="26WT", ref_not_in_the_same_month=6, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2023, 8, 7), label="26WT", ref_not_in_the_same_month=6, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 8, 11),
@@ -637,34 +604,34 @@ all_fristen_2023 = [
         date=date(2023, 8, 14),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2023, 8, 17),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 8, 21),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 8, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2023, 8, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2023, 8, 24),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 8, 25),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 8, 28),
@@ -676,31 +643,28 @@ all_fristen_2023 = [
         date=date(2023, 8, 29),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2023, 8, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2023, 8, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2023, 8, 30),
-        label="42WT",
-        ref_not_in_the_same_month=6,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2023, 8, 30), label="42WT", ref_not_in_the_same_month=6, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2023, 8, 31),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 9, 6), label="26WT", ref_not_in_the_same_month=7, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2023, 9, 6), label="26WT", ref_not_in_the_same_month=7, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 9, 7),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
         date=date(2023, 9, 12),
@@ -712,34 +676,34 @@ all_fristen_2023 = [
         date=date(2023, 9, 14),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2023, 9, 18),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 9, 21),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 9, 25), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2023, 9, 25), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2023, 9, 26),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 9, 27),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 9, 27),
@@ -751,40 +715,34 @@ all_fristen_2023 = [
         date=date(2023, 9, 29),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2023, 9, 29),
-        label="42WT",
-        ref_not_in_the_same_month=7,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2023, 9, 29), label="42WT", ref_not_in_the_same_month=7, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2023, 9, 29),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 10, 2), label="21WT", ref_not_in_the_same_month=8, description="NKP (VNB -> MGV) 42"
+        date=date(2023, 10, 2), label="21WT", ref_not_in_the_same_month=8, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 10, 9),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2023, 10, 10),
-        label="26WT",
-        ref_not_in_the_same_month=8,
-        description="NKP MG-Überlappung (VNB -> MGV)",
+        date=date(2023, 10, 10), label="26WT", ref_not_in_the_same_month=8, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 10, 16),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2023, 10, 16),
@@ -796,31 +754,28 @@ all_fristen_2023 = [
         date=date(2023, 10, 18),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 10, 20),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 10, 24),
-        label="16WT",
-        ref_not_in_the_same_month=None,
-        description="Zuordnungslisten (VNB -> LF)",
+        date=date(2023, 10, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2023, 10, 25),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 10, 26),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 10, 26),
@@ -832,37 +787,34 @@ all_fristen_2023 = [
         date=date(2023, 10, 30),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
         date=date(2023, 10, 30),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 11, 2), label="21WT", ref_not_in_the_same_month=9, description="NKP (VNB -> MGV) 42"
+        date=date(2023, 11, 2), label="21WT", ref_not_in_the_same_month=9, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2023, 11, 3),
-        label="42WT",
-        ref_not_in_the_same_month=8,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2023, 11, 3), label="42WT", ref_not_in_the_same_month=8, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2023, 11, 8),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2023, 11, 9), label="26WT", ref_not_in_the_same_month=9, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2023, 11, 9), label="26WT", ref_not_in_the_same_month=9, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 11, 15),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2023, 11, 15),
@@ -874,25 +826,22 @@ all_fristen_2023 = [
         date=date(2023, 11, 17),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 11, 21),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 11, 24),
-        label="16WT",
-        ref_not_in_the_same_month=None,
-        description="Zuordnungslisten (VNB -> LF)",
+        date=date(2023, 11, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2023, 11, 27),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 11, 27),
@@ -904,46 +853,40 @@ all_fristen_2023 = [
         date=date(2023, 11, 28),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 11, 30),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
         date=date(2023, 11, 30),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 12, 1), label="21WT", ref_not_in_the_same_month=10, description="NKP (VNB -> MGV) 42"
+        date=date(2023, 12, 1), label="21WT", ref_not_in_the_same_month=10, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2023, 12, 4),
-        label="42WT",
-        ref_not_in_the_same_month=9,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2023, 12, 4), label="42WT", ref_not_in_the_same_month=9, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2023, 12, 7),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2023, 12, 8),
-        label="26WT",
-        ref_not_in_the_same_month=10,
-        description="NKP MG-Überlappung (VNB -> MGV)",
+        date=date(2023, 12, 8), label="26WT", ref_not_in_the_same_month=10, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 12, 14),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2023, 12, 14),
@@ -955,25 +898,22 @@ all_fristen_2023 = [
         date=date(2023, 12, 18),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 12, 20),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 12, 22),
-        label="16WT",
-        ref_not_in_the_same_month=None,
-        description="Zuordnungslisten (VNB -> LF)",
+        date=date(2023, 12, 22), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2023, 12, 27),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 12, 27),
@@ -985,46 +925,40 @@ all_fristen_2023 = [
         date=date(2023, 12, 28),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 12, 29),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
         date=date(2024, 1, 2),
         label="20WT",
         ref_not_in_the_same_month=11,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2024, 1, 3), label="21WT", ref_not_in_the_same_month=11, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 1, 3), label="21WT", ref_not_in_the_same_month=11, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2024, 1, 4),
-        label="42WT",
-        ref_not_in_the_same_month=10,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2024, 1, 4), label="42WT", ref_not_in_the_same_month=10, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2024, 1, 8),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2024, 1, 10),
-        label="26WT",
-        ref_not_in_the_same_month=11,
-        description="NKP MG-Überlappung (VNB -> MGV)",
+        date=date(2024, 1, 10), label="26WT", ref_not_in_the_same_month=11, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 1, 15),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2024, 1, 16),
@@ -1036,28 +970,28 @@ all_fristen_2023 = [
         date=date(2024, 1, 17),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 1, 19),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 1, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2024, 1, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2024, 1, 24),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 1, 25),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 1, 26),
@@ -1069,46 +1003,40 @@ all_fristen_2023 = [
         date=date(2024, 1, 29),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2024, 1, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 1, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 1, 31),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
 ]
 
 all_fristen_2024 = [
     FristWithAttributes(
-        date=date(2023, 12, 1), label="21WT", ref_not_in_the_same_month=10, description="NKP (VNB -> MGV) 42"
+        date=date(2023, 12, 1), label="21WT", ref_not_in_the_same_month=10, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2023, 12, 4),
-        label="42WT",
-        ref_not_in_the_same_month=9,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2023, 12, 4), label="42WT", ref_not_in_the_same_month=9, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2023, 12, 7),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2023, 12, 8),
-        label="26WT",
-        ref_not_in_the_same_month=10,
-        description="NKP MG-Überlappung (VNB -> MGV)",
+        date=date(2023, 12, 8), label="26WT", ref_not_in_the_same_month=10, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2023, 12, 14),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2023, 12, 14),
@@ -1120,25 +1048,22 @@ all_fristen_2024 = [
         date=date(2023, 12, 18),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 12, 20),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2023, 12, 22),
-        label="16WT",
-        ref_not_in_the_same_month=None,
-        description="Zuordnungslisten (VNB -> LF)",
+        date=date(2023, 12, 22), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2023, 12, 27),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 12, 27),
@@ -1150,46 +1075,40 @@ all_fristen_2024 = [
         date=date(2023, 12, 28),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2023, 12, 29),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
         date=date(2024, 1, 2),
         label="20WT",
         ref_not_in_the_same_month=11,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2024, 1, 3), label="21WT", ref_not_in_the_same_month=11, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 1, 3), label="21WT", ref_not_in_the_same_month=11, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2024, 1, 4),
-        label="42WT",
-        ref_not_in_the_same_month=10,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2024, 1, 4), label="42WT", ref_not_in_the_same_month=10, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2024, 1, 8),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2024, 1, 10),
-        label="26WT",
-        ref_not_in_the_same_month=11,
-        description="NKP MG-Überlappung (VNB -> MGV)",
+        date=date(2024, 1, 10), label="26WT", ref_not_in_the_same_month=11, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 1, 15),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2024, 1, 16),
@@ -1201,28 +1120,28 @@ all_fristen_2024 = [
         date=date(2024, 1, 17),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 1, 19),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 1, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2024, 1, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2024, 1, 24),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 1, 25),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 1, 26),
@@ -1234,31 +1153,28 @@ all_fristen_2024 = [
         date=date(2024, 1, 29),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2024, 1, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 1, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 1, 31),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 2, 1),
-        label="42WT",
-        ref_not_in_the_same_month=11,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2024, 2, 1), label="42WT", ref_not_in_the_same_month=11, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
-        date=date(2024, 2, 6), label="26WT", ref_not_in_the_same_month=12, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2024, 2, 6), label="26WT", ref_not_in_the_same_month=12, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 2, 7),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
         date=date(2024, 2, 12),
@@ -1270,34 +1186,34 @@ all_fristen_2024 = [
         date=date(2024, 2, 14),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2024, 2, 16),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 2, 20),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 2, 22), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2024, 2, 22), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2024, 2, 23),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 2, 26),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 2, 26),
@@ -1309,31 +1225,28 @@ all_fristen_2024 = [
         date=date(2024, 2, 28),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2024, 2, 28),
-        label="42WT",
-        ref_not_in_the_same_month=12,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2024, 2, 28), label="42WT", ref_not_in_the_same_month=12, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
-        date=date(2024, 2, 29), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 2, 29), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 2, 29),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
         date=date(2024, 3, 7),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2024, 3, 7), label="26WT", ref_not_in_the_same_month=1, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2024, 3, 7), label="26WT", ref_not_in_the_same_month=1, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 3, 14),
@@ -1345,28 +1258,28 @@ all_fristen_2024 = [
         date=date(2024, 3, 15),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2024, 3, 19),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 3, 21),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 3, 25), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2024, 3, 25), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2024, 3, 26),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 3, 26),
@@ -1378,43 +1291,40 @@ all_fristen_2024 = [
         date=date(2024, 3, 27),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 3, 28),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
         date=date(2024, 4, 2),
         label="20WT",
         ref_not_in_the_same_month=2,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2024, 4, 3), label="21WT", ref_not_in_the_same_month=2, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 4, 3), label="21WT", ref_not_in_the_same_month=2, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2024, 4, 3),
-        label="42WT",
-        ref_not_in_the_same_month=1,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2024, 4, 3), label="42WT", ref_not_in_the_same_month=1, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2024, 4, 8),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2024, 4, 10), label="26WT", ref_not_in_the_same_month=2, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2024, 4, 10), label="26WT", ref_not_in_the_same_month=2, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 4, 15),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2024, 4, 16),
@@ -1426,28 +1336,28 @@ all_fristen_2024 = [
         date=date(2024, 4, 17),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 4, 19),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 4, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2024, 4, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2024, 4, 24),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 4, 25),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 4, 25),
@@ -1459,31 +1369,28 @@ all_fristen_2024 = [
         date=date(2024, 4, 29),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2024, 4, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 4, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 4, 30),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 5, 3),
-        label="42WT",
-        ref_not_in_the_same_month=2,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2024, 5, 3), label="42WT", ref_not_in_the_same_month=2, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2024, 5, 8),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2024, 5, 8), label="26WT", ref_not_in_the_same_month=3, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2024, 5, 8), label="26WT", ref_not_in_the_same_month=3, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 5, 15),
@@ -1495,22 +1402,22 @@ all_fristen_2024 = [
         date=date(2024, 5, 16),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2024, 5, 21),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 5, 23),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 5, 27), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2024, 5, 27), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2024, 5, 27),
@@ -1522,49 +1429,46 @@ all_fristen_2024 = [
         date=date(2024, 5, 28),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 5, 29),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 5, 31),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
         date=date(2024, 6, 3),
         label="20WT",
         ref_not_in_the_same_month=4,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2024, 6, 4), label="21WT", ref_not_in_the_same_month=4, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 6, 4), label="21WT", ref_not_in_the_same_month=4, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2024, 6, 4),
-        label="42WT",
-        ref_not_in_the_same_month=3,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2024, 6, 4), label="42WT", ref_not_in_the_same_month=3, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2024, 6, 7),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2024, 6, 11), label="26WT", ref_not_in_the_same_month=4, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2024, 6, 11), label="26WT", ref_not_in_the_same_month=4, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 6, 14),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2024, 6, 17),
@@ -1576,28 +1480,28 @@ all_fristen_2024 = [
         date=date(2024, 6, 18),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 6, 20),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 6, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2024, 6, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2024, 6, 25),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 6, 26),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 6, 26),
@@ -1609,37 +1513,34 @@ all_fristen_2024 = [
         date=date(2024, 6, 28),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
         date=date(2024, 6, 28),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 7, 1), label="21WT", ref_not_in_the_same_month=5, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 7, 1), label="21WT", ref_not_in_the_same_month=5, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2024, 7, 3),
-        label="42WT",
-        ref_not_in_the_same_month=4,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2024, 7, 3), label="42WT", ref_not_in_the_same_month=4, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2024, 7, 5),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2024, 7, 8), label="26WT", ref_not_in_the_same_month=5, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2024, 7, 8), label="26WT", ref_not_in_the_same_month=5, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 7, 12),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2024, 7, 12),
@@ -1651,34 +1552,34 @@ all_fristen_2024 = [
         date=date(2024, 7, 16),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 7, 18),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 7, 22), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2024, 7, 22), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2024, 7, 23),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 7, 24),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 7, 26),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
         date=date(2024, 7, 26),
@@ -1687,28 +1588,25 @@ all_fristen_2024 = [
         description="Letzter Termin Anmeldung asynchrone Bilanzierung (Strom)",
     ),
     FristWithAttributes(
-        date=date(2024, 7, 29), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 7, 29), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2024, 7, 30),
-        label="42WT",
-        ref_not_in_the_same_month=5,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2024, 7, 30), label="42WT", ref_not_in_the_same_month=5, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2024, 7, 31),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 8, 5), label="26WT", ref_not_in_the_same_month=6, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2024, 8, 5), label="26WT", ref_not_in_the_same_month=6, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 8, 7),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
         date=date(2024, 8, 9),
@@ -1720,40 +1618,37 @@ all_fristen_2024 = [
         date=date(2024, 8, 14),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2024, 8, 19),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 8, 21),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 8, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2024, 8, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2024, 8, 26),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 8, 27),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
-        date=date(2024, 8, 28),
-        label="42WT",
-        ref_not_in_the_same_month=6,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2024, 8, 28), label="42WT", ref_not_in_the_same_month=6, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2024, 8, 28),
@@ -1765,25 +1660,25 @@ all_fristen_2024 = [
         date=date(2024, 8, 29),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2024, 8, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 8, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 8, 30),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
         date=date(2024, 9, 6),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2024, 9, 6), label="26WT", ref_not_in_the_same_month=7, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2024, 9, 6), label="26WT", ref_not_in_the_same_month=7, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 9, 12),
@@ -1795,28 +1690,28 @@ all_fristen_2024 = [
         date=date(2024, 9, 13),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2024, 9, 17),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 9, 19),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 9, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2024, 9, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2024, 9, 25),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 9, 25),
@@ -1828,43 +1723,40 @@ all_fristen_2024 = [
         date=date(2024, 9, 26),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 9, 30),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
         date=date(2024, 9, 30),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 10, 1), label="21WT", ref_not_in_the_same_month=8, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 10, 1), label="21WT", ref_not_in_the_same_month=8, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2024, 10, 1),
-        label="42WT",
-        ref_not_in_the_same_month=7,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2024, 10, 1), label="42WT", ref_not_in_the_same_month=7, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2024, 10, 8),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2024, 10, 9), label="26WT", ref_not_in_the_same_month=8, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2024, 10, 9), label="26WT", ref_not_in_the_same_month=8, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 10, 15),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2024, 10, 15),
@@ -1876,31 +1768,28 @@ all_fristen_2024 = [
         date=date(2024, 10, 17),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 10, 21),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 10, 23),
-        label="16WT",
-        ref_not_in_the_same_month=None,
-        description="Zuordnungslisten (VNB -> LF)",
+        date=date(2024, 10, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2024, 10, 24),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 10, 25),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 10, 28),
@@ -1912,31 +1801,28 @@ all_fristen_2024 = [
         date=date(2024, 10, 29),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2024, 10, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 10, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 10, 30),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 11, 4),
-        label="42WT",
-        ref_not_in_the_same_month=8,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2024, 11, 4), label="42WT", ref_not_in_the_same_month=8, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2024, 11, 8),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2024, 11, 8), label="26WT", ref_not_in_the_same_month=9, description="NKP MG-Überlappung (VNB -> MGV)"
+        date=date(2024, 11, 8), label="26WT", ref_not_in_the_same_month=9, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2024, 11, 14),
@@ -1948,31 +1834,28 @@ all_fristen_2024 = [
         date=date(2024, 11, 15),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2024, 11, 19),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 11, 22),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 11, 26),
-        label="16WT",
-        ref_not_in_the_same_month=None,
-        description="Zuordnungslisten (VNB -> LF)",
+        date=date(2024, 11, 26), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2024, 11, 27),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 11, 27),
@@ -1984,46 +1867,43 @@ all_fristen_2024 = [
         date=date(2024, 11, 28),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 11, 29),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
         date=date(2024, 12, 2),
         label="20WT",
         ref_not_in_the_same_month=10,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2024, 12, 3), label="21WT", ref_not_in_the_same_month=10, description="NKP (VNB -> MGV) 42"
+        date=date(2024, 12, 3), label="21WT", ref_not_in_the_same_month=10, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
-        date=date(2024, 12, 3),
-        label="42WT",
-        ref_not_in_the_same_month=9,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2024, 12, 3), label="42WT", ref_not_in_the_same_month=9, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
         date=date(2024, 12, 6),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
         date=date(2024, 12, 10),
         label="26WT",
         ref_not_in_the_same_month=10,
-        description="NKP MG-Überlappung (VNB -> MGV)",
+        description="NKP MG-Überlappung (VNB ⟶ MGV)",
     ),
     FristWithAttributes(
         date=date(2024, 12, 13),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2024, 12, 16),
@@ -2035,19 +1915,16 @@ all_fristen_2024 = [
         date=date(2024, 12, 17),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 12, 19),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2024, 12, 23),
-        label="16WT",
-        ref_not_in_the_same_month=None,
-        description="Zuordnungslisten (VNB -> LF)",
+        date=date(2024, 12, 23), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2024, 12, 23),
@@ -2059,58 +1936,52 @@ all_fristen_2024 = [
         date=date(2024, 12, 27),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 12, 30),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2024, 12, 30),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
     FristWithAttributes(
         date=date(2025, 1, 3),
         label="20WT",
         ref_not_in_the_same_month=11,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2025, 1, 7), label="21WT", ref_not_in_the_same_month=11, description="NKP (VNB -> MGV) 42"
+        date=date(2025, 1, 7), label="21WT", ref_not_in_the_same_month=11, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2025, 1, 9),
         label="5WT",
         ref_not_in_the_same_month=None,
-        description="Versand der BG-SummenZR (Kat B.)(ÜNB -> NB)Versand Netzzeitreihen (VNB -> BIKO)Abrechnungs-ZR endg. BRW (VNB -> LF)",
+        description="Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n",
     ),
     FristWithAttributes(
-        date=date(2025, 1, 9),
-        label="42WT",
-        ref_not_in_the_same_month=10,
-        description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+        date=date(2025, 1, 9), label="42WT", ref_not_in_the_same_month=10, description="BK-Abrechnung (BIKO ⟶ BKV)"
     ),
     FristWithAttributes(
-        date=date(2025, 1, 14),
-        label="26WT",
-        ref_not_in_the_same_month=11,
-        description="NKP MG-Überlappung (VNB -> MGV)",
+        date=date(2025, 1, 14), label="26WT", ref_not_in_the_same_month=11, description="NKP MG-Überlappung (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2025, 1, 16),
         label="10WT",
         ref_not_in_the_same_month=None,
-        description="Eingang Netzzeitreihen (VNB -> VNB)",
+        description="Eingang Netzzeitreihen (VNB ⟶ VNB)",
     ),
     FristWithAttributes(
         date=date(2025, 1, 20),
         label="12WT",
         ref_not_in_the_same_month=None,
-        description="BK-SummenZR (VNB/ÜNB -> BIKO & BIKO -> BKV)LF-SummenZR (VNB -> LF (bei Zuordnungsermächt.))BK-Summen vorl./endg. BRW (VNB -> MGV)",
+        description="BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BRW (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2025, 1, 20),
@@ -2122,22 +1993,22 @@ all_fristen_2024 = [
         date=date(2025, 1, 22),
         label="14WT",
         ref_not_in_the_same_month=None,
-        description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+        description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     ),
     FristWithAttributes(
-        date=date(2025, 1, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB -> LF)"
+        date=date(2025, 1, 24), label="16WT", ref_not_in_the_same_month=None, description="Zuordnungslisten (VNB ⟶ LF)"
     ),
     FristWithAttributes(
         date=date(2025, 1, 27),
         label="17WT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)Deklarationsliste (VNB -> MGV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n",
     ),
     FristWithAttributes(
         date=date(2025, 1, 28),
         label="18WT",
         ref_not_in_the_same_month=None,
-        description="Dateneingang der DZR Stand 15. WT (BIKO <- VNB)Deklarationsmitteilung (MGV -> BKV)",
+        description="Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n",
     ),
     FristWithAttributes(
         date=date(2025, 1, 28),
@@ -2149,15 +2020,15 @@ all_fristen_2024 = [
         date=date(2025, 1, 30),
         label="20WT",
         ref_not_in_the_same_month=None,
-        description="Ausgleichsenergiepreise (BIKO -> BKV)Abstimmung NKP zw. VNB",
+        description="Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n",
     ),
     FristWithAttributes(
-        date=date(2025, 1, 31), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+        date=date(2025, 1, 31), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
     ),
     FristWithAttributes(
         date=date(2025, 1, 31),
         label="LWT",
         ref_not_in_the_same_month=None,
-        description="BK-Zuordnungsliste (VNB -> BKV)",
+        description="BK-Zuordnungsliste (VNB ⟶ BKV)",
     ),
 ]
