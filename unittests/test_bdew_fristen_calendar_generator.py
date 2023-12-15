@@ -29,7 +29,7 @@ class TestFristenkalenderGenerator:
                     date(2023, 1, 2),
                     "42WT",
                     ref_not_in_the_same_month=10,
-                    description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+                    description="BK-Abrechnung (BIKO ⟶ BKV)",
                 ),
                 vText("42WT (⭐10)"),
             ),
@@ -54,7 +54,7 @@ class TestFristenkalenderGenerator:
             pytest.param(
                 [
                     FristWithAttributes(
-                        date(2023, i, 1), "21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+                        date(2023, i, 1), "21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
                     )
                     for i in range(1, 6)
                 ]
@@ -137,7 +137,7 @@ class TestFristenkalenderGenerator:
                     date(2023, 3, 1),
                     label="42WT",
                     ref_not_in_the_same_month=12,
-                    description="BK-Abrechnung (BIKO -> BKV) Werktag nach",
+                    description="BK-Abrechnung (BIKO ⟶ BKV)",
                 ),
             ),
             pytest.param(
@@ -146,7 +146,7 @@ class TestFristenkalenderGenerator:
                     date(2023, 3, 9),
                     label="26WT",
                     ref_not_in_the_same_month=1,
-                    description="NKP MG-Überlappung (VNB -> MGV)",
+                    description="NKP MG-Überlappung (VNB ⟶ MGV)",
                 ),
             ),
             pytest.param(
@@ -155,7 +155,7 @@ class TestFristenkalenderGenerator:
                     date(2023, 5, 22),
                     label="14WT",
                     ref_not_in_the_same_month=None,
-                    description="BK-Summen vorl./endg. BRW (MGV -> BKV)",
+                    description="BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
                 ),
             ),
             pytest.param(
@@ -170,7 +170,7 @@ class TestFristenkalenderGenerator:
             pytest.param(
                 2023,
                 FristWithAttributes(
-                    date(2024, 1, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB -> MGV) 42"
+                    date(2024, 1, 30), label="21WT", ref_not_in_the_same_month=None, description="NKP (VNB ⟶ MGV)"
                 ),
             ),
             pytest.param(
@@ -179,7 +179,7 @@ class TestFristenkalenderGenerator:
                     date(2023, 4, 28),
                     label="LWT",
                     ref_not_in_the_same_month=None,
-                    description="BK-Zuordnungsliste (VNB -> BKV)",
+                    description="BK-Zuordnungsliste (VNB ⟶ BKV)",
                 ),
             ),
             pytest.param(
@@ -347,7 +347,7 @@ class TestFristenkalenderGenerator:
                 date(2023, 9, 12),
                 "30WT",
                 (
-                    "Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fristenmonats September 2023 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO\n\nUm die Kalendereignisse einfach zu löschen, geben sie 'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/"
+                    "Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fristenmonats September 2023 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO\n\n Um die Kalendereignisse einfach zu löschen, geben sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/"
                 ),
                 id="",
             )
