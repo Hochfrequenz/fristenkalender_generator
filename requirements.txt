@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements.in
 #
-bdew-datetimes==0.3.12
+bdew-datetimes==0.3.13
     # via -r requirements.in
 convertdate==2.4.0
     # via holidays
