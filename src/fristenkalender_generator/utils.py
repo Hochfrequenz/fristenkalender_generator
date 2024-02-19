@@ -1,6 +1,7 @@
 """
 utility functions
 """
+
 from datetime import datetime, timedelta
 from itertools import groupby
 from typing import Literal, Mapping, Optional, TypedDict
