@@ -14,7 +14,7 @@ packaging==23.1
     # via pytest
 pluggy==1.4.0
     # via pytest
-pytest==8.1.0
+pytest==8.1.1
     # via -r dev_requirements/requirements-type_check.in
 typing-extensions==4.5.0
     # via mypy
