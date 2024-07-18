@@ -20,7 +20,7 @@ pymeeus==0.5.12
     # via
     #   convertdate
     #   holidays
-python-dateutil==2.8.2
+python-dateutil==2.9.0.post0
     # via
     #   bdew-datetimes
     #   holidays
