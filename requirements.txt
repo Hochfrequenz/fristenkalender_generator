@@ -8,7 +8,7 @@ bdew-datetimes==0.5.0
     # via -r requirements.in
 convertdate==2.4.0
     # via holidays
-hijri-converter==2.2.4
+hijri-converter==2.3.1
     # via holidays
 holidays==0.19
     # via bdew-datetimes
