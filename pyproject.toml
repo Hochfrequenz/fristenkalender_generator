@@ -31,7 +31,8 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
 ]
 dependencies = [
-    "bdew_datetimes>=0.5.0",
+    "bdew_datetimes>=0.6.0",
+    "holidays>=0.53",
     "icalendar",
     # add everything you add in requirements.in here
 ]
