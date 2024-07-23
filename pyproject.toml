@@ -32,6 +32,7 @@ classifiers = [
 ]
 dependencies = [
     "bdew_datetimes>=0.6.0",
+    "holidays>=0.53",
     "icalendar",
     # add everything you add in requirements.in here
 ]
