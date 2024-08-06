@@ -10,7 +10,7 @@ convertdate==2.4.0
     # via holidays
 hijri-converter==2.3.1
     # via holidays
-holidays==0.53
+holidays==0.54
     # via bdew-datetimes
 icalendar==5.0.13
     # via -r requirements.in
