@@ -13,7 +13,7 @@ build-backend = "hatchling.build"
 name = "fristenkalender_generator"
 description = "A Python package that generates the raw data for the 'Hochfrequenz Fristenkalender'"
 license = { text = "MIT" }
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 authors = [
     { name = "Konstantin Klein", email = "konstantin.klein@hochfrequenz.de" },
 ]
@@ -26,9 +26,6 @@ classifiers = [
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
 
 ]
