@@ -315,6 +315,7 @@ class FristenkalenderGenerator:
         event.add("description", self.generate_frist_description(frist.date, frist.label))
         event.add("dtstart", frist.date)
         event.add("dtstamp", datetime.utcnow())
+        event.add("transp", "TRANSPARENT")
 
         return event
 
