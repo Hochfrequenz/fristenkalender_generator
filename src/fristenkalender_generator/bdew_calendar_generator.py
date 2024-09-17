@@ -32,11 +32,11 @@ class FristWithAttributes:
     """
 
     date: date  #: = date(y,m,d)
-    label: str  #: can be for exmaple '5WT' (5 Werktage des Liefermonats)
+    label: str  #: can be for example '5WT' (5 Werktage des Liefermonats)
     ref_not_in_the_same_month: Optional[
         int
     ]  #: None if the Frist is in the same month as the ref. date, otherwise is a month number when the Frist started
-    description: str  #: contains  specific description of each frist
+    description: str  #: contains  specific description of each Frist
 
 
 @dataclasses.dataclass(unsafe_hash=True)
@@ -107,7 +107,7 @@ class FristenkalenderGenerator:
 
     def generate_frist_description(self, frist_date: date, label: str) -> str:
         """
-        Generates a description of frist for a given date with a given label
+        Generates a description of Frist for a given date with a given label
         """
         if label == "LWT":
             wt = "letzter"
@@ -324,12 +324,12 @@ class FristenkalenderGenerator:
         """
         Create an ical calendar with a given mail address and a given set of fristen
         """
-        calender = Calendar()
-        calender.add("attendee", attendee)
+        calendar = Calendar()
+        calendar.add("attendee", attendee)
         for frist in fristen:
-            calender.add_component(self.create_ical_event(frist))
+            calendar.add_component(self.create_ical_event(frist))
 
-        return calender
+        return calendar
 
     def export_ical(self, file_path: Path, cal: Calendar):
         """
@@ -345,13 +345,13 @@ class FristenkalenderGenerator:
         Generates fristen for a given type and exports it to an .ics file
         """
         fristen_for_type = self.generate_fristen_for_type(year, fristen_type)
-        calender = self.create_ical(attendee, fristen_for_type)  # type: ignore[arg-type]
-        self.export_ical(file_path, calender)
+        calendar = self.create_ical(attendee, fristen_for_type)  # type: ignore[arg-type]
+        self.export_ical(file_path, calendar)
 
     def generate_and_export_whole_calendar(self, file_path: Path, attendee: str, year: int):
         """
         Generates a calendar for a given year and exports it to an .ics file
         """
         all_fristen = self.generate_all_fristen(year)
-        calender = self.create_ical(attendee, all_fristen)
-        self.export_ical(file_path, calender)
+        calendar = self.create_ical(attendee, all_fristen)
+        self.export_ical(file_path, calendar)
