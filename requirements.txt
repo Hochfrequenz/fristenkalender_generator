@@ -12,7 +12,7 @@ hijri-converter==2.3.1
     # via holidays
 holidays==0.57
     # via bdew-datetimes
-icalendar==5.0.13
+icalendar==6.0.0
     # via -r requirements.in
 korean-lunar-calendar==0.3.1
     # via holidays
