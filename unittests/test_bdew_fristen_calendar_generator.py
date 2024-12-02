@@ -4,6 +4,7 @@ from typing import Optional, Union
 
 import pytest
 from icalendar import vText  # type: ignore[import]
+from syrupy import snapshot
 
 from fristenkalender_generator.bdew_calendar_generator import (
     FristenkalenderGenerator,
@@ -356,3 +357,12 @@ class TestFristenkalenderGenerator:
     def test_generate_frist_description(self, frist_date: date, label: str, expected: str):
         actual = FristenkalenderGenerator().generate_frist_description(frist_date, label)
         assert actual == expected
+
+    @pytest.mark.snapshot
+    def test_full_calendar_2025_(self):
+        generator = FristenkalenderGenerator()
+        actual = generator.generate_all_fristen(2025)
+        calendar = generator.create_ical("snapshot@hochfrequenz.de", actual)
+        ics_path = Path(__file__).parent / "snapshots_ics" / "2025.ics"
+        FristenkalenderGenerator().export_ical(ics_path, calendar)
+        # hack for pycharm: run this in the debugger and copy the value of str(actual) from the variable window

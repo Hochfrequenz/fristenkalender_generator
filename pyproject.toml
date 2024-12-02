@@ -42,7 +42,8 @@ dynamic = ["readme", "version"]
 
 [project.optional-dependencies]
 tests = [
-    "pytest==8.3.4"
+    "pytest==8.3.4",
+    "syrupy==4.8.0"
 ]
 linting = [
     "pylint==3.3.2"
@@ -109,9 +110,10 @@ disable = "fixme"
 # even if they have no @pytest.mark.asyncio marker.
 # https://github.com/pytest-dev/pytest-asyncio#auto-mode
 asyncio_mode = "auto"
-markers = ["datafiles"]
+markers = ["datafiles", "snapshot: mark a test as a snapshot test"]
 # write the logs captured during tests into pytest.log file (which is gitignored)
 log_file = "pytest.log" # more options: https://docs.pytest.org/en/6.2.x/logging.html#live-logs
+pythonpath = ["."]
 
 [tool.mypy]
 
