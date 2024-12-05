@@ -29,5 +29,5 @@ pytz==2024.2
     # via
     #   bdew-datetimes
     #   icalendar
-six==1.16.0
+six==1.17.0
     # via python-dateutil
