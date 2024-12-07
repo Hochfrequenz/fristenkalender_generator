@@ -246,7 +246,10 @@ class FristenkalenderGenerator:
         last_day_of_month = monthrange(year, month)[1]
         last_date_of_month = date(year, month, last_day_of_month)
         result = last_date_of_month
-        for _ in range(nth_day):
+        first_date_of_next_month = last_date_of_month + timedelta(days=1)
+        lwt = get_previous_working_day(first_date_of_next_month)
+        number_of_days_to_subtract = min(last_day_of_month - lwt.day, 1)
+        for _ in range(number_of_days_to_subtract):
             result = get_previous_working_day(last_date_of_month)
         return FristWithAttributes(result, label, None, specific_description[label])
 

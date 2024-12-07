@@ -137,3 +137,5 @@ dmypy.json
 src/_fristenkalender_generator_version.py
 
 unittests/MABIS.ics
+
+unittests/2023.ics
