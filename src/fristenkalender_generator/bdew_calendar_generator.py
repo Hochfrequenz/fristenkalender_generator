@@ -319,7 +319,7 @@ class FristenkalenderGenerator:
 
         fristen = []
         for days, label in days_and_labels:
-            if label == "LWT" or label == "3LWT": # pylint:disable=consider-using-in
+            if label == "LWT" or label == "3LWT":  # pylint:disable=consider-using-in
                 # ignore pylint because we need the x==FOO or x==BAR for mypy LwtLabel type
                 fristen += self.generate_all_fristen_for_given_lwt(year, days, label)
             elif label.endswith("WT"):
