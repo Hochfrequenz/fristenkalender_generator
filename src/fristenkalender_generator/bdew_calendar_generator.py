@@ -245,12 +245,9 @@ class FristenkalenderGenerator:
         # - 26.10. = 3 LWT
         last_day_of_month = monthrange(year, month)[1]
         last_date_of_month = date(year, month, last_day_of_month)
-        first_day_of_next_month = last_date_of_month + timedelta(days=1)
-        # the last day of the month counts, regardless if it's a WT or not
-        _1_lwt: date = get_previous_working_day(last_date_of_month)
-        result = _1_lwt
-        for _ in range(nth_day - 1):
-            result = get_previous_working_day(result)
+        result = last_date_of_month
+        for _ in range(nth_day):
+            result = get_previous_working_day(last_date_of_month)
         return FristWithAttributes(result, label, None, specific_description[label])
 
     def generate_all_fristen_for_given_lwt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
