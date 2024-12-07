@@ -5,7 +5,7 @@ This module can produce a list of calendar entries with bdew Fristen
 import dataclasses
 import re
 from calendar import monthrange
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, UTC
 from enum import Enum
 from pathlib import Path
 from typing import Optional, Union
@@ -314,7 +314,7 @@ class FristenkalenderGenerator:
         event.add("summary", summary)
         event.add("description", self.generate_frist_description(frist.date, frist.label))
         event.add("dtstart", frist.date)
-        event.add("dtstamp", datetime.utcnow())
+        event.add("dtstamp", datetime.now(UTC))
 
         return event
 
