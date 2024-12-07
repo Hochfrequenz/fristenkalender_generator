@@ -247,7 +247,6 @@ class FristenkalenderGenerator:
         last_date_of_month = date(year, month, last_day_of_month)
         first_day_of_next_month = last_date_of_month + timedelta(days=1)
         # the last day of the month counts, regardless if it's a WT or not
-        number_of_days_to_subtract: int
         _1_lwt: date = get_previous_working_day(last_date_of_month)
         result = _1_lwt
         for _ in range(nth_day - 1):
