@@ -15,13 +15,13 @@ except ImportError:
 from datetime import date, datetime, timedelta
 from enum import Enum
 from pathlib import Path
-from typing import Literal, Optional, TypeAlias, Union
+from typing import Literal, Optional, Union
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event  # type: ignore[import-untyped]
 
-LwtLabel: TypeAlias = Union[Literal["LWT"], Literal["3LWT"]]
-Label: TypeAlias = Union[
+LwtLabel = Union[Literal["LWT"], Literal["3LWT"]]
+Label = Union[
     Literal["5WT"],
     Literal["10WT"],
     Literal["12WT"],
