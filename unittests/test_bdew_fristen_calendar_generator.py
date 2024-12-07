@@ -13,8 +13,6 @@ from fristenkalender_generator.bdew_calendar_generator import (
     FristWithAttributesAndType,
 )
 
-from .full_years import all_fristen_2023, all_fristen_2024
-
 
 class TestFristenkalenderGenerator:
     """
@@ -321,25 +319,23 @@ class TestFristenkalenderGenerator:
 
         assert fristen_with_attr_and_type == expected
 
-    @pytest.mark.parametrize(
-        "year, expected",
-        [
-            pytest.param(
-                2023,
-                all_fristen_2023,
-                id="This reference data set was checked against the existing calendar from 2023 by a human.",
-            ),
-            pytest.param(
-                2024,
-                all_fristen_2024,
-                id="not yet checked manually⚠",
-            ),
-        ],
-    )
-    def test_full_calendar_for_a_single_year(self, year: int, expected: list[FristWithAttributes]):
-        actual = FristenkalenderGenerator().generate_all_fristen(year)
-        # hack for pycharm: run this in the debugger and copy the value of str(actual) from the variable window
-        assert actual == expected
+    @pytest.mark.snapshot
+    def test_full_calendar_2023(self, snapshot):
+        generator = FristenkalenderGenerator()
+        actual = generator.generate_all_fristen(2023)
+        calendar = generator.create_ical("snapshot@hochfrequenz.de", actual)
+        ics_path = Path(__file__).parent / "snapshots_ics" / "2023.ics"
+        FristenkalenderGenerator().export_ical(ics_path, calendar)
+        snapshot.assert_match(actual)
+
+    @pytest.mark.snapshot
+    def test_full_calendar_2024(self, snapshot):
+        generator = FristenkalenderGenerator()
+        actual = generator.generate_all_fristen(2024)
+        calendar = generator.create_ical("snapshot@hochfrequenz.de", actual)
+        ics_path = Path(__file__).parent / "snapshots_ics" / "2024.ics"
+        FristenkalenderGenerator().export_ical(ics_path, calendar)
+        snapshot.assert_match(actual)
 
     @pytest.mark.parametrize(
         "frist_date, label, expected",
@@ -359,10 +355,11 @@ class TestFristenkalenderGenerator:
         assert actual == expected
 
     @pytest.mark.snapshot
-    def test_full_calendar_2025_(self):
+    def test_full_calendar_2025(self, snapshot):
         generator = FristenkalenderGenerator()
         actual = generator.generate_all_fristen(2025)
         calendar = generator.create_ical("snapshot@hochfrequenz.de", actual)
         ics_path = Path(__file__).parent / "snapshots_ics" / "2025.ics"
         FristenkalenderGenerator().export_ical(ics_path, calendar)
         # hack for pycharm: run this in the debugger and copy the value of str(actual) from the variable window
+        snapshot.assert_match(actual)
