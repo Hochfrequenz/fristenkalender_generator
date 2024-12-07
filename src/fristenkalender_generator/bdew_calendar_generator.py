@@ -15,10 +15,27 @@ except ImportError:
 from datetime import date, datetime, timedelta
 from enum import Enum
 from pathlib import Path
-from typing import Optional, Union
+from typing import Literal, Optional, Union
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event  # type: ignore[import-untyped]
+
+LwtLabel = Union[Literal["LWT"], Literal["3LWT"]]
+Label = Union[
+    Literal["5WT"],
+    Literal["10WT"],
+    Literal["12WT"],
+    Literal["14WT"],
+    Literal["16WT"],
+    Literal["17WT"],
+    Literal["18WT"],
+    Literal["20WT"],
+    Literal["21WT"],
+    Literal["26WT"],
+    Literal["30WT"],
+    Literal["42WT"],
+    LwtLabel,
+]
 
 
 class FristenType(Enum):
@@ -39,7 +56,7 @@ class FristWithAttributes:
     """
 
     date: date  #: = date(y,m,d)
-    label: str  #: can be for example '5WT' (5 Werktage des Liefermonats)
+    label: Label  #: can be for example '5WT' (5 Werktage des Liefermonats)
     ref_not_in_the_same_month: Optional[
         int
     ]  #: None if the Frist is in the same month as the ref. date, otherwise is a month number when the Frist started
@@ -55,7 +72,7 @@ class FristWithAttributesAndType(FristWithAttributes):
     fristen_type: FristenType
 
 
-_fristen_type_to_label_mapping: dict[str, list[str]] = {
+_fristen_type_to_label_mapping: dict[str, list[Label]] = {
     FristenType.MABIS.value: ["5WT", "12WT", "17WT", "18WT", "20WT", "30WT", "42WT", "LWT"],
     FristenType.GELI.value: ["16WT"],
     FristenType.KOV.value: ["5WT", "10WT", "12WT", "14WT", "17WT", "18WT", "20WT", "21WT", "26WT"],
@@ -65,7 +82,7 @@ _fristen_type_to_label_mapping: dict[str, list[str]] = {
 maps a fristen type to  different fristen associated with the type
 """
 
-specific_description: dict[str, str] = {
+specific_description: dict[Label, str] = {
     "5WT": (
         "Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\n"
         "Versand Netzzeitreihen (VNB ⟶ BIKO)\n"
@@ -112,7 +129,7 @@ class FristenkalenderGenerator:
 
     """
 
-    def generate_frist_description(self, frist_date: date, label: str) -> str:
+    def generate_frist_description(self, frist_date: date, label: Label) -> str:
         """
         Generates a description of Frist for a given date with a given label
         """
@@ -162,7 +179,7 @@ class FristenkalenderGenerator:
 
         return fristen
 
-    def generate_all_fristen_for_given_wt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
+    def generate_all_fristen_for_given_wt(self, year: int, nth_day: int, label: Label) -> list[FristWithAttributes]:
         """
         Generate the list of fristen for a given year that are on the nth WT (Werktag) of each month of the calendar
         """
@@ -224,7 +241,7 @@ class FristenkalenderGenerator:
 
         return fristen_filtered
 
-    def _generate_lwt_frist(self, year: int, month: int, nth_day: int, label: str) -> FristWithAttributes:
+    def _generate_lwt_frist(self, year: int, month: int, nth_day: int, label: LwtLabel) -> FristWithAttributes:
         """
         Generate a frist with a given last working day.
         The last day in the month is counted irrespective if its a working day or not.
@@ -241,7 +258,7 @@ class FristenkalenderGenerator:
 
         return FristWithAttributes(date_dummy, label, None, specific_description[label])
 
-    def generate_all_fristen_for_given_lwt(self, year: int, nth_day: int, label: str) -> list[FristWithAttributes]:
+    def generate_all_fristen_for_given_lwt(self, year: int, nth_day: int, label: LwtLabel) -> list[FristWithAttributes]:
         """
         Generate the list of fristen for a given year that are on the nth LWT (letzer Werktag, last working day)
         of each month of the calendar.
@@ -269,7 +286,7 @@ class FristenkalenderGenerator:
         Generate the list of all Fristen in the calendar for a given year
         """
 
-        days_and_labels = [
+        days_and_labels: list[tuple[int, Label]] = [
             (5, "5WT"),
             (10, "10WT"),
             (12, "12WT"),
@@ -290,7 +307,9 @@ class FristenkalenderGenerator:
         fristen.sort(key=lambda fwa: fwa.date)
         return fristen
 
-    def generate_specific_fristen(self, year: int, days_and_labels: list[tuple[int, str]]) -> list[FristWithAttributes]:
+    def generate_specific_fristen(
+        self, year: int, days_and_labels: list[tuple[int, Label]]
+    ) -> list[FristWithAttributes]:
         """
         Generate the list of Fristen in the calendar for a given year for a given set of Fristen
         The specification of the Fristen is for example: days_and_labels = [(5, '5WT'), (3, 'LWT), ...]
@@ -300,7 +319,8 @@ class FristenkalenderGenerator:
 
         fristen = []
         for days, label in days_and_labels:
-            if label.endswith("LWT"):
+            if label == "LWT" or label == "3LWT":  # pylint:disable=consider-using-in
+                # ignore pylint because we need the x==FOO or x==BAR for mypy LwtLabel type
                 fristen += self.generate_all_fristen_for_given_lwt(year, days, label)
             elif label.endswith("WT"):
                 fristen += self.generate_all_fristen_for_given_wt(year, days, label)
