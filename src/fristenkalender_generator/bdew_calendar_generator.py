@@ -6,7 +6,13 @@ import dataclasses
 import re
 import sys
 from calendar import monthrange
-from datetime import UTC, date, datetime, timedelta
+
+try:
+    from datetime import UTC
+except ImportError:
+    if sys.version_info >= (3, 11):
+        raise
+from datetime import date, datetime, timedelta
 from enum import Enum
 from pathlib import Path
 from typing import Optional, Union
