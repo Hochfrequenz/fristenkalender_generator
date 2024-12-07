@@ -135,3 +135,5 @@ dmypy.json
 
 # ignore auto generated version file
 src/_fristenkalender_generator_version.py
+
+unittests/MABIS.ics
