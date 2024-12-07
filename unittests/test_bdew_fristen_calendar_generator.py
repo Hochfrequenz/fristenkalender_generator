@@ -12,6 +12,7 @@ from fristenkalender_generator.bdew_calendar_generator import (
     FristenType,
     FristWithAttributes,
     FristWithAttributesAndType,
+    Label,
 )
 
 
@@ -112,7 +113,7 @@ class TestFristenkalenderGenerator:
             pytest.param(2023, 42, "42WT", date(2022, 12, 5)),
         ],
     )
-    def test_generate_friste_list_variable_wt(self, year: int, nth_day: int, label: str, expected: date) -> None:
+    def test_generate_friste_list_variable_wt(self, year: int, nth_day: int, label: Label, expected: date) -> None:
         assert FristenkalenderGenerator().generate_all_fristen_for_given_wt(year, nth_day, label)[0].date == expected
 
     def test_if_duplicates_are_in_fristen_calender(self) -> None:
@@ -203,7 +204,7 @@ class TestFristenkalenderGenerator:
         expected = FristenkalenderGenerator().generate_all_fristen_for_given_lwt(2023, 3, "3LWT")
         expected += FristenkalenderGenerator().generate_all_fristen_for_given_wt(2023, 5, "5WT")
         expected.sort(key=lambda fwa: fwa.date)
-        days_and_labels = [(3, "3LWT"), (5, "5WT")]
+        days_and_labels: list[tuple[int, Label]] = [(3, "3LWT"), (5, "5WT")]
         assert FristenkalenderGenerator().generate_specific_fristen(2023, days_and_labels) == expected
 
     def test_generate_fristen_for_type(self) -> None:
@@ -343,7 +344,7 @@ class TestFristenkalenderGenerator:
             )
         ],
     )
-    def test_generate_frist_description(self, frist_date: date, label: str, expected: str) -> None:
+    def test_generate_frist_description(self, frist_date: date, label: Label, expected: str) -> None:
         actual = FristenkalenderGenerator().generate_frist_description(frist_date, label)
         assert actual == expected
 
