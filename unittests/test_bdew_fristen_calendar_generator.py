@@ -78,32 +78,22 @@ class TestFristenkalenderGenerator:
         cal = FristenkalenderGenerator().create_ical(attendee, fristen)
         assert len(cal.subcomponents) == expected
 
-    def test_create_and_export_whole_calender(self):
-        # if you don't want to see the files generated from this test uncomment following lines
-        # , tmpdir_factory
-        # test_dir_name = "test_dir"
-        # mydir = tmpdir_factory.mktemp(test_dir_name)
+    def test_create_and_export_whole_calender(self, tmp_path: Path):
         attendee = "mail@test.de"
         year = 2023
-        filename = "2023.ics"
-        # my_file = Path(mydir) / Path(filename)
+        filename = tmp_path / "2023.ics"
         my_file = Path(filename)
         FristenkalenderGenerator().generate_and_export_whole_calendar(my_file, attendee, year)
 
         assert my_file.is_file()
         assert my_file.stat().st_size != 0
 
-    def test_create_and_export_fristen_for_type(self):
-        # if you don't want to see the files generated from this test uncomment following lines
-        # , tmpdir_factory
-        # test_dir_name = "test_dir"
-        # mydir = tmpdir_factory.mktemp(test_dir_name)
+    def test_create_and_export_fristen_for_type(self, tmp_path: Path):
         attendee = "mail@test.de"
         year = 2023
         fristen_type = FristenType.MABIS
         filename = "MABIS.ics"
-        # my_file = Path(mydir) / Path(filename)
-        my_file = Path(filename)
+        my_file = tmp_path / Path(filename)
         FristenkalenderGenerator().generate_and_export_fristen_for_type(my_file, attendee, year, fristen_type)
 
         assert my_file.is_file()
