@@ -4,7 +4,14 @@ This module can produce a list of calendar entries with bdew Fristen
 
 import dataclasses
 import re
+import sys
 from calendar import monthrange
+
+try:
+    from datetime import UTC
+except ImportError:
+    if sys.version_info >= (3, 11):
+        raise
 from datetime import date, datetime, timedelta
 from enum import Enum
 from pathlib import Path
@@ -314,7 +321,10 @@ class FristenkalenderGenerator:
         event.add("summary", summary)
         event.add("description", self.generate_frist_description(frist.date, frist.label))
         event.add("dtstart", frist.date)
-        event.add("dtstamp", datetime.utcnow())
+        if sys.version_info >= (3, 11):
+            event.add("dtstamp", datetime.now(UTC))
+        else:
+            event.add("dtstamp", datetime.utcnow())
 
         return event
 
