@@ -1,17 +1,14 @@
 import pytest
 
-from fristenkalender_generator.bdew_calendar_generator import FristWithAttributes
+from fristenkalender_generator.bdew_calendar_generator import FristWithAttributes, FristenkalenderGenerator
 from fristenkalender_generator.utils import _CalendarEntry, convert_fristen_list_to_calendar_like_dictionary
-
-from .full_years import all_fristen_2024
 
 
 class TestUtils:
     @pytest.mark.parametrize(
-        "fristen,expected_entries",
+        "expected_entries",
         [
             pytest.param(
-                all_fristen_2024,
                 {
                     "01.02.2024": {
                         "datum": "01.02.2024",
@@ -41,8 +38,9 @@ class TestUtils:
             )
         ],
     )
-    def test_conversion_to_dict(self, fristen: list[FristWithAttributes], expected_entries: dict[str, _CalendarEntry]):
+    def test_conversion_to_dict(self, expected_entries: dict[str, _CalendarEntry]):
+        fristen = FristenkalenderGenerator().generate_all_fristen(2024)
         actual = convert_fristen_list_to_calendar_like_dictionary(fristen)
-        # I json.dumpsed the actual dict and sent it to Annika M. for the PDF calendar
+        # I json.dumped the actual dict and sent it to Annika M. for the PDF calendar
         for key, value in expected_entries.items():
             assert actual[key] == value

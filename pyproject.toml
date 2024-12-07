@@ -33,8 +33,8 @@ classifiers = [
 
 ]
 dependencies = [
-    "bdew_datetimes>=0.6.0",
-    "holidays>=0.53",
+    "bdew_datetimes>=0.7.1", # because 0.7.1/holidays 0.59 contains 2025-05-08 "Tag der Befreiung"
+    "holidays>=0.59",
     "icalendar",
     # add everything you add in requirements.in here
 ]
@@ -42,19 +42,20 @@ dynamic = ["readme", "version"]
 
 [project.optional-dependencies]
 tests = [
-    "pytest==8.3.3"
+    "pytest==8.3.4",
+    "syrupy==4.8.0"
 ]
 linting = [
-    "pylint==3.3.1"
+    "pylint==3.3.2"
 ]
 type_check = [
-    "mypy==1.12.0"
+    "mypy==1.13.0"
 ]
 spell_check = [
     "codespell==2.3.0"
 ]
 coverage = [
-    "coverage==7.6.3"
+    "coverage==7.6.8"
 ]
 formatting = [
     "black==24.10.0",
@@ -62,7 +63,7 @@ formatting = [
 ]
 packaging = [
     "build==1.2.2.post1",
-    "twine==5.1.1"
+    "twine==6.0.1"
 ]
 dev = [
     "pip-tools"
@@ -109,9 +110,10 @@ disable = "fixme"
 # even if they have no @pytest.mark.asyncio marker.
 # https://github.com/pytest-dev/pytest-asyncio#auto-mode
 asyncio_mode = "auto"
-markers = ["datafiles"]
+markers = ["datafiles", "snapshot: mark a test as a snapshot test"]
 # write the logs captured during tests into pytest.log file (which is gitignored)
 log_file = "pytest.log" # more options: https://docs.pytest.org/en/6.2.x/logging.html#live-logs
+pythonpath = ["."]
 
 [tool.mypy]
 
