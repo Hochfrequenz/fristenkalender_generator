@@ -18,7 +18,7 @@ from pathlib import Path
 from typing import Optional, Union
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
-from icalendar import Calendar, Event  # type: ignore[import]
+from icalendar import Calendar, Event  # type: ignore[import-untyped]
 
 
 class FristenType(Enum):
@@ -224,7 +224,7 @@ class FristenkalenderGenerator:
 
         return fristen_filtered
 
-    def _generate_lwt_frist(self, year: int, month: int, nth_day: int, label: str):
+    def _generate_lwt_frist(self, year: int, month: int, nth_day: int, label: str) -> FristWithAttributes:
         """
         Generate a frist with a given last working day.
         The last day in the month is counted irrespective if its a working day or not.
@@ -341,7 +341,7 @@ class FristenkalenderGenerator:
 
         return calendar
 
-    def export_ical(self, file_path: Path, cal: Calendar):
+    def export_ical(self, file_path: Path, cal: Calendar) -> None:
         """
         Write .ics file from calendar
         """
@@ -350,7 +350,7 @@ class FristenkalenderGenerator:
 
     def generate_and_export_fristen_for_type(
         self, file_path: Path, attendee: str, year: int, fristen_type: FristenType
-    ):
+    ) -> None:
         """
         Generates fristen for a given type and exports it to an .ics file
         """
@@ -358,7 +358,7 @@ class FristenkalenderGenerator:
         calendar = self.create_ical(attendee, fristen_for_type)  # type: ignore[arg-type]
         self.export_ical(file_path, calendar)
 
-    def generate_and_export_whole_calendar(self, file_path: Path, attendee: str, year: int):
+    def generate_and_export_whole_calendar(self, file_path: Path, attendee: str, year: int) -> None:
         """
         Generates a calendar for a given year and exports it to an .ics file
         """
