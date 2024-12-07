@@ -17,7 +17,7 @@ from enum import Enum
 from pathlib import Path
 from typing import Optional, Union
 
-from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day, is_bdew_working_day
+from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event  # type: ignore[import]
 
 
@@ -248,11 +248,7 @@ class FristenkalenderGenerator:
         first_day_of_next_month = last_date_of_month + timedelta(days=1)
         # the last day of the month counts, regardless if it's a WT or not
         number_of_days_to_subtract: int
-        _1_lwt: date
-        if is_bdew_working_day(last_date_of_month):
-            _1_lwt = get_previous_working_day(get_previous_working_day(first_day_of_next_month))
-        else:
-            _1_lwt = get_previous_working_day(first_day_of_next_month)
+        _1_lwt: date = get_previous_working_day(last_date_of_month)
         result = _1_lwt
         for _ in range(nth_day - 1):
             result = get_previous_working_day(result)
