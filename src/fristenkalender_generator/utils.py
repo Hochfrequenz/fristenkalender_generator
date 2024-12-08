@@ -6,9 +6,12 @@ from datetime import datetime, timedelta
 from itertools import groupby
 from typing import Literal, Mapping, Optional, TypedDict
 
-from bdew_datetimes import create_bdew_calendar
+from bdew_datetimes import create_bdew_calendar  # type:ignore[attr-defined]
 
 from fristenkalender_generator.bdew_calendar_generator import FristWithAttributes
+
+# https://github.com/mj0nez/bdew-datetimes/pull/192#discussion_r1874414957
+
 
 _DeutscherWochentag = Literal["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
 

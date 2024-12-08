@@ -38,7 +38,7 @@ class TestUtils:
             )
         ],
     )
-    def test_conversion_to_dict(self, expected_entries: dict[str, _CalendarEntry]):
+    def test_conversion_to_dict(self, expected_entries: dict[str, _CalendarEntry]) -> None:
         fristen = FristenkalenderGenerator().generate_all_fristen(2024)
         actual = convert_fristen_list_to_calendar_like_dictionary(fristen)
         # I json.dumped the actual dict and sent it to Annika M. for the PDF calendar
