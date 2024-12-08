@@ -197,8 +197,7 @@ class TestFristenkalenderGenerator:
     )
     def test_if_frist_is_in_fristen_calender(self, year: int, expected: FristWithAttributes) -> None:
         fristen = FristenkalenderGenerator().generate_all_fristen(year)
-        test_frist = expected
-        assert test_frist in fristen
+        assert expected in fristen
 
     def test_generate_specific_fristen(self) -> None:
         expected = FristenkalenderGenerator().generate_all_fristen_for_given_lwt(2023, 3, "3LWT")
@@ -361,13 +360,26 @@ class TestFristenkalenderGenerator:
     @pytest.mark.parametrize(
         "year, month, expected",
         [
-            pytest.param(2024, 12, date(2024, 12, 20)),
+            pytest.param(2024, 12, date(2024, 12, 23), id="so besprochen mit Lukas Greif am 07.Dez.2024"),
             # https://teams.microsoft.com/l/message/19:e8371dfe0911491dab42b1c9e38d82e4@thread.v2/1733573649369?context=%7B%22contextType%22%3A%22chat%22%7D
             pytest.param(2022, 5, date(2022, 5, 25)),
             pytest.param(2022, 10, date(2022, 10, 26)),
         ],
     )
-    def test_3lwt(self, year: int, month: int, expected: date):
+    def test_3lwt(self, year: int, month: int, expected: date) -> None:
         generator = FristenkalenderGenerator()
         actual = generator.generate_all_fristen_for_given_lwt(year, 3, "3LWT")
+        assert expected in [f.date for f in actual]
+
+    @pytest.mark.parametrize(
+        "year, month, expected",
+        [
+            pytest.param(2024, 12, date(2024, 12, 30)),
+            pytest.param(2023, 4, date(2023, 4, 28)),
+            pytest.param(2023, 5, date(2023, 5, 31)),
+        ],
+    )
+    def test_lwt(self, year: int, month: int, expected: date) -> None:
+        generator = FristenkalenderGenerator()
+        actual = generator.generate_all_fristen_for_given_lwt(year, 0, "LWT")
         assert expected in [f.date for f in actual]
