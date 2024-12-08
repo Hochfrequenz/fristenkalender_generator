@@ -3,7 +3,7 @@ ATTENDEE:snapshot@hochfrequenz.de
 BEGIN:VEVENT
 SUMMARY:20WT (⭐10)
 DTSTART;VALUE=DATE:20241202
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats December 2024 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbsti
  mmung NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, gebe
@@ -15,7 +15,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐10)
 DTSTART;VALUE=DATE:20241203
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats December 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereignisse
   einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das S
@@ -26,7 +26,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐9)
 DTSTART;VALUE=DATE:20241203
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats December 2024 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalen
  dereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalende
@@ -37,7 +37,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20241206
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats December 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\
  nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ 
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐10)
 DTSTART;VALUE=DATE:20241210
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats December 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die 
  Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
@@ -61,7 +61,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20241213
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats December 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um d
  ie Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
@@ -72,7 +72,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐10)
 DTSTART;VALUE=DATE:20241216
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats December 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung 
  beim BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'H
@@ -84,7 +84,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20241217
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats December 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV
  )\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./end
@@ -97,7 +97,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20241219
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats December 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n U
  m die Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fri
@@ -108,7 +108,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20241223
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats December 2024 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kale
  ndereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalend
@@ -119,7 +119,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20241223
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats December 2024 \n\nLetzter Termin Anmeldung asynchrone Bi
  lanzierung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, geben
@@ -131,7 +131,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20241227
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats December 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklaration
  sliste (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, g
@@ -143,7 +143,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20241230
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats December 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ V
  NB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse ei
@@ -155,7 +155,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20241230
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats December 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um d
  ie Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
@@ -166,7 +166,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐11)
 DTSTART;VALUE=DATE:20250103
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats January 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstim
  mung NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, geben
@@ -178,7 +178,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐11)
 DTSTART;VALUE=DATE:20250107
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats January 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereignisse 
  einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Su
@@ -189,7 +189,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20250109
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats January 2025 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\n
  Versand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ L
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐10)
 DTSTART;VALUE=DATE:20250109
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats January 2025 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalend
  ereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender
@@ -213,7 +213,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐11)
 DTSTART;VALUE=DATE:20250114
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats January 2025 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die K
  alendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkal
@@ -224,7 +224,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20250116
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats January 2025 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um di
  e Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
@@ -235,7 +235,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20250120
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats January 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
  \nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg
@@ -248,7 +248,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐11)
 DTSTART;VALUE=DATE:20250120
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats January 2025 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung b
  eim BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'Ho
@@ -260,7 +260,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20250122
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats January 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um
   die Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fris
@@ -271,7 +271,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20250124
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats January 2025 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalen
  dereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalende
@@ -282,7 +282,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20250127
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats January 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarations
  liste (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, ge
@@ -294,7 +294,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20250128
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats January 2025 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VN
  B)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse ein
@@ -306,7 +306,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20250128
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats January 2025 \n\nLetzter Termin Anmeldung asynchrone Bil
  anzierung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, geben 
@@ -318,7 +318,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20250130
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats January 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstim
  mung NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, geben
@@ -328,20 +328,9 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  //www.hochfrequenz.de/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:LWT
-DTSTART;VALUE=DATE:20250130
-DTSTAMP:20241208T114629Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
-  Fristenmonats January 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um di
- e Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
- kalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die L
- iste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
- ünchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20250131
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats January 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereignisse 
  einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Su
@@ -350,9 +339,20 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  \nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:LWT
+DTSTART;VALUE=DATE:20250131
+DTSTAMP:20241208T115248Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
+  Fristenmonats January 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um di
+ e Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
+ kalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die L
+ iste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
+ ünchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:42WT (⭐11)
 DTSTART;VALUE=DATE:20250205
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats February 2025 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalen
  dereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalende
@@ -363,7 +363,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20250207
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats February 2025 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\
  nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ 
@@ -376,7 +376,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐12)
 DTSTART;VALUE=DATE:20250207
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats February 2025 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die 
  Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
@@ -387,7 +387,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐12)
 DTSTART;VALUE=DATE:20250213
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats February 2025 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung 
  beim BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'H
@@ -399,7 +399,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20250214
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats February 2025 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um d
  ie Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
@@ -410,7 +410,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20250218
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats February 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV
  )\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./end
@@ -423,7 +423,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20250220
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats February 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n U
  m die Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fri
@@ -434,7 +434,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20250224
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats February 2025 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kale
  ndereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalend
@@ -445,7 +445,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20250225
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats February 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklaration
  sliste (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, g
@@ -457,7 +457,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20250225
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats February 2025 \n\nLetzter Termin Anmeldung asynchrone Bi
  lanzierung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, geben
@@ -469,7 +469,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20250226
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats February 2025 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ V
  NB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse ei
@@ -479,20 +479,9 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  D-82031 Grünwald\nhttps://www.hochfrequenz.de/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:LWT
-DTSTART;VALUE=DATE:20250227
-DTSTAMP:20241208T114629Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
-  Fristenmonats February 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um d
- ie Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
- nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die 
- Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
- ünchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20250228
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats February 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbsti
  mmung NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, gebe
@@ -502,9 +491,20 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  ://www.hochfrequenz.de/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:LWT
+DTSTART;VALUE=DATE:20250228
+DTSTAMP:20241208T115248Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
+  Fristenmonats February 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um d
+ ie Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
+ nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die 
+ Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
+ ünchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:21WT (⭐1)
 DTSTART;VALUE=DATE:20250303
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats March 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereignisse ei
  nfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Such
@@ -515,7 +515,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐12)
 DTSTART;VALUE=DATE:20250303
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats March 2025 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalender
  eignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' 
@@ -526,7 +526,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20250307
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats March 2025 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVe
  rsand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)
@@ -539,7 +539,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐1)
 DTSTART;VALUE=DATE:20250310
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats March 2025 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Kal
  endereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalen
@@ -550,7 +550,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20250314
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats March 2025 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die 
  Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
@@ -561,7 +561,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐1)
 DTSTART;VALUE=DATE:20250314
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats March 2025 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung bei
  m BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'Hoch
@@ -573,7 +573,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20250318
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats March 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\n
  LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. 
@@ -586,7 +586,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20250320
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats March 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um d
  ie Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
@@ -597,7 +597,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20250324
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats March 2025 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalende
  reignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender'
@@ -608,7 +608,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20250325
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats March 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsli
  ste (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, gebe
@@ -620,7 +620,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20250326
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats March 2025 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
  \nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse einfa
@@ -632,7 +632,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20250326
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats March 2025 \n\nLetzter Termin Anmeldung asynchrone Bilan
  zierung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, geben si
@@ -644,7 +644,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20250328
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats March 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmu
  ng NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, geben s
@@ -654,20 +654,9 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  www.hochfrequenz.de/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:LWT
-DTSTART;VALUE=DATE:20250328
-DTSTAMP:20241208T114629Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
-  Fristenmonats March 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die 
- Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
- lender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Lis
- te nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Mün
- chner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20250331
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats March 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereignisse ei
  nfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Such
@@ -676,9 +665,20 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  D-82031 Grünwald\nhttps://www.hochfrequenz.de/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:LWT
+DTSTART;VALUE=DATE:20250331
+DTSTAMP:20241208T115248Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
+  Fristenmonats March 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die 
+ Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
+ lender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Lis
+ te nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Mün
+ chner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:42WT (⭐1)
 DTSTART;VALUE=DATE:20250401
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats April 2025 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalender
  eignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' 
@@ -689,7 +689,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20250408
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats April 2025 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVe
  rsand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)
@@ -702,7 +702,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐2)
 DTSTART;VALUE=DATE:20250408
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats April 2025 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Kal
  endereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalen
@@ -713,7 +713,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐2)
 DTSTART;VALUE=DATE:20250414
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats April 2025 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung bei
  m BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'Hoch
@@ -725,7 +725,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20250415
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats April 2025 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die 
  Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
@@ -736,7 +736,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20250417
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats April 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\n
  LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. 
@@ -749,7 +749,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20250423
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats April 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um d
  ie Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
@@ -760,7 +760,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20250425
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats April 2025 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalende
  reignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender'
@@ -771,7 +771,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20250425
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats April 2025 \n\nLetzter Termin Anmeldung asynchrone Bilan
  zierung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, geben si
@@ -783,7 +783,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20250428
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats April 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsli
  ste (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, gebe
@@ -795,7 +795,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20250429
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats April 2025 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
  \nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse einfa
@@ -806,8 +806,8 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
-DTSTART;VALUE=DATE:20250429
-DTSTAMP:20241208T114629Z
+DTSTART;VALUE=DATE:20250430
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats April 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die 
  Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
@@ -818,7 +818,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐3)
 DTSTART;VALUE=DATE:20250502
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats May 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung
   NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, geben sie
@@ -830,7 +830,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐3)
 DTSTART;VALUE=DATE:20250505
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats May 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereignisse einf
  ach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Suchfe
@@ -841,7 +841,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐2)
 DTSTART;VALUE=DATE:20250505
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats May 2025 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalenderei
  gnisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in
@@ -852,7 +852,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20250509
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats May 2025 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVers
  and Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n
@@ -865,7 +865,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐3)
 DTSTART;VALUE=DATE:20250513
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats May 2025 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Kalen
  dereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalende
@@ -876,7 +876,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20250516
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats May 2025 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die Ka
  lendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkale
@@ -887,7 +887,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐3)
 DTSTART;VALUE=DATE:20250519
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats May 2025 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim 
  BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'Hochfr
@@ -899,7 +899,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20250520
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats May 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF
  -SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BR
@@ -912,7 +912,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20250522
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats May 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um die
   Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenk
@@ -923,7 +923,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20250526
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats May 2025 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalendere
  ignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' i
@@ -934,7 +934,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20250527
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats May 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationslist
  e (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, geben 
@@ -946,7 +946,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20250527
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats May 2025 \n\nLetzter Termin Anmeldung asynchrone Bilanzi
  erung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, geben sie 
@@ -958,7 +958,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20250528
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats May 2025 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\n
  Deklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse einfach
@@ -970,7 +970,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20250530
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats May 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die Ka
  lendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkale
@@ -981,7 +981,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐4)
 DTSTART;VALUE=DATE:20250602
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats June 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmun
  g NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, geben si
@@ -993,7 +993,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐4)
 DTSTART;VALUE=DATE:20250603
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats June 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereignisse ein
  fach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Suchf
@@ -1004,7 +1004,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐3)
 DTSTART;VALUE=DATE:20250605
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats June 2025 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalendere
  ignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' i
@@ -1015,7 +1015,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20250606
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats June 2025 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVer
  sand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\
@@ -1028,7 +1028,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐4)
 DTSTART;VALUE=DATE:20250611
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats June 2025 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Kale
  ndereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalend
@@ -1039,7 +1039,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20250616
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats June 2025 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die K
  alendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkal
@@ -1050,7 +1050,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐4)
 DTSTART;VALUE=DATE:20250617
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats June 2025 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim
   BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'Hochf
@@ -1062,7 +1062,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20250618
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats June 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nL
  F-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. B
@@ -1075,7 +1075,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20250623
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats June 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um di
  e Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
@@ -1086,7 +1086,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20250625
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats June 2025 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalender
  eignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' 
@@ -1097,7 +1097,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20250625
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats June 2025 \n\nLetzter Termin Anmeldung asynchrone Bilanz
  ierung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, geben sie
@@ -1109,7 +1109,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20250626
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats June 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationslis
  te (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, geben
@@ -1121,7 +1121,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20250627
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats June 2025 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\
  nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse einfac
@@ -1132,8 +1132,8 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
-DTSTART;VALUE=DATE:20250627
-DTSTAMP:20241208T114629Z
+DTSTART;VALUE=DATE:20250630
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats June 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die K
  alendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkal
@@ -1144,7 +1144,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐5)
 DTSTART;VALUE=DATE:20250701
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats July 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmun
  g NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, geben si
@@ -1156,7 +1156,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐5)
 DTSTART;VALUE=DATE:20250702
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats July 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereignisse ein
  fach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Suchf
@@ -1167,7 +1167,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐4)
 DTSTART;VALUE=DATE:20250704
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats July 2025 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalendere
  ignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' i
@@ -1178,7 +1178,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20250707
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats July 2025 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVer
  sand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\
@@ -1191,7 +1191,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐5)
 DTSTART;VALUE=DATE:20250709
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats July 2025 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Kale
  ndereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalend
@@ -1202,7 +1202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20250714
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats July 2025 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die K
  alendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkal
@@ -1213,7 +1213,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐5)
 DTSTART;VALUE=DATE:20250715
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats July 2025 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim
   BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'Hochf
@@ -1225,7 +1225,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20250716
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats July 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nL
  F-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. B
@@ -1238,7 +1238,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20250718
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats July 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um di
  e Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
@@ -1249,7 +1249,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20250722
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats July 2025 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalender
  eignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' 
@@ -1260,7 +1260,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20250723
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats July 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationslis
  te (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, geben
@@ -1272,7 +1272,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20250724
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats July 2025 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\
  nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse einfac
@@ -1284,7 +1284,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20250728
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats July 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmun
  g NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, geben si
@@ -1296,7 +1296,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20250728
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats July 2025 \n\nLetzter Termin Anmeldung asynchrone Bilanz
  ierung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, geben sie
@@ -1308,7 +1308,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20250729
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats July 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereignisse ein
  fach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Suchf
@@ -1317,20 +1317,9 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  -82031 Grünwald\nhttps://www.hochfrequenz.de/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:LWT
-DTSTART;VALUE=DATE:20250730
-DTSTAMP:20241208T114629Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
-  Fristenmonats July 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die K
- alendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkal
- ender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die List
- e nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münc
- hner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:42WT (⭐5)
 DTSTART;VALUE=DATE:20250731
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats July 2025 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalendere
  ignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' i
@@ -1339,9 +1328,20 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  aße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:LWT
+DTSTART;VALUE=DATE:20250731
+DTSTAMP:20241208T115248Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
+  Fristenmonats July 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die K
+ alendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkal
+ ender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die List
+ e nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münc
+ hner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:26WT (⭐6)
 DTSTART;VALUE=DATE:20250805
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats August 2025 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Ka
  lendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkale
@@ -1352,7 +1352,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20250807
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats August 2025 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nV
  ersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF
@@ -1365,7 +1365,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐6)
 DTSTART;VALUE=DATE:20250811
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats August 2025 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung be
  im BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'Hoc
@@ -1377,7 +1377,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20250814
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats August 2025 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die
   Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenk
@@ -1388,7 +1388,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20250819
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats August 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\
  nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg.
@@ -1401,7 +1401,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20250821
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats August 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um 
  die Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Frist
@@ -1412,7 +1412,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20250825
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats August 2025 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalend
  ereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender
@@ -1423,7 +1423,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20250826
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats August 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsl
  iste (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, geb
@@ -1435,7 +1435,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20250827
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats August 2025 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB
  )\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse einf
@@ -1447,7 +1447,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20250827
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats August 2025 \n\nLetzter Termin Anmeldung asynchrone Bila
  nzierung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, geben s
@@ -1459,7 +1459,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐6)
 DTSTART;VALUE=DATE:20250828
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats August 2025 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalende
  reignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender'
@@ -1470,7 +1470,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20250829
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats August 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimm
  ung NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, geben 
@@ -1482,7 +1482,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20250829
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats August 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die
   Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenk
@@ -1493,7 +1493,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐7)
 DTSTART;VALUE=DATE:20250901
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats September 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereigniss
  e einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das 
@@ -1504,7 +1504,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20250905
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats September 2025 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
  \nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶
@@ -1517,7 +1517,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐7)
 DTSTART;VALUE=DATE:20250908
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats September 2025 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die
   Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenk
@@ -1528,7 +1528,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20250912
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats September 2025 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um 
  die Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Frist
@@ -1539,7 +1539,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐7)
 DTSTART;VALUE=DATE:20250912
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats September 2025 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung
   beim BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'
@@ -1551,7 +1551,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20250916
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats September 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BK
  V)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./en
@@ -1564,7 +1564,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20250918
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats September 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n 
  Um die Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fr
@@ -1575,7 +1575,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20250922
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats September 2025 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kal
  endereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalen
@@ -1586,7 +1586,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20250923
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats September 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklaratio
  nsliste (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, 
@@ -1598,7 +1598,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20250924
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats September 2025 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ 
  VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse e
@@ -1610,7 +1610,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20250925
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats September 2025 \n\nLetzter Termin Anmeldung asynchrone B
  ilanzierung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, gebe
@@ -1622,7 +1622,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20250926
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats September 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbst
  immung NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, geb
@@ -1634,7 +1634,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20250929
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats September 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereigniss
  e einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das 
@@ -1643,20 +1643,9 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  7A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:LWT
-DTSTART;VALUE=DATE:20250929
-DTSTAMP:20241208T114629Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
-  Fristenmonats September 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um 
- die Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Frist
- enkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
-  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche 
- Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:42WT (⭐7)
 DTSTART;VALUE=DATE:20250930
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats September 2025 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kale
  ndereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalend
@@ -1665,9 +1654,20 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  r Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:LWT
+DTSTART;VALUE=DATE:20250930
+DTSTAMP:20241208T115248Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
+  Fristenmonats September 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um 
+ die Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Frist
+ enkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
+  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche 
+ Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:26WT (⭐8)
 DTSTART;VALUE=DATE:20251007
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats October 2025 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die K
  alendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkal
@@ -1678,7 +1678,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20251008
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats October 2025 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\n
  Versand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ L
@@ -1691,7 +1691,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐8)
 DTSTART;VALUE=DATE:20251013
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats October 2025 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung b
  eim BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'Ho
@@ -1703,7 +1703,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20251015
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats October 2025 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um di
  e Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
@@ -1714,7 +1714,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20251017
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats October 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
  \nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg
@@ -1727,7 +1727,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20251021
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats October 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um
   die Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fris
@@ -1738,7 +1738,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20251023
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats October 2025 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalen
  dereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalende
@@ -1749,7 +1749,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20251024
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats October 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarations
  liste (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, ge
@@ -1761,7 +1761,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20251027
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats October 2025 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VN
  B)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse ein
@@ -1773,7 +1773,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20251028
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats October 2025 \n\nLetzter Termin Anmeldung asynchrone Bil
  anzierung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, geben 
@@ -1785,7 +1785,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20251029
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats October 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstim
  mung NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, geben
@@ -1797,7 +1797,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐8)
 DTSTART;VALUE=DATE:20251029
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats October 2025 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalend
  ereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender
@@ -1808,7 +1808,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20251030
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats October 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereignisse 
  einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Su
@@ -1819,7 +1819,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20251030
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats October 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um di
  e Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
@@ -1830,7 +1830,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20251107
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats November 2025 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\
  nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ 
@@ -1843,7 +1843,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐9)
 DTSTART;VALUE=DATE:20251107
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats November 2025 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die 
  Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
@@ -1854,7 +1854,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐9)
 DTSTART;VALUE=DATE:20251113
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats November 2025 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung 
  beim BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'H
@@ -1866,7 +1866,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20251114
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats November 2025 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um d
  ie Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
@@ -1877,7 +1877,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20251118
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats November 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV
  )\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./end
@@ -1890,7 +1890,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20251121
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats November 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n U
  m die Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fri
@@ -1901,7 +1901,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20251125
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats November 2025 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kale
  ndereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalend
@@ -1912,7 +1912,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20251126
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats November 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklaration
  sliste (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, g
@@ -1924,7 +1924,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20251126
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats November 2025 \n\nLetzter Termin Anmeldung asynchrone Bi
  lanzierung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, geben
@@ -1936,7 +1936,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20251127
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats November 2025 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ V
  NB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse ei
@@ -1948,7 +1948,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20251128
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats November 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um d
  ie Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
@@ -1959,7 +1959,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐10)
 DTSTART;VALUE=DATE:20251201
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats December 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbsti
  mmung NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, gebe
@@ -1971,7 +1971,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐10)
 DTSTART;VALUE=DATE:20251202
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats December 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereignisse
   einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das S
@@ -1982,7 +1982,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐9)
 DTSTART;VALUE=DATE:20251202
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats December 2025 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalen
  dereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalende
@@ -1993,7 +1993,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20251205
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats December 2025 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\
  nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ 
@@ -2006,7 +2006,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐10)
 DTSTART;VALUE=DATE:20251209
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats December 2025 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die 
  Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
@@ -2017,7 +2017,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20251212
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats December 2025 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um d
  ie Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
@@ -2028,7 +2028,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐10)
 DTSTART;VALUE=DATE:20251215
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats December 2025 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung 
  beim BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'H
@@ -2040,7 +2040,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20251216
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats December 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV
  )\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./end
@@ -2053,7 +2053,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20251218
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats December 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n U
  m die Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fri
@@ -2064,7 +2064,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20251222
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats December 2025 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kale
  ndereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalend
@@ -2075,7 +2075,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20251223
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats December 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklaration
  sliste (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, g
@@ -2087,7 +2087,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20251223
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats December 2025 \n\nLetzter Termin Anmeldung asynchrone Bi
  lanzierung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, geben
@@ -2099,7 +2099,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20251229
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats December 2025 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ V
  NB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse ei
@@ -2111,7 +2111,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20251230
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats December 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um d
  ie Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
@@ -2122,7 +2122,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐11)
 DTSTART;VALUE=DATE:20260102
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats January 2026 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstim
  mung NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, geben
@@ -2134,7 +2134,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐11)
 DTSTART;VALUE=DATE:20260105
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats January 2026 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalendereignisse 
  einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Su
@@ -2145,7 +2145,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐10)
 DTSTART;VALUE=DATE:20260108
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats January 2026 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalend
  ereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender
@@ -2156,7 +2156,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20260109
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats January 2026 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\n
  Versand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ L
@@ -2169,7 +2169,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐11)
 DTSTART;VALUE=DATE:20260113
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats January 2026 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die K
  alendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkal
@@ -2180,7 +2180,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20260116
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats January 2026 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um di
  e Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
@@ -2191,7 +2191,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐11)
 DTSTART;VALUE=DATE:20260119
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats January 2026 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung b
  eim BIKO\n\n Um die Kalendereignisse einfach zu löschen\, geben sie \n'Ho
@@ -2203,7 +2203,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20260120
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats January 2026 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
  \nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg
@@ -2216,7 +2216,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20260122
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats January 2026 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um
   die Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fris
@@ -2227,7 +2227,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20260126
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats January 2026 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalen
  dereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalende
@@ -2238,7 +2238,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20260127
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats January 2026 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarations
  liste (VNB ⟶ MGV)\n\n\n Um die Kalendereignisse einfach zu löschen\, ge
@@ -2250,7 +2250,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20260128
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats January 2026 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VN
  B)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalendereignisse ein
@@ -2262,7 +2262,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20260128
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats January 2026 \n\nLetzter Termin Anmeldung asynchrone Bil
  anzierung (Strom)\n\n Um die Kalendereignisse einfach zu löschen\, geben 
@@ -2274,7 +2274,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20260130
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats January 2026 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstim
  mung NKP zw. VNB\n\n\n Um die Kalendereignisse einfach zu löschen\, geben
@@ -2286,7 +2286,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20260130
-DTSTAMP:20241208T114629Z
+DTSTAMP:20241208T115248Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats January 2026 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um di
  e Kalendereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen

@@ -8,7 +8,7 @@ import sys
 from calendar import monthrange
 
 try:
-    from datetime import UTC
+    from datetime import UTC, timedelta
 except ImportError:
     if sys.version_info >= (3, 11):
         raise
@@ -62,7 +62,7 @@ _DAYS_AND_LABELS: dict[int, Label] = {
     26: "26WT",
     30: "30WT",
     42: "42WT",
-    1: "LWT",
+    0: "LWT",
     3: "3LWT",
 }
 
@@ -281,9 +281,13 @@ class FristenkalenderGenerator:
         last_day_of_month = monthrange(year, month)[1]
         last_date_of_month = date(year, month, last_day_of_month)
         _0lwt = last_date_of_month
-        result = _0lwt
-        for _ in range(nth_day):  # each iteration 0LWT => 1LWT => 2LWT => 3LWT ...
-            result = get_previous_working_day(result)
+        if nth_day == 0:
+            first_date_of_next_month = last_date_of_month + timedelta(days=1)
+            result = get_previous_working_day(first_date_of_next_month)
+        else:
+            result = _0lwt
+            for _ in range(nth_day):  # each iteration 0LWT => 1LWT => 2LWT => 3LWT ...
+                result = get_previous_working_day(result)
         return FristWithAttributes(result, label, None, specific_description[label])
 
     def generate_all_fristen_for_given_lwt(self, year: int, nth_day: int, label: LwtLabel) -> list[FristWithAttributes]:

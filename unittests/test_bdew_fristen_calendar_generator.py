@@ -376,10 +376,10 @@ class TestFristenkalenderGenerator:
         [
             pytest.param(2024, 12, date(2024, 12, 30)),
             pytest.param(2023, 4, date(2023, 4, 28)),
-            pytest.param(2023, 5, date(2023, 5, 30)),
+            pytest.param(2023, 5, date(2023, 5, 31)),
         ],
     )
     def test_lwt(self, year: int, month: int, expected: date) -> None:
         generator = FristenkalenderGenerator()
-        actual = generator.generate_all_fristen_for_given_lwt(year, 1, "LWT")
+        actual = generator.generate_all_fristen_for_given_lwt(year, 0, "LWT")
         assert expected in [f.date for f in actual]
