@@ -12,12 +12,12 @@ try:
 except ImportError:
     if sys.version_info >= (3, 11):
         raise
-from datetime import date, datetime, timedelta
+from datetime import date, datetime
 from enum import Enum
 from pathlib import Path
 from typing import Literal, Optional, Union
 
-from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day, is_bdew_working_day
+from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event  # type: ignore[import-untyped]
 
 LwtLabel = Union[Literal["LWT"], Literal["3LWT"]]
@@ -62,7 +62,7 @@ _DAYS_AND_LABELS: dict[int, Label] = {
     26: "26WT",
     30: "30WT",
     42: "42WT",
-    0: "LWT",
+    1: "LWT",
     3: "3LWT",
 }
 
@@ -280,10 +280,9 @@ class FristenkalenderGenerator:
         # - 26.10. = 3 LWT
         last_day_of_month = monthrange(year, month)[1]
         last_date_of_month = date(year, month, last_day_of_month)
-        first_date_of_next_month = last_date_of_month + timedelta(days=1)
-        lwt = get_previous_working_day(first_date_of_next_month)
-        result = lwt
-        for _ in range(nth_day):
+        _0lwt = last_date_of_month
+        result = _0lwt
+        for _ in range(nth_day):  # each iteration 0LWT => 1LWT => 2LWT => 3LWT ...
             result = get_previous_working_day(result)
         return FristWithAttributes(result, label, None, specific_description[label])
 
