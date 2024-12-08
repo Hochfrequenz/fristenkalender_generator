@@ -303,7 +303,7 @@ class FristenkalenderGenerator:
         """
         Generate the list of all Fristen in the calendar for a given year
         """
-        days_and_labels = [(day, label) for day, label in _DAYS_AND_LABELS.items()]
+        days_and_labels = list(_DAYS_AND_LABELS.items())
         fristen = self.generate_specific_fristen(year, days_and_labels)
         fristen.sort(key=lambda fwa: fwa.date)
         return fristen
