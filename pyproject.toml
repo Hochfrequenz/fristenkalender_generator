@@ -34,7 +34,7 @@ classifiers = [
 
 ]
 dependencies = [
-    "bdew_datetimes>=0.7.1", # because 0.7.1/holidays 0.59 contains 2025-05-08 "Tag der Befreiung"
+    "bdew_datetimes>=0.8.0", # because 0.8.0 contains 24hLFW Sonderfeiertag on 2025-06-06
     "holidays>=0.59",
     "icalendar",
     # add everything you add in requirements.in here
