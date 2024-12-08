@@ -262,26 +262,40 @@ class FristenkalenderGenerator:
     def _generate_lwt_frist(self, year: int, month: int, nth_day: int, label: LwtLabel) -> FristWithAttributes:
         """
         Generate a frist with a given last working day.
-        The last day in the month is counted irrespective if its a working day or not.
+        The last day in the month is counted irrespective if it's a working day or not.
         """
+        # pylint:disable=line-too-long
+        # Discussion 2024-12-06; https://teams.microsoft.com/l/message/19:e8371dfe0911491dab42b1c9e38d82e4@thread.v2/1733479374344?context=%7B%22contextType%22%3A%22chat%22%7D
+        # Quote Joscha:
+        # Der Abstand muss 3 Werktage umfassen. Also sprich der 3. Werktag vor dem Monatsletzten ist "3LWT".
+        # Der Monatsletzte selbst wird nicht mitgezählt.
+        # Um Deine beiden Beispiele Mai 2022 und Oktober 2022 aufzugreifen.
+        # Mai:
+        # - Monatsletzter ist der 31.05. -> 30.05. = 1 LWT,
+        # - 27.05. = 2 LWT
+        # - 25.05. = 3 LWT (26.5. wird nicht gezählt da Feiertag)
+        # Oktober:
+        # - Monatsletzter ist der 31.10. -> 28.10. = 1 LWT
+        # - 27.10. = 2 LWT
+        # - 26.10. = 3 LWT
         last_day_of_month = monthrange(year, month)[1]
         last_date_of_month = date(year, month, last_day_of_month)
-        first_day_of_next_month = last_date_of_month + timedelta(days=1)
-        date_dummy = get_previous_working_day(first_day_of_next_month)
-        # the last day of the month counts, regardless if its a wt or not
-        i_relevant_days = min(last_day_of_month - date_dummy.day, 1)
-        while i_relevant_days < nth_day:
-            date_dummy = get_previous_working_day(date_dummy)
-            i_relevant_days += 1
-
-        return FristWithAttributes(date_dummy, label, None, specific_description[label])
+        _0lwt = last_date_of_month
+        if nth_day == 0:
+            first_date_of_next_month = last_date_of_month + timedelta(days=1)
+            result = get_previous_working_day(first_date_of_next_month)
+        else:
+            result = _0lwt
+            for _ in range(nth_day):  # each iteration 0LWT => 1LWT => 2LWT => 3LWT ...
+                result = get_previous_working_day(result)
+        return FristWithAttributes(result, label, None, specific_description[label])
 
     def generate_all_fristen_for_given_lwt(self, year: int, nth_day: int, label: LwtLabel) -> list[FristWithAttributes]:
         """
-        Generate the list of fristen for a given year that are on the nth LWT (letzer Werktag, last working day)
+        Generate the list of fristen for a given year that are on the nth LWT (letzter Werktag, last working day)
         of each month of the calendar.
         LWT are counted back into the month starting from the last day of the month.
-        The last day of the month is counted irrespective if it is a wt or not.
+        The last day of the month is counted irrespective if it is a Werktag or not.
         """
 
         fristen: list[FristWithAttributes] = []
