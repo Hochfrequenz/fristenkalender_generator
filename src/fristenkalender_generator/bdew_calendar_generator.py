@@ -49,6 +49,24 @@ class FristenType(Enum):
     KOV = "KOV"
 
 
+_DAYS_AND_LABELS: dict[int, Label] = {
+    5: "5WT",
+    10: "10WT",
+    12: "12WT",
+    14: "14WT",
+    16: "16WT",
+    17: "17WT",
+    18: "18WT",
+    20: "20WT",
+    21: "21WT",
+    26: "26WT",
+    30: "30WT",
+    42: "42WT",
+    0: "LWT",
+    3: "3LWT",
+}
+
+
 @dataclasses.dataclass(unsafe_hash=True)
 class FristWithAttributes:
     """
@@ -285,25 +303,8 @@ class FristenkalenderGenerator:
         """
         Generate the list of all Fristen in the calendar for a given year
         """
-
-        days_and_labels: list[tuple[int, Label]] = [
-            (5, "5WT"),
-            (10, "10WT"),
-            (12, "12WT"),
-            (14, "14WT"),
-            (16, "16WT"),
-            (17, "17WT"),
-            (18, "18WT"),
-            (20, "20WT"),
-            (21, "21WT"),
-            (26, "26WT"),
-            (30, "30WT"),
-            (42, "42WT"),
-            (0, "LWT"),
-            (3, "3LWT"),
-        ]
+        days_and_labels = list(_DAYS_AND_LABELS.items())
         fristen = self.generate_specific_fristen(year, days_and_labels)
-
         fristen.sort(key=lambda fwa: fwa.date)
         return fristen
 
