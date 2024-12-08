@@ -8,11 +8,11 @@ import sys
 from calendar import monthrange
 
 try:
-    from datetime import UTC, timedelta
+    from datetime import UTC
 except ImportError:
     if sys.version_info >= (3, 11):
         raise
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from enum import Enum
 from pathlib import Path
 from typing import Literal, Optional, Union
