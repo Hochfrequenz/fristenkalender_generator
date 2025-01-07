@@ -10,7 +10,6 @@ from bdew_datetimes import create_bdew_calendar
 
 from fristenkalender_generator.bdew_calendar_generator import FristWithAttributes
 
-
 _DeutscherWochentag = Literal["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
 
 weekday_mapping: Mapping[str, _DeutscherWochentag] = {  # Mapping of %A weekdays to custom abbreviations
