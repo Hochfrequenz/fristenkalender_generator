@@ -66,7 +66,7 @@ _DAYS_AND_LABELS: dict[int, Label] = {
     3: "3LWT",
 }
 
-month_mapping = {
+month_mapping dict[str,str] = {
     "January": "Januar",
     "February": "Februar",
     "March": "März",
