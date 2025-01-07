@@ -66,19 +66,19 @@ _DAYS_AND_LABELS: dict[int, Label] = {
     3: "3LWT",
 }
 
-_month_mapping: dict[str,str] = {
-    "January": "Januar",
-    "February": "Februar",
-    "March": "März",
-    "April": "April",
-    "May": "Mai",
-    "June": "Juni",
-    "July": "Juli",
-    "August": "August",
-    "September": "September",
-    "October": "Oktober",
-    "November": "November",
-    "December": "Dezember",
+_month_mapping: dict[int, str] = {
+    1: "Januar",
+    2: "Februar",
+    3: "März",
+    4: "April",
+    5: "Mai",
+    6: "Juni",
+    7: "Juli",
+    8: "August",
+    9: "September",
+    10: "Oktober",
+    11: "November",
+    12: "Dezember",
 }
 
 
@@ -173,7 +173,7 @@ class FristenkalenderGenerator:
         else:
             wt = str(re.findall(r"\d+", label)[0]).strip("'") + "."
         year: str = str(frist_date.year)
-        month: str = _month_mapping[frist_date.strftime("%B")]
+        month: str = _month_mapping[frist_date.month]  # Verwendung der Monatszahl statt des Namens
         another_part: str = wt + " Werktag des Fristenmonats " + month + " " + year + " \n"
         frist_description: str = (
             greeting + "\n" + another_part + "\n" + specific_description[label] + "\n" + general_description
