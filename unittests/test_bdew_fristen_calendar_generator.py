@@ -1,18 +1,19 @@
 from datetime import date
 from pathlib import Path
-from typing import Optional, Union
+from typing import Union
 
 import pytest
-from icalendar import vText  # type: ignore[import]
+from icalendar import vText  # type: ignore[import-untyped]
+from syrupy import snapshot
+from syrupy.assertion import SnapshotAssertion
 
 from fristenkalender_generator.bdew_calendar_generator import (
     FristenkalenderGenerator,
     FristenType,
     FristWithAttributes,
     FristWithAttributesAndType,
+    Label,
 )
-
-from .full_years import all_fristen_2023, all_fristen_2024
 
 
 class TestFristenkalenderGenerator:
@@ -45,7 +46,9 @@ class TestFristenkalenderGenerator:
             ),
         ],
     )
-    def test_create_ical_event(self, frist: Union[FristWithAttributes, FristWithAttributesAndType], expected: vText):
+    def test_create_ical_event(
+        self, frist: Union[FristWithAttributes, FristWithAttributesAndType], expected: vText
+    ) -> None:
         assert FristenkalenderGenerator().create_ical_event(frist)["SUMMARY"] == expected
 
     @pytest.mark.parametrize(
@@ -73,38 +76,28 @@ class TestFristenkalenderGenerator:
             ),
         ],
     )
-    def test_create_ical(self, fristen: list[Union[FristWithAttributes, FristWithAttributesAndType]]):
+    def test_create_ical(self, fristen: list[Union[FristWithAttributes, FristWithAttributesAndType]]) -> None:
         attendee = "nicola.soeker@hochfrquenz.de"
         expected = 5
         cal = FristenkalenderGenerator().create_ical(attendee, fristen)
         assert len(cal.subcomponents) == expected
 
-    def test_create_and_export_whole_calender(self):
-        # if you don't want to see the files generated from this test uncomment following lines
-        # , tmpdir_factory
-        # test_dir_name = "test_dir"
-        # mydir = tmpdir_factory.mktemp(test_dir_name)
+    def test_create_and_export_whole_calender(self, tmp_path: Path) -> None:
         attendee = "mail@test.de"
         year = 2023
-        filename = "2023.ics"
-        # my_file = Path(mydir) / Path(filename)
+        filename = tmp_path / "2023.ics"
         my_file = Path(filename)
         FristenkalenderGenerator().generate_and_export_whole_calendar(my_file, attendee, year)
 
         assert my_file.is_file()
         assert my_file.stat().st_size != 0
 
-    def test_create_and_export_fristen_for_type(self):
-        # if you don't want to see the files generated from this test uncomment following lines
-        # , tmpdir_factory
-        # test_dir_name = "test_dir"
-        # mydir = tmpdir_factory.mktemp(test_dir_name)
+    def test_create_and_export_fristen_for_type(self, tmp_path: Path) -> None:
         attendee = "mail@test.de"
         year = 2023
         fristen_type = FristenType.MABIS
         filename = "MABIS.ics"
-        # my_file = Path(mydir) / Path(filename)
-        my_file = Path(filename)
+        my_file = tmp_path / Path(filename)
         FristenkalenderGenerator().generate_and_export_fristen_for_type(my_file, attendee, year, fristen_type)
 
         assert my_file.is_file()
@@ -120,10 +113,10 @@ class TestFristenkalenderGenerator:
             pytest.param(2023, 42, "42WT", date(2022, 12, 5)),
         ],
     )
-    def test_generate_friste_list_variable_wt(self, year: int, nth_day: int, label: str, expected: date):
+    def test_generate_friste_list_variable_wt(self, year: int, nth_day: int, label: Label, expected: date) -> None:
         assert FristenkalenderGenerator().generate_all_fristen_for_given_wt(year, nth_day, label)[0].date == expected
 
-    def test_if_duplicates_are_in_fristen_calender(self):
+    def test_if_duplicates_are_in_fristen_calender(self) -> None:
         fristen = FristenkalenderGenerator().generate_all_fristen(2023)
 
         assert len(fristen) == len(set(fristen)), "There are duplicates in the list"
@@ -202,19 +195,18 @@ class TestFristenkalenderGenerator:
             ),
         ],
     )
-    def test_if_frist_is_in_fristen_calender(self, year: int, expected: FristWithAttributes):
+    def test_if_frist_is_in_fristen_calender(self, year: int, expected: FristWithAttributes) -> None:
         fristen = FristenkalenderGenerator().generate_all_fristen(year)
-        test_frist = expected
-        assert test_frist in fristen
+        assert expected in fristen
 
-    def test_generate_specific_fristen(self):
+    def test_generate_specific_fristen(self) -> None:
         expected = FristenkalenderGenerator().generate_all_fristen_for_given_lwt(2023, 3, "3LWT")
         expected += FristenkalenderGenerator().generate_all_fristen_for_given_wt(2023, 5, "5WT")
         expected.sort(key=lambda fwa: fwa.date)
-        days_and_labels = [(3, "3LWT"), (5, "5WT")]
+        days_and_labels: list[tuple[int, Label]] = [(3, "3LWT"), (5, "5WT")]
         assert FristenkalenderGenerator().generate_specific_fristen(2023, days_and_labels) == expected
 
-    def test_generate_fristen_for_type(self):
+    def test_generate_fristen_for_type(self) -> None:
         fristen_with_attr_and_type = FristenkalenderGenerator().generate_fristen_for_type(2023, FristenType.GPKE)
 
         expected = [
@@ -320,25 +312,23 @@ class TestFristenkalenderGenerator:
 
         assert fristen_with_attr_and_type == expected
 
-    @pytest.mark.parametrize(
-        "year, expected",
-        [
-            pytest.param(
-                2023,
-                all_fristen_2023,
-                id="This reference data set was checked against the existing calendar from 2023 by a human.",
-            ),
-            pytest.param(
-                2024,
-                all_fristen_2024,
-                id="not yet checked manually⚠",
-            ),
-        ],
-    )
-    def test_full_calendar_for_a_single_year(self, year: int, expected: list[FristWithAttributes]):
-        actual = FristenkalenderGenerator().generate_all_fristen(year)
-        # hack for pycharm: run this in the debugger and copy the value of str(actual) from the variable window
-        assert actual == expected
+    @pytest.mark.snapshot
+    def test_full_calendar_2023(self, snapshot: SnapshotAssertion) -> None:
+        generator = FristenkalenderGenerator()
+        actual = generator.generate_all_fristen(2023)
+        calendar = generator.create_ical("snapshot@hochfrequenz.de", actual)
+        ics_path = Path(__file__).parent / "snapshots_ics" / "2023.ics"
+        FristenkalenderGenerator().export_ical(ics_path, calendar)
+        snapshot.assert_match(actual)
+
+    @pytest.mark.snapshot
+    def test_full_calendar_2024(self, snapshot: SnapshotAssertion) -> None:
+        generator = FristenkalenderGenerator()
+        actual = generator.generate_all_fristen(2024)
+        calendar = generator.create_ical("snapshot@hochfrequenz.de", actual)
+        ics_path = Path(__file__).parent / "snapshots_ics" / "2024.ics"
+        FristenkalenderGenerator().export_ical(ics_path, calendar)
+        snapshot.assert_match(actual)
 
     @pytest.mark.parametrize(
         "frist_date, label, expected",
@@ -347,12 +337,49 @@ class TestFristenkalenderGenerator:
                 date(2023, 9, 12),
                 "30WT",
                 (
-                    "Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fristenmonats September 2023 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO\n\n Um die Kalendereignisse einfach zu löschen, geben sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/"
+                    "Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fristenmonats September 2023 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO\n\n Um die Kalenderereignisse einfach zu löschen, geben sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/"
                 ),
                 id="",
             )
         ],
     )
-    def test_generate_frist_description(self, frist_date: date, label: str, expected: str):
+    def test_generate_frist_description(self, frist_date: date, label: Label, expected: str) -> None:
         actual = FristenkalenderGenerator().generate_frist_description(frist_date, label)
         assert actual == expected
+
+    @pytest.mark.snapshot
+    def test_full_calendar_2025(self, snapshot: SnapshotAssertion) -> None:
+        generator = FristenkalenderGenerator()
+        actual = generator.generate_all_fristen(2025)
+        calendar = generator.create_ical("snapshot@hochfrequenz.de", actual)
+        ics_path = Path(__file__).parent / "snapshots_ics" / "2025.ics"
+        FristenkalenderGenerator().export_ical(ics_path, calendar)
+        # hack for pycharm: run this in the debugger and copy the value of str(actual) from the variable window
+        snapshot.assert_match(actual)
+
+    @pytest.mark.parametrize(
+        "year, month, expected",
+        [
+            pytest.param(2024, 12, date(2024, 12, 23), id="so besprochen mit Lukas Greif am 07.Dez.2024"),
+            # https://teams.microsoft.com/l/message/19:e8371dfe0911491dab42b1c9e38d82e4@thread.v2/1733573649369?context=%7B%22contextType%22%3A%22chat%22%7D
+            pytest.param(2022, 5, date(2022, 5, 25)),
+            pytest.param(2022, 10, date(2022, 10, 26)),
+        ],
+    )
+    def test_3lwt(self, year: int, month: int, expected: date) -> None:
+        generator = FristenkalenderGenerator()
+        actual = generator.generate_all_fristen_for_given_lwt(year, 3, "3LWT")
+        assert expected in [f.date for f in actual]
+
+    @pytest.mark.parametrize(
+        "year, month, expected",
+        [
+            pytest.param(2024, 12, date(2024, 12, 30)),
+            pytest.param(2023, 4, date(2023, 4, 28)),
+            pytest.param(2023, 5, date(2023, 5, 31)),
+        ],
+    )
+    def test_lwt(self, year: int, month: int, expected: date) -> None:
+        generator = FristenkalenderGenerator()
+        actual = generator.generate_all_fristen_for_given_lwt(year, 0, "LWT")
+        assert expected in [f.date for f in actual]
