@@ -3,23 +3,23 @@ ATTENDEE:snapshot@hochfrequenz.de
 BEGIN:VEVENT
 SUMMARY:21WT (⭐10)
 DTSTART;VALUE=DATE:20231201
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Dezember 2023 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignis
  se einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das
   Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch
- .\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße
+ .\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 
  27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐9)
 DTSTART;VALUE=DATE:20231204
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats Dezember 2023 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalen
  derereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalen
- der' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste
+ der' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste 
  nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchn
  er Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -27,10 +27,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20231207
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats Dezember 2023 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\
- nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶
+ nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ 
  LF)\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n'Hoc
  hfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bea
  rbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung Gm
@@ -41,9 +41,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐10)
 DTSTART;VALUE=DATE:20231208
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
- stenmonats Dezember 2023 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die
+ stenmonats Dezember 2023 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die 
  Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
  kalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die L
  iste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
@@ -53,7 +53,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20231214
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats Dezember 2023 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um d
  ie Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fris
@@ -65,9 +65,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐10)
 DTSTART;VALUE=DATE:20231214
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
- stenmonats Dezember 2023 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung
+ stenmonats Dezember 2023 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung 
  beim BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n
  'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund
   bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatun
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20231218
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats Dezember 2023 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV
  )\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./end
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20231220
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats Dezember 2023 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n U
  m die Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz F
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20231222
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats Dezember 2023 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kale
  nderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkale
@@ -116,7 +116,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20231227
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats Dezember 2023 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklaration
  sliste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\,
@@ -129,11 +129,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20231227
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats Dezember 2023 \n\nLetzter Termin Anmeldung asynchrone Bi
  lanzierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geb
- en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp
+ en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp 
  ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehme
  nsberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttp
  s://www.hochfrequenz.de/
@@ -142,10 +142,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20231228
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats Dezember 2023 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ V
- NB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse
+ NB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse 
  einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Su
  chfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.\n
  \nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A
@@ -155,7 +155,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20231229
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats Dezember 2023 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um d
  ie Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fris
@@ -167,7 +167,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐11)
 DTSTART;VALUE=DATE:20240102
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats Januar 2024 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimm
  ung NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, gebe
@@ -180,7 +180,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐11)
 DTSTART;VALUE=DATE:20240103
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Januar 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse
   einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das S
@@ -192,7 +192,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐10)
 DTSTART;VALUE=DATE:20240104
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats Januar 2024 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalende
  rereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalende
@@ -204,7 +204,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240108
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats Januar 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nV
  ersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF
@@ -218,7 +218,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐11)
 DTSTART;VALUE=DATE:20240110
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats Januar 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Ka
  lenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
@@ -230,11 +230,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240115
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats Januar 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die
   Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
- nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
+ nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die 
  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
  ünchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -242,12 +242,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐11)
 DTSTART;VALUE=DATE:20240116
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats Januar 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung be
  im BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n'H
  ochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund b
- earbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung
+ earbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung 
  GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hoc
  hfrequenz.de/
 TRANSP:TRANSPARENT
@@ -255,7 +255,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240117
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats Januar 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\
  nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg.
@@ -269,9 +269,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240119
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
- stenmonats Januar 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um
+ stenmonats Januar 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um 
  die Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fri
  stenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie d
  ie Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördlich
@@ -281,7 +281,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240123
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats Januar 2024 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalend
  erereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalend
@@ -293,7 +293,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240124
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats Januar 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsl
  iste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, g
@@ -306,7 +306,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240125
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats Januar 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB
  )\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse ei
@@ -319,8 +319,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240126
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats Januar 2024 \n\nLetzter Termin Anmeldung asynchrone Bila
  nzierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geben
   sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ei
@@ -332,7 +332,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240129
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats Januar 2024 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimm
  ung NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, gebe
@@ -345,7 +345,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20240130
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Januar 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse
   einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das S
@@ -357,11 +357,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240131
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats Januar 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die
   Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
- nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
+ nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die 
  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
  ünchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -369,7 +369,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐11)
 DTSTART;VALUE=DATE:20240201
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats Februar 2024 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalend
  erereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalend
@@ -381,7 +381,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐12)
 DTSTART;VALUE=DATE:20240206
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats Februar 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die K
  alenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenk
@@ -393,7 +393,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240207
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats Februar 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\n
  Versand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ L
@@ -407,11 +407,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐12)
 DTSTART;VALUE=DATE:20240212
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats Februar 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung b
  eim BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n'
- Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund
+ Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund 
  bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung
   GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.ho
  chfrequenz.de/
@@ -420,23 +420,23 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240214
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats Februar 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um di
  e Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Frist
  enkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
-  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche
+  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche 
  Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240216
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats Februar 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
  \nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg
- . BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\,
+ . BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, 
  geben sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalendera
  pp ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unterne
  hmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nh
@@ -446,11 +446,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240220
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats Februar 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um
   die Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fr
- istenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie
+ istenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie 
  die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördlic
  he Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -458,11 +458,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240222
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats Februar 2024 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalen
  derereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalen
- der' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste
+ der' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste 
  nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchn
  er Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -470,10 +470,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240223
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats Februar 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarations
- liste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\,
+ liste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, 
  geben sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalendera
  pp ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unterne
  hmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nh
@@ -483,7 +483,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240226
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats Februar 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VN
  B)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse e
@@ -496,8 +496,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240226
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats Februar 2024 \n\nLetzter Termin Anmeldung asynchrone Bil
  anzierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, gebe
  n sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp e
@@ -509,11 +509,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240228
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats Februar 2024 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstim
  mung NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, geb
- en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp
+ en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp 
  ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehme
  nsberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttp
  s://www.hochfrequenz.de/
@@ -522,7 +522,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐12)
 DTSTART;VALUE=DATE:20240228
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats Februar 2024 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalend
  erereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalend
@@ -534,10 +534,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20240229
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Februar 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereigniss
- e einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das
+ e einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das 
  Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.
  \n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 2
  7A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
@@ -546,19 +546,19 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240229
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats Februar 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um di
  e Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Frist
  enkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
-  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche
+  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche 
  Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240307
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats März 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVe
  rsand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)
@@ -572,7 +572,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐1)
 DTSTART;VALUE=DATE:20240307
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats März 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Kal
  enderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkal
@@ -584,7 +584,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐1)
 DTSTART;VALUE=DATE:20240314
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats März 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung bei
  m BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n'Ho
@@ -597,9 +597,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240315
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
- stenmonats März 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die
+ stenmonats März 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die 
  Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
  kalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die L
  iste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
@@ -609,10 +609,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240319
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats März 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\n
- LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg.
+ LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. 
  BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, ge
  ben sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp
   ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehm
@@ -623,7 +623,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240321
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats März 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um d
  ie Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fris
@@ -635,7 +635,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240325
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats März 2024 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalende
  rereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalende
@@ -647,7 +647,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240326
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats März 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsli
  ste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, ge
@@ -660,10 +660,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240326
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats März 2024 \n\nLetzter Termin Anmeldung asynchrone Bilan
- zierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geben
+ zierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geben 
  sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein
   \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensb
  eratung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps:/
@@ -673,7 +673,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240327
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats März 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
  \nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse ein
@@ -686,9 +686,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240328
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
-  Fristenmonats März 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die
+  Fristenmonats März 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die 
  Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
  kalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die L
  iste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
@@ -698,7 +698,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐2)
 DTSTART;VALUE=DATE:20240402
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats April 2024 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmu
  ng NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben
@@ -711,9 +711,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐2)
 DTSTART;VALUE=DATE:20240403
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
- stenmonats April 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse
+ stenmonats April 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse 
  einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Su
  chfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.\n
  \nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A
@@ -723,19 +723,19 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐1)
 DTSTART;VALUE=DATE:20240403
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats April 2024 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalender
  ereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender
  ' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nac
- h Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner
+ h Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner 
  Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240408
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats April 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVe
  rsand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)
@@ -749,7 +749,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐2)
 DTSTART;VALUE=DATE:20240410
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats April 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Kal
  enderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkal
@@ -761,9 +761,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240415
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
- stenmonats April 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die
+ stenmonats April 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die 
  Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
  kalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die L
  iste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
@@ -773,7 +773,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐2)
 DTSTART;VALUE=DATE:20240416
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats April 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung bei
  m BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n'Ho
@@ -786,10 +786,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240417
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats April 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\n
- LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg.
+ LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. 
  BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, ge
  ben sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp
   ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehm
@@ -800,7 +800,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240419
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats April 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um d
  ie Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fris
@@ -812,7 +812,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240423
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats April 2024 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalende
  rereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalende
@@ -824,7 +824,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240424
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats April 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsli
  ste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, ge
@@ -837,7 +837,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240425
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats April 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
  \nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse ein
@@ -850,10 +850,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240425
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats April 2024 \n\nLetzter Termin Anmeldung asynchrone Bilan
- zierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geben
+ zierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geben 
  sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein
   \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensb
  eratung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps:/
@@ -863,7 +863,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240429
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats April 2024 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmu
  ng NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben
@@ -876,9 +876,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20240430
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
- stenmonats April 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse
+ stenmonats April 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse 
  einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Su
  chfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.\n
  \nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A
@@ -888,9 +888,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240430
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
-  Fristenmonats April 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die
+  Fristenmonats April 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die 
  Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
  kalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die L
  iste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
@@ -900,11 +900,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐2)
 DTSTART;VALUE=DATE:20240503
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats Mai 2024 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalenderer
- eignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender'
- in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach
+ eignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' 
+ in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach 
  Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner St
  raße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -912,7 +912,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240508
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats Mai 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVers
  and Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\n
@@ -926,11 +926,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐3)
 DTSTART;VALUE=DATE:20240508
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats Mai 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Kalen
  derereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalen
- der' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste
+ der' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste 
  nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchn
  er Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -938,9 +938,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐3)
 DTSTART;VALUE=DATE:20240515
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
- stenmonats Mai 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim
+ stenmonats Mai 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim 
  BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n'Hoch
  frequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bear
  beiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung Gmb
@@ -951,7 +951,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240516
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats Mai 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die Ka
  lenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
@@ -963,7 +963,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240521
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats Mai 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nLF
  -SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. BR
@@ -977,11 +977,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240523
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats Mai 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um die
   Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
- nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
+ nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die 
  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
  ünchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -989,7 +989,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240527
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats Mai 2024 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalendere
  reignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender'
@@ -1001,8 +1001,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240527
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats Mai 2024 \n\nLetzter Termin Anmeldung asynchrone Bilanzi
  erung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geben si
  e \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \
@@ -1014,7 +1014,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240528
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats Mai 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationslist
  e (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, gebe
@@ -1027,7 +1027,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240529
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats Mai 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\n
  Deklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse einfa
@@ -1040,7 +1040,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240531
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats Mai 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die Ka
  lenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
@@ -1052,10 +1052,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐4)
 DTSTART;VALUE=DATE:20240603
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats Juni 2024 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmun
- g NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben
+ g NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben 
  sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein
   \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensb
  eratung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps:/
@@ -1065,7 +1065,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐4)
 DTSTART;VALUE=DATE:20240604
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Juni 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse e
  infach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Suc
@@ -1077,7 +1077,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐3)
 DTSTART;VALUE=DATE:20240604
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats Juni 2024 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalendere
  reignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender'
@@ -1089,7 +1089,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240607
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats Juni 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVer
  sand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\
@@ -1103,7 +1103,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐4)
 DTSTART;VALUE=DATE:20240611
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats Juni 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Kale
  nderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkale
@@ -1115,7 +1115,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240614
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats Juni 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die K
  alenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenk
@@ -1127,7 +1127,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐4)
 DTSTART;VALUE=DATE:20240617
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats Juni 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim
   BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n'Hoc
@@ -1140,12 +1140,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240618
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats Juni 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nL
  F-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. B
  RW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, geb
- en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp
+ en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp 
  ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehme
  nsberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttp
  s://www.hochfrequenz.de/
@@ -1154,35 +1154,35 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240620
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats Juni 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um di
  e Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Frist
  enkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
-  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche
+  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche 
  Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240624
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats Juni 2024 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalender
  ereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender
  ' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nac
- h Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner
+ h Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner 
  Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240625
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats Juni 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationslis
  te (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, geb
- en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp
+ en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp 
  ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehme
  nsberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttp
  s://www.hochfrequenz.de/
@@ -1191,7 +1191,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240626
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats Juni 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\
  nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse einf
@@ -1204,11 +1204,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240626
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats Juni 2024 \n\nLetzter Termin Anmeldung asynchrone Bilanz
  ierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geben s
- ie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein
+ ie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein 
  \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensbe
  ratung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://
  www.hochfrequenz.de/
@@ -1217,10 +1217,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240628
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats Juni 2024 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmun
- g NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben
+ g NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben 
  sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein
   \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensb
  eratung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps:/
@@ -1230,7 +1230,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240628
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats Juni 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die K
  alenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenk
@@ -1242,7 +1242,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐5)
 DTSTART;VALUE=DATE:20240701
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Juli 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse e
  infach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Suc
@@ -1254,7 +1254,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐4)
 DTSTART;VALUE=DATE:20240703
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats Juli 2024 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalendere
  reignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender'
@@ -1266,7 +1266,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240705
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats Juli 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVer
  sand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\
@@ -1280,7 +1280,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐5)
 DTSTART;VALUE=DATE:20240708
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats Juli 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Kale
  nderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkale
@@ -1292,7 +1292,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240712
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats Juli 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die K
  alenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenk
@@ -1304,7 +1304,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐5)
 DTSTART;VALUE=DATE:20240712
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats Juli 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim
   BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n'Hoc
@@ -1317,12 +1317,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240716
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats Juli 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\nL
  F-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg. B
  RW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, geb
- en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp
+ en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp 
  ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehme
  nsberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttp
  s://www.hochfrequenz.de/
@@ -1331,35 +1331,35 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240718
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats Juli 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um di
  e Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Frist
  enkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
-  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche
+  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche 
  Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240722
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats Juli 2024 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalender
  ereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender
  ' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nac
- h Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner
+ h Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner 
  Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240723
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats Juli 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationslis
  te (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, geb
- en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp
+ en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp 
  ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehme
  nsberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttp
  s://www.hochfrequenz.de/
@@ -1368,7 +1368,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240724
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats Juli 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\
  nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse einf
@@ -1381,10 +1381,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240726
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats Juli 2024 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmun
- g NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben
+ g NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben 
  sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein
   \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensb
  eratung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps:/
@@ -1394,11 +1394,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240726
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats Juli 2024 \n\nLetzter Termin Anmeldung asynchrone Bilanz
  ierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geben s
- ie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein
+ ie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein 
  \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensbe
  ratung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://
  www.hochfrequenz.de/
@@ -1407,7 +1407,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20240729
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Juli 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse e
  infach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Suc
@@ -1419,7 +1419,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐5)
 DTSTART;VALUE=DATE:20240730
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats Juli 2024 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalendere
  reignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender'
@@ -1431,7 +1431,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240731
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats Juli 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die K
  alenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenk
@@ -1443,7 +1443,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐6)
 DTSTART;VALUE=DATE:20240805
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats August 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Ka
  lenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
@@ -1455,7 +1455,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240807
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats August 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nV
  ersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF
@@ -1469,12 +1469,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐6)
 DTSTART;VALUE=DATE:20240809
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats August 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung be
  im BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n'H
  ochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund b
- earbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung
+ earbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung 
  GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hoc
  hfrequenz.de/
 TRANSP:TRANSPARENT
@@ -1482,11 +1482,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240814
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats August 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die
   Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
- nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
+ nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die 
  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
  ünchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -1494,7 +1494,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240819
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats August 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\
  nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg.
@@ -1508,9 +1508,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240821
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
- stenmonats August 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um
+ stenmonats August 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um 
  die Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fri
  stenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie d
  ie Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördlich
@@ -1520,7 +1520,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240823
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats August 2024 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalend
  erereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalend
@@ -1532,7 +1532,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240826
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats August 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsl
  iste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, g
@@ -1545,7 +1545,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240827
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats August 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB
  )\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse ei
@@ -1558,7 +1558,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐6)
 DTSTART;VALUE=DATE:20240828
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats August 2024 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalende
  rereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalende
@@ -1570,8 +1570,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240828
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats August 2024 \n\nLetzter Termin Anmeldung asynchrone Bila
  nzierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geben
   sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ei
@@ -1583,7 +1583,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240829
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats August 2024 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimm
  ung NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, gebe
@@ -1596,7 +1596,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20240830
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats August 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse
   einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das S
@@ -1608,11 +1608,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240830
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats August 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die
   Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
- nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
+ nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die 
  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
  ünchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -1620,7 +1620,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240906
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats September 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
  \nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶
@@ -1634,11 +1634,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐7)
 DTSTART;VALUE=DATE:20240906
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats September 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die
   Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
- nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
+ nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die 
  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
  ünchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -1646,7 +1646,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐7)
 DTSTART;VALUE=DATE:20240912
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats September 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung
   beim BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \
@@ -1659,9 +1659,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240913
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
- stenmonats September 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um
+ stenmonats September 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um 
  die Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fri
  stenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie d
  ie Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördlich
@@ -1671,7 +1671,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240917
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats September 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BK
  V)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./en
@@ -1685,10 +1685,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240919
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
- stenmonats September 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n
- Um die Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz
+ stenmonats September 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n 
+ Um die Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz 
  Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten si
  e die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördl
  iche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de
@@ -1698,7 +1698,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240924
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats September 2024 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kal
  enderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkal
@@ -1710,7 +1710,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240925
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats September 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklaratio
  nsliste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\
@@ -1723,8 +1723,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240925
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats September 2024 \n\nLetzter Termin Anmeldung asynchrone B
  ilanzierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, ge
  ben sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp
@@ -1736,9 +1736,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240926
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
- stenmonats September 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵
+ stenmonats September 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ 
  VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse
   einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das S
  uchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.\
@@ -1749,7 +1749,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240930
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats September 2024 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbst
  immung NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, g
@@ -1762,9 +1762,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240930
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
-  Fristenmonats September 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um
+  Fristenmonats September 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um 
  die Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fri
  stenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie d
  ie Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördlich
@@ -1774,10 +1774,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐8)
 DTSTART;VALUE=DATE:20241001
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Oktober 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereigniss
- e einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das
+ e einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das 
  Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.
  \n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 2
  7A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
@@ -1786,7 +1786,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐7)
 DTSTART;VALUE=DATE:20241001
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats Oktober 2024 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalend
  erereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalend
@@ -1798,7 +1798,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20241008
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats Oktober 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\n
  Versand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ L
@@ -1812,7 +1812,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐8)
 DTSTART;VALUE=DATE:20241009
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats Oktober 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die K
  alenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenk
@@ -1824,23 +1824,23 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20241015
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats Oktober 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um di
  e Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Frist
  enkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
-  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche
+  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche 
  Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐8)
 DTSTART;VALUE=DATE:20241015
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats Oktober 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung b
  eim BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n'
- Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund
+ Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund 
  bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung
   GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.ho
  chfrequenz.de/
@@ -1849,11 +1849,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20241017
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats Oktober 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
  \nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg
- . BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\,
+ . BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, 
  geben sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalendera
  pp ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unterne
  hmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nh
@@ -1863,11 +1863,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20241021
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats Oktober 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um
   die Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fr
- istenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie
+ istenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie 
  die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördlic
  he Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -1875,11 +1875,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20241023
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats Oktober 2024 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalen
  derereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalen
- der' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste
+ der' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste 
  nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchn
  er Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -1887,10 +1887,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20241024
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats Oktober 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarations
- liste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\,
+ liste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, 
  geben sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalendera
  pp ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unterne
  hmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nh
@@ -1900,7 +1900,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20241025
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats Oktober 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VN
  B)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse e
@@ -1913,8 +1913,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20241028
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats Oktober 2024 \n\nLetzter Termin Anmeldung asynchrone Bil
  anzierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, gebe
  n sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp e
@@ -1926,11 +1926,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20241029
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats Oktober 2024 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstim
  mung NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, geb
- en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp
+ en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp 
  ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehme
  nsberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttp
  s://www.hochfrequenz.de/
@@ -1939,10 +1939,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20241030
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Oktober 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereigniss
- e einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das
+ e einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das 
  Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.
  \n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 2
  7A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
@@ -1951,23 +1951,23 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20241030
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats Oktober 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um di
  e Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Frist
  enkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
-  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche
+  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche 
  Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐8)
 DTSTART;VALUE=DATE:20241104
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats November 2024 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalen
  derereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalen
- der' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste
+ der' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste 
  nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchn
  er Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -1975,10 +1975,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20241108
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats November 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\
- nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶
+ nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ 
  LF)\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n'Hoc
  hfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bea
  rbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung Gm
@@ -1989,9 +1989,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐9)
 DTSTART;VALUE=DATE:20241108
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
- stenmonats November 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die
+ stenmonats November 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die 
  Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
  kalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die L
  iste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
@@ -2001,9 +2001,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐9)
 DTSTART;VALUE=DATE:20241114
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
- stenmonats November 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung
+ stenmonats November 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung 
  beim BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n
  'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund
   bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatun
@@ -2014,7 +2014,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20241115
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats November 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um d
  ie Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fris
@@ -2026,7 +2026,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20241119
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats November 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV
  )\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./end
@@ -2040,7 +2040,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20241122
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats November 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n U
  m die Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz F
@@ -2052,7 +2052,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20241126
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats November 2024 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kale
  nderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkale
@@ -2064,7 +2064,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20241127
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats November 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklaration
  sliste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\,
@@ -2077,11 +2077,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20241127
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats November 2024 \n\nLetzter Termin Anmeldung asynchrone Bi
  lanzierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geb
- en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp
+ en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp 
  ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehme
  nsberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttp
  s://www.hochfrequenz.de/
@@ -2090,10 +2090,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20241128
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats November 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ V
- NB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse
+ NB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse 
  einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Su
  chfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.\n
  \nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A
@@ -2103,7 +2103,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20241129
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats November 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um d
  ie Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fris
@@ -2115,7 +2115,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐10)
 DTSTART;VALUE=DATE:20241202
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats Dezember 2024 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbsti
  mmung NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, ge
@@ -2128,23 +2128,23 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐10)
 DTSTART;VALUE=DATE:20241203
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Dezember 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignis
  se einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das
   Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch
- .\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße
+ .\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 
  27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐9)
 DTSTART;VALUE=DATE:20241203
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats Dezember 2024 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalen
  derereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalen
- der' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste
+ der' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste 
  nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchn
  er Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -2152,10 +2152,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20241206
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats Dezember 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\
- nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶
+ nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ 
  LF)\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n'Hoc
  hfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bea
  rbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung Gm
@@ -2166,9 +2166,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐10)
 DTSTART;VALUE=DATE:20241210
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
- stenmonats Dezember 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die
+ stenmonats Dezember 2024 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die 
  Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristen
  kalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die L
  iste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
@@ -2178,7 +2178,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20241213
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats Dezember 2024 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um d
  ie Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fris
@@ -2190,9 +2190,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐10)
 DTSTART;VALUE=DATE:20241216
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
- stenmonats Dezember 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung
+ stenmonats Dezember 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung 
  beim BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n
  'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund
   bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatun
@@ -2203,7 +2203,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20241217
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats Dezember 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV
  )\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./end
@@ -2217,7 +2217,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20241219
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
  stenmonats Dezember 2024 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n U
  m die Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz F
@@ -2229,7 +2229,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20241223
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats Dezember 2024 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kale
  nderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkale
@@ -2241,11 +2241,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20241223
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats Dezember 2024 \n\nLetzter Termin Anmeldung asynchrone Bi
  lanzierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geb
- en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp
+ en sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp 
  ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehme
  nsberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttp
  s://www.hochfrequenz.de/
@@ -2254,7 +2254,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20241227
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats Dezember 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklaration
  sliste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\,
@@ -2267,10 +2267,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20241230
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats Dezember 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ V
- NB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse
+ NB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse 
  einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das Su
  chfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.\n
  \nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A
@@ -2280,7 +2280,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20241230
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats Dezember 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um d
  ie Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fris
@@ -2292,7 +2292,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐11)
 DTSTART;VALUE=DATE:20250103
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats Januar 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimm
  ung NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, gebe
@@ -2305,7 +2305,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐11)
 DTSTART;VALUE=DATE:20250107
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Januar 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse
   einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das S
@@ -2317,7 +2317,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20250109
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats Januar 2025 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nV
  ersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF
@@ -2331,7 +2331,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐10)
 DTSTART;VALUE=DATE:20250109
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
  stenmonats Januar 2025 \n\nBK-Abrechnung (BIKO ⟶ BKV)\n\n Um die Kalende
  rereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalende
@@ -2343,7 +2343,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐11)
 DTSTART;VALUE=DATE:20250114
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
  stenmonats Januar 2025 \n\nNKP MG-Überlappung (VNB ⟶ MGV)\n\n Um die Ka
  lenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenka
@@ -2355,11 +2355,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20250116
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
  stenmonats Januar 2025 \n\nEingang Netzzeitreihen (VNB ⟶ VNB)\n\n Um die
   Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
- nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
+ nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die 
  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
  ünchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
@@ -2367,7 +2367,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20250120
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats Januar 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\
  nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg.
@@ -2381,12 +2381,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐11)
 DTSTART;VALUE=DATE:20250120
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats Januar 2025 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung be
  im BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben sie \n'H
  ochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund b
- earbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung
+ earbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung 
  GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hoc
  hfrequenz.de/
 TRANSP:TRANSPARENT
@@ -2394,9 +2394,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20250122
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
- stenmonats Januar 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um
+ stenmonats Januar 2025 \n\nBK-Summen vorl./endg. BRW (MGV ⟶ BKV)\n\n Um 
  die Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fri
  stenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie d
  ie Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördlich
@@ -2406,7 +2406,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20250124
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
  stenmonats Januar 2025 \n\nZuordnungslisten (VNB ⟶ LF)\n\n Um die Kalend
  erereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalend
@@ -2418,7 +2418,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20250127
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats Januar 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsl
  iste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, g
@@ -2431,7 +2431,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20250128
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats Januar 2025 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB
  )\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse ei
@@ -2444,8 +2444,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20250128
-DTSTAMP:20250107T123313Z
-DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag
+DTSTAMP:20250107T124709Z
+DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats Januar 2025 \n\nLetzter Termin Anmeldung asynchrone Bila
  nzierung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geben
   sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ei
@@ -2457,7 +2457,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20250130
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
  stenmonats Januar 2025 \n\nAusgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimm
  ung NKP zw. VNB\n\n\n Um die Kalenderereignisse einfach zu löschen\, gebe
@@ -2470,7 +2470,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20250131
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Januar 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse
   einfach zu löschen\, geben sie \n'Hochfrequenz Fristenkalender' in das S
@@ -2482,11 +2482,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20250131
-DTSTAMP:20250107T123313Z
+DTSTAMP:20250107T124709Z
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
   Fristenmonats Januar 2025 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\n\n Um die
   Kalenderereignisse einfach zu löschen\, geben sie \n'Hochfrequenz Friste
- nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die
+ nkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die 
  Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche M
  ünchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
