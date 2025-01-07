@@ -356,6 +356,7 @@ class FristenkalenderGenerator:
         event.add("summary", summary)
         event.add("description", self.generate_frist_description(frist.date, frist.label))
         event.add("dtstart", frist.date)
+        event.add("transp", "TRANSPARENT")
         if sys.version_info >= (3, 11):
             event.add("dtstamp", datetime.now(UTC))
         else:
