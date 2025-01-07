@@ -377,6 +377,15 @@ class FristenkalenderGenerator:
         else:
             event.add("dtstamp", datetime.utcnow())
 
+        # UID: YYYYMMDD<type><label><date>
+        creation_date = datetime.now().strftime("%Y%m%d")
+        frist_type_attr = getattr(frist, "frist_type", None)
+        frist_type = frist_type_attr.value if isinstance(frist_type_attr, FristenType) else "ALL"
+        frist_date = frist.date.strftime("%Y%m")
+        label_clean = frist.label.replace("WT", "").replace("L", "L0")
+        uid = f"{creation_date}{frist_type}{label_clean}{frist_date}"
+        event.add("uid", uid)
+
         return event
 
     def create_ical(
