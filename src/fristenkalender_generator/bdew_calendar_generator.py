@@ -81,6 +81,8 @@ _month_mapping: dict[int, str] = {
     12: "Dezember",
 }
 
+_24hLfwKeyDate = date(2025, 6, 6)
+
 
 @dataclasses.dataclass(unsafe_hash=True)
 class FristWithAttributes:
@@ -358,7 +360,12 @@ class FristenkalenderGenerator:
                 raise ValueError(f"The label '{label}' must end with either 'WT' or 'LWT'")
 
         fristen.sort(key=lambda fwa: fwa.date)
-        return fristen
+        # 3LWT originates from the "asynchrone Bilanzierung" which ends with the beginning of 24h Lieferantenwechsel
+        # hence we don't need those kind of fristen afterward.
+        fristen_without_3lwt_after_24h_lfw = [
+            f for f in fristen if not (f.label == "3LWT" and f.date >= _24hLfwKeyDate)
+        ]
+        return fristen_without_3lwt_after_24h_lfw
 
     def create_ical_event(self, frist: Union[FristWithAttributes, FristWithAttributesAndType]) -> Event:
         """
