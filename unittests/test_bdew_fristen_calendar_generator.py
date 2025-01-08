@@ -312,6 +312,12 @@ class TestFristenkalenderGenerator:
 
         assert fristen_with_attr_and_type == expected
 
+    def test_generate_fristen_for_type_3lwt_asynchrone_bilanzierung(self) -> None:
+        actual = FristenkalenderGenerator().generate_fristen_for_type(2025, FristenType.GPKE)
+
+        assert len([f for f in actual if f.date < date(2025, 6, 6) and f.label == "3LWT"]) == 6
+        assert not any(f for f in actual if f.date >= date(2025, 6, 6) and f.label == "3LWT")
+
     @pytest.mark.snapshot
     def test_full_calendar_2023(self, snapshot: SnapshotAssertion) -> None:
         generator = FristenkalenderGenerator()
