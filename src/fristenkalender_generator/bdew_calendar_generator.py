@@ -402,6 +402,9 @@ class FristenkalenderGenerator:
         """
         calendar = Calendar()
         calendar.add("attendee", attendee)
+        calendar.add("x-wr-calname", "Hochfrequenz Fristenkalender")
+        # https://learn.microsoft.com/en-us/openspecs/exchange_server_protocols/ms-oxcical/1da58449-b97e-46bd-b018-a1ce576f3e6d
+
         for frist in fristen:
             calendar.add_component(self.create_ical_event(frist))
 
