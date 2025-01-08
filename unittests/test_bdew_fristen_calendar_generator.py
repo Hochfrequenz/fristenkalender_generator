@@ -343,7 +343,7 @@ class TestFristenkalenderGenerator:
                 date(2023, 9, 12),
                 "30WT",
                 (
-                    "Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fristenmonats September 2023 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO\n\n Um die Kalenderereignisse einfach zu löschen, geben sie \n'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \nund bearbeiten sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/"
+                    "Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fristenmonats September 2023 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO\n\n Um die Kalenderereignisse einfach zu löschen, geben Sie \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/"
                 ),
                 id="",
             )
