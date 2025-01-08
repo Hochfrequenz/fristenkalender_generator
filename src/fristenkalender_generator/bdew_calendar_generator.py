@@ -368,7 +368,7 @@ class FristenkalenderGenerator:
 
     def create_ical_event(self, frist: Union[FristWithAttributes, FristWithAttributesAndType]) -> Event:
         """
-        Create an ical event for a given frist
+        Create an ical (v)event for a given frist
         """
         event = Event()
         summary: str = frist.label
@@ -391,6 +391,11 @@ class FristenkalenderGenerator:
         label_clean = frist.label.replace("WT", "").replace("L", "L0")
         uid = f"{creation_date}{frist_type}{label_clean}{frist_date}"
         event.add("uid", uid)
+
+        event.add("categories", frist.label)
+        # pylint:disable=line-too-long
+        # https://learn.microsoft.com/en-us/openspecs/exchange_server_protocols/ms-oxcical/1c64465c-7d88-4b0f-988f-6e40a289c57f
+        # Note that categories is not part of the official ICAL standard but microsoft specific.
 
         return event
 
