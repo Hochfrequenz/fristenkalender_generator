@@ -327,8 +327,12 @@ class FristenkalenderGenerator:
 
         # jan next year
         fristen.append(self._generate_lwt_frist(year + 1, 1, nth_day, label))
-
-        return fristen
+        # 3LWT originates from the "asynchrone Bilanzierung" which ends with the beginning of 24h Lieferantenwechsel
+        # hence we don't need those kind of fristen afterward.
+        fristen_without_3lwt_after_24h_lfw = [
+            f for f in fristen if not (f.label == "3LWT" and f.date >= _24hLfwKeyDate)
+        ]
+        return fristen_without_3lwt_after_24h_lfw
 
     def generate_all_fristen(self, year: int) -> list[FristWithAttributes]:
         """
@@ -360,12 +364,7 @@ class FristenkalenderGenerator:
                 raise ValueError(f"The label '{label}' must end with either 'WT' or 'LWT'")
 
         fristen.sort(key=lambda fwa: fwa.date)
-        # 3LWT originates from the "asynchrone Bilanzierung" which ends with the beginning of 24h Lieferantenwechsel
-        # hence we don't need those kind of fristen afterward.
-        fristen_without_3lwt_after_24h_lfw = [
-            f for f in fristen if not (f.label == "3LWT" and f.date >= _24hLfwKeyDate)
-        ]
-        return fristen_without_3lwt_after_24h_lfw
+        return fristen
 
     def create_ical_event(self, frist: Union[FristWithAttributes, FristWithAttributesAndType]) -> Event:
         """
