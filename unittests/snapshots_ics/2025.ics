@@ -1,5 +1,6 @@
 BEGIN:VCALENDAR
 ATTENDEE:snapshot@hochfrequenz.de
+X-WR-CALNAME:Hochfrequenz Fristenkalender
 BEGIN:VEVENT
 SUMMARY:20WT (⭐10)
 DTSTART;VALUE=DATE:20241202
