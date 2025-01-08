@@ -149,7 +149,7 @@ A dictionary with a specific descriptions of the frists
 greeting: str = "Digitaler Hochfrequenz Fristenkalender \n"
 general_description: str = (
     "\n Um die Kalenderereignisse einfach zu löschen, geben Sie \n"
-    "'Hochfrequenz Fristenkalender' in das Suchfeld ihrer Kalenderapp ein \n"
+    "'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \n"
     "und bearbeiten Sie die Liste nach Wunsch.\n\n"
     "Hochfrequenz Unternehmensberatung GmbH\n"
     "Nördliche Münchner Straße 27A\n"
