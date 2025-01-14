@@ -7,7 +7,7 @@ from icalendar import vText  # type: ignore[import-untyped]
 from syrupy import snapshot
 from syrupy.assertion import SnapshotAssertion
 
-from fristenkalender_generator.bdew_calendar_generator import (
+from fristenkalender_generator import (
     FristenkalenderGenerator,
     FristenType,
     FristWithAttributes,
