@@ -1,6 +1,6 @@
 import pytest
 
-from fristenkalender_generator.bdew_calendar_generator import FristenkalenderGenerator, FristWithAttributes
+from fristenkalender_generator import FristenkalenderGenerator
 from fristenkalender_generator.utils import _CalendarEntry, convert_fristen_list_to_calendar_like_dictionary
 
 
