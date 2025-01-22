@@ -21,5 +21,5 @@ pytz==2024.2
     # via bdew-datetimes
 six==1.17.0
     # via python-dateutil
-tzdata==2024.2
+tzdata==2025.1
     # via icalendar
