@@ -17,7 +17,7 @@ python-dateutil==2.9.0.post0
     #   bdew-datetimes
     #   holidays
     #   icalendar
-pytz==2024.2
+pytz==2025.1
     # via bdew-datetimes
 six==1.17.0
     # via python-dateutil
