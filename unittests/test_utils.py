@@ -10,26 +10,26 @@ class TestUtils:
         [
             pytest.param(
                 {
-                    "01.02.2024": {
-                        "datum": "01.02.2024",
+                    "2024-02-01": {
+                        "datum": "2024-02-01",
                         "fristen": ["42WT"],
                         "wochentag": "Do",
                         "feiertags_name": None,
                     },
-                    "01.12.2023": {
-                        "datum": "01.12.2023",
+                    "2023-12-01": {
+                        "datum": "2023-12-01",
                         "feiertags_name": None,
                         "fristen": ["21WT"],
                         "wochentag": "Fr",
                     },
-                    "24.12.2023": {
-                        "datum": "24.12.2023",
+                    "2023-12-24": {
+                        "datum": "2023-12-24",
                         "feiertags_name": "Heiligabend",
                         "fristen": None,
                         "wochentag": "So",
                     },
-                    "01.01.2024": {
-                        "datum": "01.01.2024",
+                    "2024-01-01": {
+                        "datum": "2024-01-01",
                         "feiertags_name": "Neujahr",
                         "fristen": None,
                         "wochentag": "Mo",
