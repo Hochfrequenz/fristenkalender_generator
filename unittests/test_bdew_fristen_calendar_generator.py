@@ -363,6 +363,16 @@ class TestFristenkalenderGenerator:
         # hack for pycharm: run this in the debugger and copy the value of str(actual) from the variable window
         snapshot.assert_match(actual)
 
+    @pytest.mark.snapshot
+    def test_full_calendar_2026(self, snapshot: SnapshotAssertion) -> None:
+        generator = FristenkalenderGenerator()
+        actual = generator.generate_all_fristen(2026)
+        calendar = generator.create_ical("snapshot@hochfrequenz.de", actual)
+        ics_path = Path(__file__).parent / "snapshots_ics" / "2026.ics"
+        FristenkalenderGenerator().export_ical(ics_path, calendar)
+        # hack for pycharm: run this in the debugger and copy the value of str(actual) from the variable window
+        snapshot.assert_match(actual)
+
     @pytest.mark.parametrize(
         "year, month, expected",
         [
