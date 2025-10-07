@@ -6,7 +6,7 @@
 #
 bdew-datetimes==0.9.1
     # via fristenkalender_generator (pyproject.toml)
-holidays==0.81
+holidays==0.82
     # via
     #   bdew-datetimes
     #   fristenkalender_generator (pyproject.toml)
