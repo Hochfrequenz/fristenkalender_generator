@@ -43,7 +43,7 @@ dynamic = ["readme", "version"]
 
 [project.optional-dependencies]
 tests = [
-    "pytest==8.4.2",
+    "pytest==9.0.2",
     "syrupy==5.0.0"
 ]
 linting = [
