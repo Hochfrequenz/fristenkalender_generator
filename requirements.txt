@@ -4,7 +4,7 @@
 #
 #    pip-compile pyproject.toml
 #
-bdew-datetimes==0.9.1
+bdew-datetimes==0.10.0
     # via fristenkalender_generator (pyproject.toml)
 holidays==0.88
     # via
