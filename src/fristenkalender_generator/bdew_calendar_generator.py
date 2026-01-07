@@ -81,7 +81,7 @@ _month_mapping: dict[int, str] = {
     12: "Dezember",
 }
 
-_24hLfwKeyDate = date(2025, 6, 6)
+_24H_LFW_KEY_DATE = date(2025, 6, 6)
 
 
 @dataclasses.dataclass(unsafe_hash=True)
@@ -146,8 +146,8 @@ A dictionary with a specific descriptions of the frists
 
 """
 
-greeting: str = "Digitaler Hochfrequenz Fristenkalender \n"
-general_description: str = (
+GREETING: str = "Digitaler Hochfrequenz Fristenkalender \n"
+GENERAL_DESCRIPTION: str = (
     "\n Um die Kalenderereignisse einfach zu löschen, geben Sie \n"
     "'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \n"
     "und bearbeiten Sie die Liste nach Wunsch.\n\n"
@@ -178,7 +178,7 @@ class FristenkalenderGenerator:
         month: str = _month_mapping[frist_date.month]  # Verwendung der Monatszahl statt des Namens
         another_part: str = wt + " Werktag des Fristenmonats " + month + " " + year + " \n"
         frist_description: str = (
-            greeting + "\n" + another_part + "\n" + specific_description[label] + "\n" + general_description
+            GREETING + "\n" + another_part + "\n" + specific_description[label] + "\n" + GENERAL_DESCRIPTION
         )
 
         return frist_description
@@ -330,7 +330,7 @@ class FristenkalenderGenerator:
         # 3LWT originates from the "asynchrone Bilanzierung" which ends with the beginning of 24h Lieferantenwechsel
         # hence we don't need those kind of fristen afterward.
         fristen_without_3lwt_after_24h_lfw = [
-            f for f in fristen if not (f.label == "3LWT" and f.date >= _24hLfwKeyDate)
+            f for f in fristen if not (f.label == "3LWT" and f.date >= _24H_LFW_KEY_DATE)
         ]
         return fristen_without_3lwt_after_24h_lfw
 
