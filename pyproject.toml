@@ -63,7 +63,7 @@ formatting = [
     "isort==7.0.0"
 ]
 packaging = [
-    "build==1.4.1",
+    "build==1.4.2",
     "twine==6.2.0"
 ]
 dev = [
