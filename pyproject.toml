@@ -36,7 +36,7 @@ classifiers = [
 dependencies = [
     "bdew_datetimes>=0.9.1", # because 0.8.0 contains 24hLFW Sonderfeiertag on 2025-06-06
     "holidays>=0.78",
-    "icalendar",
+    "icalendar>=7.2.0",
     # add everything you add in requirements.in here
 ]
 dynamic = ["readme", "version"]

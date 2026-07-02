@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Union
 
 import pytest
-from icalendar import vText  # type: ignore[import-untyped]
+from icalendar import vText
 from syrupy import snapshot
 from syrupy.assertion import SnapshotAssertion
 
