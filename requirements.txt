@@ -10,7 +10,7 @@ holidays==0.100
     # via
     #   bdew-datetimes
     #   fristenkalender_generator (pyproject.toml)
-icalendar==7.2.0
+icalendar==7.2.2
     # via fristenkalender_generator (pyproject.toml)
 python-dateutil==2.9.0.post0
     # via
