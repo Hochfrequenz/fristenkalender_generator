@@ -13,7 +13,7 @@ build-backend = "hatchling.build"
 name = "fristenkalender_generator"
 description = "A Python package that generates the raw data for the 'Hochfrequenz Fristenkalender'"
 license = { text = "MIT" }
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 authors = [
     { name = "Konstantin Klein", email = "konstantin.klein@hochfrequenz.de" },
 ]
@@ -26,7 +26,6 @@ classifiers = [
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
@@ -41,7 +40,11 @@ dependencies = [
 ]
 dynamic = ["readme", "version"]
 
-[project.optional-dependencies]
+[project.urls]
+Changelog = "https://github.com/Hochfrequenz/fristenkalender_generator/releases"
+Homepage = "https://github.com/Hochfrequenz/fristenkalender_generator"
+
+[dependency-groups]
 tests = [
     "pytest==9.1.1",
     "syrupy==5.5.3"
@@ -50,29 +53,32 @@ linting = [
     "pylint==4.0.6"
 ]
 type_check = [
-    "mypy==2.3.0"
+    "mypy==2.3.0",
+    { include-group = "tests" }
 ]
 spell_check = [
     "codespell==2.4.3"
 ]
 coverage = [
-    "coverage==7.15.2"
+    "coverage==7.15.2",
+    { include-group = "tests" }
 ]
 formatting = [
     "black==26.5.1",
     "isort==8.0.1"
 ]
-packaging = [
-    "build==1.5.1",
-    "twine==6.2.0"
-]
 dev = [
-    "pip-tools"
+    { include-group = "tests" },
+    { include-group = "linting" },
+    { include-group = "type_check" },
+    { include-group = "coverage" },
+    { include-group = "spell_check" },
+    { include-group = "formatting" },
+    "pre-commit"
 ]
 
-[project.urls]
-Changelog = "https://github.com/Hochfrequenz/fristenkalender_generator/releases"
-Homepage = "https://github.com/Hochfrequenz/fristenkalender_generator"
+[tool.uv]
+default-groups = []
 
 [tool.hatch.metadata.hooks.fancy-pypi-readme]
 content-type = "text/markdown"
@@ -124,4 +130,4 @@ package-data = [
 ]
 
 [tool.coverage.run]
-omit = [".tox/*", "unittests/*"]
+omit = ["unittests/*"]
