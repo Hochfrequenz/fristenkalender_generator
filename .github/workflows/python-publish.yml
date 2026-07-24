@@ -33,6 +33,7 @@ jobs:
      # you have to create an environment in your repository settings and add the environment name here
      environment: release
      permissions:
+         contents: read
          # IMPORTANT: this permission is mandatory for trusted publishing
          id-token: write
      needs: tests
