@@ -2,7 +2,7 @@ name: "Linting"
 
 on: [push]
 jobs:
-  pylint:
+  pythonlint:
     name: "Python Code Quality and Lint (${{ matrix.group }})"
     runs-on: ubuntu-latest
     strategy:
