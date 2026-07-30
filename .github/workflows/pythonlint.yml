@@ -9,7 +9,7 @@ jobs:
       matrix:
         include:
           - group: linting
-            commands: uv run pylint fristenkalender_generator
+            commands: uv run ruff check src/fristenkalender_generator
           - group: type_check
             commands: |
               uv run mypy --show-error-codes --strict src/fristenkalender_generator

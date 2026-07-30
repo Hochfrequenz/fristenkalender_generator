@@ -12,10 +12,10 @@ from .bdew_calendar_generator import (
 )
 
 __all__ = [
-    "FristenType",
-    "FristenkalenderGenerator",
     "FristWithAttributes",
     "FristWithAttributesAndType",
+    "FristenType",
+    "FristenkalenderGenerator",
     "Label",
     "LwtLabel",
 ]

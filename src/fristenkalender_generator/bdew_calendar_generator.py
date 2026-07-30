@@ -15,27 +15,27 @@ except ImportError:
 from datetime import date, datetime, timedelta
 from enum import Enum
 from pathlib import Path
-from typing import Literal, Optional, Union
+from typing import Literal
 
 from bdew_datetimes.periods import get_nth_working_day_of_month, get_previous_working_day
 from icalendar import Calendar, Event
 
-LwtLabel = Union[Literal["LWT"], Literal["3LWT"]]
-Label = Union[
-    Literal["5WT"],
-    Literal["10WT"],
-    Literal["12WT"],
-    Literal["14WT"],
-    Literal["16WT"],
-    Literal["17WT"],
-    Literal["18WT"],
-    Literal["20WT"],
-    Literal["21WT"],
-    Literal["26WT"],
-    Literal["30WT"],
-    Literal["42WT"],
-    LwtLabel,
-]
+LwtLabel = Literal["LWT"] | Literal["3LWT"]
+Label = (
+    Literal["5WT"]
+    | Literal["10WT"]
+    | Literal["12WT"]
+    | Literal["14WT"]
+    | Literal["16WT"]
+    | Literal["17WT"]
+    | Literal["18WT"]
+    | Literal["20WT"]
+    | Literal["21WT"]
+    | Literal["26WT"]
+    | Literal["30WT"]
+    | Literal["42WT"]
+    | LwtLabel
+)
 
 
 class FristenType(Enum):
@@ -92,9 +92,9 @@ class FristWithAttributes:
 
     date: date  #: = date(y,m,d)
     label: Label  #: can be for example '5WT' (5 Werktage des Liefermonats)
-    ref_not_in_the_same_month: Optional[
-        int
-    ]  #: None if the Frist is in the same month as the ref. date, otherwise is a month number when the Frist started
+    ref_not_in_the_same_month: (
+        int | None
+    )  #: None if the Frist is in the same month as the ref. date, otherwise is a month number when the Frist started
     description: str  #: contains  specific description of each Frist
 
 
@@ -131,9 +131,9 @@ specific_description: dict[Label, str] = {
     ),
     "14WT": "BK-Summen vorl./endg. BRW (MGV ⟶ BKV)",
     "16WT": "Zuordnungslisten (VNB ⟶ LF)",
-    "17WT": ("BK-Zuordnungsliste (VNB ⟶ BKV)\n" "Deklarationsliste (VNB ⟶ MGV)\n"),
-    "18WT": ("Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\n" "Deklarationsmitteilung (MGV ⟶ BKV)\n"),
-    "20WT": ("Ausgleichsenergiepreise (BIKO ⟶ BKV)\n" "Abstimmung NKP zw. VNB\n"),
+    "17WT": ("BK-Zuordnungsliste (VNB ⟶ BKV)\nDeklarationsliste (VNB ⟶ MGV)\n"),
+    "18WT": ("Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n"),
+    "20WT": ("Ausgleichsenergiepreise (BIKO ⟶ BKV)\nAbstimmung NKP zw. VNB\n"),
     "21WT": "NKP (VNB ⟶ MGV)",
     "26WT": "NKP MG-Überlappung (VNB ⟶ MGV)",
     "30WT": "letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO",
@@ -355,8 +355,8 @@ class FristenkalenderGenerator:
 
         fristen = []
         for days, label in days_and_labels:
-            if label == "LWT" or label == "3LWT":  # pylint:disable=consider-using-in
-                # ignore pylint because we need the x==FOO or x==BAR for mypy LwtLabel type
+            if label == "LWT" or label == "3LWT":  # noqa: PLR1714
+                # we need the x==FOO or x==BAR form (not `in`) for mypy LwtLabel type narrowing
                 fristen += self.generate_all_fristen_for_given_lwt(year, days, label)
             elif label.endswith("WT"):
                 fristen += self.generate_all_fristen_for_given_wt(year, days, label)
@@ -366,7 +366,7 @@ class FristenkalenderGenerator:
         fristen.sort(key=lambda fwa: fwa.date)
         return fristen
 
-    def create_ical_event(self, frist: Union[FristWithAttributes, FristWithAttributesAndType]) -> Event:
+    def create_ical_event(self, frist: FristWithAttributes | FristWithAttributesAndType) -> Event:
         """
         Create an ical (v)event for a given frist
         """
@@ -399,9 +399,7 @@ class FristenkalenderGenerator:
 
         return event
 
-    def create_ical(
-        self, attendee: str, fristen: list[Union[FristWithAttributes, FristWithAttributesAndType]]
-    ) -> Calendar:
+    def create_ical(self, attendee: str, fristen: list[FristWithAttributes | FristWithAttributesAndType]) -> Calendar:
         """
         Create an ical calendar with a given mail address and a given set of fristen
         """
