@@ -2,9 +2,10 @@
 utility functions
 """
 
+from collections.abc import Mapping
 from datetime import datetime, timedelta
 from itertools import groupby
-from typing import Literal, Mapping, Optional, TypedDict
+from typing import Literal, TypedDict
 
 from bdew_datetimes import create_bdew_calendar
 
@@ -30,8 +31,8 @@ class _CalendarEntry(TypedDict):
 
     wochentag: _DeutscherWochentag
     datum: str  #: German format: "dd.mm.yyyy"
-    fristen: Optional[list[str]]  #: e.g. ["42WT", "LWT"]
-    feiertags_name: Optional[str]  # e.g. "Ostermontag"
+    fristen: list[str] | None  #: e.g. ["42WT", "LWT"]
+    feiertags_name: str | None  # e.g. "Ostermontag"
 
 
 def convert_fristen_list_to_calendar_like_dictionary(fristen: list[FristWithAttributes]) -> dict[str, _CalendarEntry]:
