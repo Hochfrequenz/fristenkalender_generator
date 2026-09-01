@@ -47,7 +47,7 @@ Homepage = "https://github.com/Hochfrequenz/fristenkalender_generator"
 [dependency-groups]
 tests = [
     "pytest==9.1.1",
-    "syrupy==5.5.3"
+    "syrupy==6.0.0"
 ]
 linting = [
     "ruff==0.16.5"
