@@ -4,7 +4,7 @@ ATTENDEE:snapshot@hochfrequenz.de
 BEGIN:VEVENT
 SUMMARY:21WT (⭐10)
 DTSTART;VALUE=DATE:20231201
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202312
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
@@ -18,7 +18,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐9)
 DTSTART;VALUE=DATE:20231204
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202312
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -32,23 +32,23 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20231207
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202312
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
- tenmonats Dezember 2023 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\
- nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ 
- LF)\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie \n'Hoc
- hfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nund bea
- rbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung Gm
- bH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochf
- requenz.de/
+ tenmonats Dezember 2023 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+ \nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶
+  LF)\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie \n'Ho
+ chfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nund be
+ arbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung G
+ mbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hoch
+ frequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐10)
 DTSTART;VALUE=DATE:20231208
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202312
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20231214
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202312
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐10)
 DTSTART;VALUE=DATE:20231214
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202312
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
@@ -91,7 +91,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20231218
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202312
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
@@ -107,7 +107,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20231220
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202312
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -121,7 +121,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20231222
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202312
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -135,7 +135,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20231227
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202312
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
@@ -150,7 +150,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20231227
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202312
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
@@ -165,7 +165,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20231228
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202312
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
@@ -180,7 +180,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20231229
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202312
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
@@ -194,7 +194,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐11)
 DTSTART;VALUE=DATE:20240102
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202401
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -209,21 +209,21 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐11)
 DTSTART;VALUE=DATE:20240103
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202401
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Januar 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse
   einfach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das S
- uchfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\
- n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27
- A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+ uchfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.
+ \n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 2
+ 7A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐10)
 DTSTART;VALUE=DATE:20240104
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202401
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -237,7 +237,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240108
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202401
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
@@ -253,7 +253,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐11)
 DTSTART;VALUE=DATE:20240110
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202401
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -267,7 +267,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240115
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202401
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -281,7 +281,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐11)
 DTSTART;VALUE=DATE:20240116
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202401
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
@@ -296,23 +296,23 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240117
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202401
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
- stenmonats Januar 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\
- nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg.
-  BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, g
- eben Sie \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderap
- p ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unterneh
- mensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nht
- tps://www.hochfrequenz.de/
+ stenmonats Januar 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+ \nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg
+ . BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, 
+ geben Sie \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalendera
+ pp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unterne
+ hmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nh
+ ttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240119
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202401
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -326,7 +326,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240123
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202401
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -340,7 +340,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240124
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202401
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
@@ -355,7 +355,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240125
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202401
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
@@ -370,7 +370,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240126
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202401
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
@@ -385,7 +385,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240129
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202401
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -400,21 +400,21 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20240130
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202401
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Januar 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse
   einfach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das S
- uchfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\
- n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27
- A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+ uchfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.
+ \n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 2
+ 7A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240131
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202401
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
@@ -428,7 +428,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐11)
 DTSTART;VALUE=DATE:20240201
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202402
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -442,7 +442,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐12)
 DTSTART;VALUE=DATE:20240206
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202402
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -456,7 +456,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240207
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202402
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
@@ -472,7 +472,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐12)
 DTSTART;VALUE=DATE:20240212
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202402
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
@@ -487,7 +487,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240214
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202402
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -501,7 +501,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240216
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202402
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
@@ -517,7 +517,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240220
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202402
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -531,7 +531,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240222
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202402
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -545,7 +545,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240223
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202402
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
@@ -560,22 +560,22 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240226
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202402
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats Februar 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VN
  B)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse e
  infach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das Suc
- hfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\
- nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\
- nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+ hfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n
+ \nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A
+ \nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240226
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202402
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
@@ -590,7 +590,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240228
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202402
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -605,7 +605,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐12)
 DTSTART;VALUE=DATE:20240228
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202402
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -619,7 +619,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20240229
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202402
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
@@ -633,7 +633,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240229
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202402
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
@@ -647,7 +647,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240307
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202403
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
@@ -655,15 +655,15 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  rsand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)
  \n\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie \n'Hochfr
  equenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nund bearbe
- iten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\
- nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfreq
- uenz.de/
+ iten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH
+ \nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfre
+ quenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐1)
 DTSTART;VALUE=DATE:20240307
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202403
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -677,7 +677,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐1)
 DTSTART;VALUE=DATE:20240314
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202403
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
@@ -692,7 +692,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240315
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202403
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -706,7 +706,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240319
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202403
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
@@ -722,7 +722,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240321
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202403
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -736,7 +736,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240325
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202403
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -750,7 +750,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240326
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202403
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
@@ -765,7 +765,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240326
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202403
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
@@ -780,7 +780,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240327
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202403
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
@@ -795,7 +795,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240328
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202403
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
@@ -809,7 +809,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐2)
 DTSTART;VALUE=DATE:20240402
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202404
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -824,7 +824,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐2)
 DTSTART;VALUE=DATE:20240403
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202404
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
@@ -838,7 +838,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐1)
 DTSTART;VALUE=DATE:20240403
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202404
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -852,7 +852,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240408
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202404
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
@@ -860,15 +860,15 @@ DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  rsand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)
  \n\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie \n'Hochfr
  equenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nund bearbe
- iten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\
- nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfreq
- uenz.de/
+ iten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH
+ \nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfre
+ quenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐2)
 DTSTART;VALUE=DATE:20240410
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202404
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -882,7 +882,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240415
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202404
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -896,7 +896,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐2)
 DTSTART;VALUE=DATE:20240416
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202404
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
@@ -911,7 +911,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240417
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202404
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
@@ -927,7 +927,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240419
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202404
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -941,7 +941,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240423
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202404
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -955,7 +955,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240424
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202404
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
@@ -970,7 +970,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240425
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202404
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
@@ -985,7 +985,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240425
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202404
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
@@ -1000,7 +1000,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240429
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202404
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -1015,7 +1015,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20240430
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202404
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
@@ -1029,7 +1029,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240430
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202404
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
@@ -1043,7 +1043,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐2)
 DTSTART;VALUE=DATE:20240503
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202405
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -1057,7 +1057,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240508
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202405
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
@@ -1073,7 +1073,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐3)
 DTSTART;VALUE=DATE:20240508
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202405
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -1087,7 +1087,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐3)
 DTSTART;VALUE=DATE:20240515
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202405
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
@@ -1102,7 +1102,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240516
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202405
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -1116,7 +1116,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240521
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202405
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
@@ -1132,7 +1132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240523
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202405
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -1146,7 +1146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240527
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202405
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -1160,22 +1160,22 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240527
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202405
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
  des Fristenmonats Mai 2024 \n\nLetzter Termin Anmeldung asynchrone Bilanzi
  erung (Strom)\n\n Um die Kalenderereignisse einfach zu löschen\, geben Si
- e \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \
- nund bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensber
- atung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://w
- ww.hochfrequenz.de/
+ e \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein 
+ \nund bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensbe
+ ratung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://
+ www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240528
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202405
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
@@ -1190,7 +1190,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240529
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202405
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
@@ -1205,7 +1205,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240531
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202405
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
@@ -1219,7 +1219,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐4)
 DTSTART;VALUE=DATE:20240603
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202406
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -1234,21 +1234,21 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐4)
 DTSTART;VALUE=DATE:20240604
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202406
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Juni 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse e
  infach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das Suc
- hfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\
- nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\
- nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+ hfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n
+ \nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A
+ \nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐3)
 DTSTART;VALUE=DATE:20240604
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202406
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -1262,23 +1262,23 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240607
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202406
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats Juni 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVer
- sand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\
- n\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie \n'Hochfre
- quenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nund bearbei
- ten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\n
- Nördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequ
- enz.de/
+ sand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)
+ \n\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie \n'Hochfr
+ equenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nund bearbe
+ iten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH
+ \nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfre
+ quenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐4)
 DTSTART;VALUE=DATE:20240611
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202406
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -1292,7 +1292,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240614
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202406
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -1306,7 +1306,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐4)
 DTSTART;VALUE=DATE:20240617
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202406
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
@@ -1321,7 +1321,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240618
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202406
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
@@ -1337,7 +1337,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240620
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202406
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -1351,7 +1351,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240624
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202406
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -1365,7 +1365,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240625
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202406
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
@@ -1380,22 +1380,22 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240626
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202406
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
- stenmonats Juni 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\
- nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse einf
- ach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das Suchfe
- ld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nHo
- chfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-
- 82031 Grünwald\nhttps://www.hochfrequenz.de/
+ stenmonats Juni 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+ \nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse ein
+ fach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das Suchf
+ eld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nH
+ ochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD
+ -82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240626
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202406
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
@@ -1410,7 +1410,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240628
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202406
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -1425,7 +1425,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240628
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202406
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
@@ -1439,21 +1439,21 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐5)
 DTSTART;VALUE=DATE:20240701
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202407
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Juli 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse e
  infach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das Suc
- hfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\
- nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\
- nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+ hfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n
+ \nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A
+ \nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐4)
 DTSTART;VALUE=DATE:20240703
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202407
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -1467,23 +1467,23 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240705
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202407
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
  tenmonats Juli 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\nVer
- sand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)\
- n\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie \n'Hochfre
- quenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nund bearbei
- ten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH\n
- Nördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfrequ
- enz.de/
+ sand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ LF)
+ \n\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie \n'Hochfr
+ equenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nund bearbe
+ iten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung GmbH
+ \nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochfre
+ quenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐5)
 DTSTART;VALUE=DATE:20240708
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202407
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -1497,7 +1497,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240712
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202407
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -1511,7 +1511,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐5)
 DTSTART;VALUE=DATE:20240712
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202407
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
@@ -1526,7 +1526,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240716
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202407
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
@@ -1542,7 +1542,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240718
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202407
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -1556,7 +1556,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240722
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202407
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -1570,7 +1570,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240723
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202407
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
@@ -1585,22 +1585,22 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240724
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202407
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
- stenmonats Juli 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)\
- nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse einf
- ach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das Suchfe
- ld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nHo
- chfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-
- 82031 Grünwald\nhttps://www.hochfrequenz.de/
+ stenmonats Juli 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+ \nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse ein
+ fach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das Suchf
+ eld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nH
+ ochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\nD
+ -82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240726
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202407
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -1615,7 +1615,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240726
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202407
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
@@ -1630,21 +1630,21 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20240729
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202407
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Juli 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse e
  infach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das Suc
- hfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\
- nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\
- nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+ hfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n
+ \nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A
+ \nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐5)
 DTSTART;VALUE=DATE:20240730
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202407
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -1658,7 +1658,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240731
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202407
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
@@ -1672,7 +1672,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐6)
 DTSTART;VALUE=DATE:20240805
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202408
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -1686,7 +1686,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240807
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202408
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
@@ -1702,7 +1702,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐6)
 DTSTART;VALUE=DATE:20240809
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202408
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
@@ -1717,7 +1717,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240814
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202408
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -1731,23 +1731,23 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240819
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202408
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
- stenmonats August 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\
- nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg.
-  BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, g
- eben Sie \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderap
- p ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unterneh
- mensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nht
- tps://www.hochfrequenz.de/
+ stenmonats August 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+ \nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg
+ . BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, 
+ geben Sie \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalendera
+ pp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unterne
+ hmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nh
+ ttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240821
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202408
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -1761,7 +1761,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240823
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202408
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -1775,7 +1775,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240826
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202408
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
@@ -1790,7 +1790,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240827
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202408
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
@@ -1805,7 +1805,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐6)
 DTSTART;VALUE=DATE:20240828
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202408
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -1819,7 +1819,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240828
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202408
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
@@ -1834,7 +1834,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240829
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202408
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -1849,21 +1849,21 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20240830
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202408
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats August 2024 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse
   einfach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das S
- uchfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\
- n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27
- A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+ uchfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.
+ \n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 2
+ 7A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240830
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202408
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
@@ -1877,7 +1877,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20240906
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202409
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
@@ -1893,7 +1893,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐7)
 DTSTART;VALUE=DATE:20240906
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202409
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -1907,22 +1907,22 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐7)
 DTSTART;VALUE=DATE:20240912
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202409
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
  stenmonats September 2024 \n\nletztmalig Datenannahme zur 1. BK-Abrechnung
-  beim BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie \
- n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nun
- d bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatu
- ng GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.
- hochfrequenz.de/
+  beim BIKO\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie 
+ \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nu
+ nd bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberat
+ ung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www
+ .hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20240913
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202409
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -1936,23 +1936,23 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20240917
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202409
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
  stenmonats September 2024 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BK
  V)\nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./en
- dg. BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\
- , geben Sie \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalende
- rapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unter
- nehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\
- nhttps://www.hochfrequenz.de/
+ dg. BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen
+ \, geben Sie \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalend
+ erapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unte
+ rnehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald
+ \nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20240919
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202409
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -1967,7 +1967,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20240924
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202409
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -1981,22 +1981,22 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20240925
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202409
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
  stenmonats September 2024 \n\nBK-Zuordnungsliste (VNB ⟶ BKV)\nDeklaratio
- nsliste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\
- , geben Sie \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalende
- rapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unter
- nehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\
- nhttps://www.hochfrequenz.de/
+ nsliste (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen
+ \, geben Sie \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalend
+ erapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unte
+ rnehmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald
+ \nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20240925
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202409
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
@@ -2011,22 +2011,22 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20240926
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202409
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats September 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ 
  VNB)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse
   einfach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das S
- uchfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\
- n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27
- A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+ uchfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.
+ \n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 2
+ 7A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20240930
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202409
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -2041,7 +2041,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20240930
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202409
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
@@ -2055,7 +2055,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐8)
 DTSTART;VALUE=DATE:20241001
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202410
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
@@ -2069,7 +2069,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐7)
 DTSTART;VALUE=DATE:20241001
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202410
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -2083,7 +2083,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20241008
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202410
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
@@ -2099,7 +2099,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐8)
 DTSTART;VALUE=DATE:20241009
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202410
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -2113,7 +2113,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20241015
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202410
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -2127,7 +2127,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐8)
 DTSTART;VALUE=DATE:20241015
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202410
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
@@ -2142,7 +2142,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20241017
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202410
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
@@ -2158,7 +2158,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20241021
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202410
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -2172,7 +2172,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20241023
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202410
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -2186,7 +2186,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20241024
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202410
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
@@ -2201,22 +2201,22 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20241025
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202410
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
  stenmonats Oktober 2024 \n\nDateneingang der DZR Stand 15. WT (BIKO ⟵ VN
  B)\nDeklarationsmitteilung (MGV ⟶ BKV)\n\n\n Um die Kalenderereignisse e
  infach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das Suc
- hfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\
- nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A\
- nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+ hfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\n
+ \nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27A
+ \nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20241028
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202410
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
@@ -2231,7 +2231,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20241029
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202410
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -2246,7 +2246,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20241030
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202410
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
@@ -2260,7 +2260,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20241030
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202410
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
@@ -2274,7 +2274,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐8)
 DTSTART;VALUE=DATE:20241104
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202411
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -2288,23 +2288,23 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20241108
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202411
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
- tenmonats November 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\
- nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ 
- LF)\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie \n'Hoc
- hfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nund bea
- rbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung Gm
- bH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochf
- requenz.de/
+ tenmonats November 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+ \nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶
+  LF)\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie \n'Ho
+ chfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nund be
+ arbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung G
+ mbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hoch
+ frequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐9)
 DTSTART;VALUE=DATE:20241108
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202411
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -2318,7 +2318,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐9)
 DTSTART;VALUE=DATE:20241114
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202411
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
@@ -2333,7 +2333,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20241115
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202411
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -2347,7 +2347,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20241119
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202411
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
@@ -2363,7 +2363,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20241122
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202411
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -2377,7 +2377,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20241126
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202411
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -2391,7 +2391,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20241127
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202411
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
@@ -2406,7 +2406,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20241127
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202411
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
@@ -2421,7 +2421,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20241128
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202411
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
@@ -2436,7 +2436,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20241129
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202411
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
@@ -2450,7 +2450,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐10)
 DTSTART;VALUE=DATE:20241202
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202412
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -2465,7 +2465,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐10)
 DTSTART;VALUE=DATE:20241203
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202412
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
@@ -2479,7 +2479,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐9)
 DTSTART;VALUE=DATE:20241203
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202412
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -2493,23 +2493,23 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20241206
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202412
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
- tenmonats Dezember 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)\
- nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶ 
- LF)\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie \n'Hoc
- hfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nund bea
- rbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung Gm
- bH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hochf
- requenz.de/
+ tenmonats Dezember 2024 \n\nVersand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+ \nVersand Netzzeitreihen (VNB ⟶ BIKO)\nAbrechnungs-ZR endg. BRW (VNB ⟶
+  LF)\n\n\n Um die Kalenderereignisse einfach zu löschen\, geben Sie \n'Ho
+ chfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderapp ein \nund be
+ arbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unternehmensberatung G
+ mbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nhttps://www.hoch
+ frequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐10)
 DTSTART;VALUE=DATE:20241210
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202412
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -2523,7 +2523,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20241213
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202412
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -2537,7 +2537,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐10)
 DTSTART;VALUE=DATE:20241216
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202412
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
@@ -2552,7 +2552,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20241217
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202412
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
@@ -2568,7 +2568,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20241219
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202412
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -2582,7 +2582,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20241223
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202412
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -2596,7 +2596,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20241223
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202412
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
@@ -2611,7 +2611,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20241227
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202412
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
@@ -2626,7 +2626,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20241230
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202412
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
@@ -2641,7 +2641,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20241230
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202412
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
@@ -2655,7 +2655,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT (⭐11)
 DTSTART;VALUE=DATE:20250103
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202501
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -2670,21 +2670,21 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT (⭐11)
 DTSTART;VALUE=DATE:20250107
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202501
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Januar 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse
   einfach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das S
- uchfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\
- n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27
- A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+ uchfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.
+ \n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 2
+ 7A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:5WT
 DTSTART;VALUE=DATE:20250109
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL5202501
 CATEGORIES:5WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n5. Werktag des Fris
@@ -2700,7 +2700,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:42WT (⭐10)
 DTSTART;VALUE=DATE:20250109
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL42202501
 CATEGORIES:42WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n42. Werktag des Fri
@@ -2714,7 +2714,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:26WT (⭐11)
 DTSTART;VALUE=DATE:20250114
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL26202501
 CATEGORIES:26WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n26. Werktag des Fri
@@ -2728,7 +2728,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:10WT
 DTSTART;VALUE=DATE:20250116
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL10202501
 CATEGORIES:10WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n10. Werktag des Fri
@@ -2742,23 +2742,23 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:12WT
 DTSTART;VALUE=DATE:20250120
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL12202501
 CATEGORIES:12WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n12. Werktag des Fri
- stenmonats Januar 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)\
- nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg.
-  BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, g
- eben Sie \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalenderap
- p ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unterneh
- mensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nht
- tps://www.hochfrequenz.de/
+ stenmonats Januar 2025 \n\nBK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+ \nLF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))\nBK-Summen vorl./endg
+ . BRW (VNB ⟶ MGV)\n\n\n Um die Kalenderereignisse einfach zu löschen\, 
+ geben Sie \n'Hochfrequenz Fristenkalender' in das Suchfeld Ihrer Kalendera
+ pp ein \nund bearbeiten Sie die Liste nach Wunsch.\n\nHochfrequenz Unterne
+ hmensberatung GmbH\nNördliche Münchner Straße 27A\nD-82031 Grünwald\nh
+ ttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:30WT (⭐11)
 DTSTART;VALUE=DATE:20250120
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL30202501
 CATEGORIES:30WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n30. Werktag des Fri
@@ -2773,7 +2773,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:14WT
 DTSTART;VALUE=DATE:20250122
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL14202501
 CATEGORIES:14WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n14. Werktag des Fri
@@ -2787,7 +2787,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:16WT
 DTSTART;VALUE=DATE:20250124
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL16202501
 CATEGORIES:16WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n16. Werktag des Fri
@@ -2801,7 +2801,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:17WT
 DTSTART;VALUE=DATE:20250127
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL17202501
 CATEGORIES:17WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n17. Werktag des Fri
@@ -2816,7 +2816,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:18WT
 DTSTART;VALUE=DATE:20250128
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL18202501
 CATEGORIES:18WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n18. Werktag des Fri
@@ -2831,7 +2831,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3LWT
 DTSTART;VALUE=DATE:20250128
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL3L0202501
 CATEGORIES:3LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n3. letzter Werktag 
@@ -2846,7 +2846,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:20WT
 DTSTART;VALUE=DATE:20250130
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL20202501
 CATEGORIES:20WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n20. Werktag des Fri
@@ -2861,21 +2861,21 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:21WT
 DTSTART;VALUE=DATE:20250131
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALL21202501
 CATEGORIES:21WT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\n21. Werktag des Fri
  stenmonats Januar 2025 \n\nNKP (VNB ⟶ MGV)\n\n Um die Kalenderereignisse
   einfach zu löschen\, geben Sie \n'Hochfrequenz Fristenkalender' in das S
- uchfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.\
- n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 27
- A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
+ uchfeld Ihrer Kalenderapp ein \nund bearbeiten Sie die Liste nach Wunsch.
+ \n\nHochfrequenz Unternehmensberatung GmbH\nNördliche Münchner Straße 2
+ 7A\nD-82031 Grünwald\nhttps://www.hochfrequenz.de/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LWT
 DTSTART;VALUE=DATE:20250131
-DTSTAMP:20260921T073620Z
+DTSTAMP:20260921T080412Z
 UID:20260921ALLL0202501
 CATEGORIES:LWT
 DESCRIPTION:Digitaler Hochfrequenz Fristenkalender \n\nletzter Werktag des
