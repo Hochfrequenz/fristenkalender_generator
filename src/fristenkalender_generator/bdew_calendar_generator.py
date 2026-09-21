@@ -370,7 +370,7 @@ class FristenkalenderGenerator:
         """
         Create an ical (v)event for a given frist
         """
-        event = Event()  # type: ignore[no-untyped-call]
+        event = Event()
         summary: str = frist.label
         if frist.ref_not_in_the_same_month is not None:
             summary += f" (⭐{frist.ref_not_in_the_same_month})"
@@ -403,7 +403,7 @@ class FristenkalenderGenerator:
         """
         Create an ical calendar with a given mail address and a given set of fristen
         """
-        calendar = Calendar()  # type: ignore[no-untyped-call]
+        calendar = Calendar()
         calendar.add("attendee", attendee)
         calendar.add("x-wr-calname", "Hochfrequenz Fristenkalender")
         # https://learn.microsoft.com/en-us/openspecs/exchange_server_protocols/ms-oxcical/1da58449-b97e-46bd-b018-a1ce576f3e6d
