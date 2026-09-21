@@ -5841,3 +5841,1401 @@
     ),
   ])
 # ---
+# name: TestFristenkalenderGenerator.test_full_calendar_2027
+  list([
+    FristWithAttributes(
+      date=datetime.date(2026, 12, 1),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=10,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2026, 12, 7),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2026, 12, 8),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=10,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2026, 12, 14),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2026, 12, 14),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=10,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2026, 12, 16),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2026, 12, 18),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2026, 12, 22),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2026, 12, 23),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2026, 12, 28),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2026, 12, 30),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2026, 12, 30),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 1, 4),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=11,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 1, 5),
+      description='BK-Abrechnung (BIKO ⟶ BKV)',
+      label='42WT',
+      ref_not_in_the_same_month=10,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 1, 11),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 1, 12),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=11,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 1, 18),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 1, 18),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=11,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 1, 20),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 1, 22),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 1, 26),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 1, 27),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 1, 28),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 1, 29),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 1),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=12,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 2),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=12,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 3),
+      description='BK-Abrechnung (BIKO ⟶ BKV)',
+      label='42WT',
+      ref_not_in_the_same_month=11,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 5),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 9),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=12,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 12),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 15),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=12,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 16),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 18),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 22),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 23),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 24),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 26),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 2, 26),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 3, 1),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=1,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 3, 3),
+      description='BK-Abrechnung (BIKO ⟶ BKV)',
+      label='42WT',
+      ref_not_in_the_same_month=12,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 3, 5),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 3, 9),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=1,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 3, 15),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 3, 15),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=1,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 3, 17),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 3, 19),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 3, 23),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 3, 24),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 3, 25),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 3, 31),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 3, 31),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 1),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=2,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 2),
+      description='BK-Abrechnung (BIKO ⟶ BKV)',
+      label='42WT',
+      ref_not_in_the_same_month=1,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 7),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 8),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=2,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 14),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 14),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=2,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 16),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 20),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 22),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 23),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 26),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 28),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 29),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 30),
+      description='BK-Abrechnung (BIKO ⟶ BKV)',
+      label='42WT',
+      ref_not_in_the_same_month=2,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 4, 30),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 5, 7),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=3,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 5, 10),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 5, 13),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=3,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 5, 18),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 5, 20),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 5, 24),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 5, 26),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 5, 28),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 5, 31),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 5, 31),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 2),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=4,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 2),
+      description='BK-Abrechnung (BIKO ⟶ BKV)',
+      label='42WT',
+      ref_not_in_the_same_month=3,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 3),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=4,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 7),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 10),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=4,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 14),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 16),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 16),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=4,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 18),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 22),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 23),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 24),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 28),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 29),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 6, 30),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 2),
+      description='BK-Abrechnung (BIKO ⟶ BKV)',
+      label='42WT',
+      ref_not_in_the_same_month=4,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 6),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=5,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 7),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 12),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=5,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 14),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 16),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 20),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 22),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 23),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 26),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 28),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 28),
+      description='BK-Abrechnung (BIKO ⟶ BKV)',
+      label='42WT',
+      ref_not_in_the_same_month=5,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 29),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 7, 30),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 8, 5),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=6,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 8, 6),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 8, 11),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=6,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 8, 13),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 8, 17),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 8, 19),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 8, 23),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 8, 24),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 8, 25),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 8, 27),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 8, 27),
+      description='BK-Abrechnung (BIKO ⟶ BKV)',
+      label='42WT',
+      ref_not_in_the_same_month=6,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 8, 30),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 8, 31),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 9, 6),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=7,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 9, 7),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 9, 10),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=7,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 9, 14),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 9, 16),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 9, 21),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 9, 23),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 9, 24),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 9, 27),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 9, 29),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 9, 29),
+      description='BK-Abrechnung (BIKO ⟶ BKV)',
+      label='42WT',
+      ref_not_in_the_same_month=7,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 9, 30),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 9, 30),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 10, 7),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 10, 7),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=8,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 10, 13),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=8,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 10, 14),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 10, 18),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 10, 20),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 10, 22),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 10, 25),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 10, 26),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 10, 28),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 10, 29),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 10, 29),
+      description='BK-Abrechnung (BIKO ⟶ BKV)',
+      label='42WT',
+      ref_not_in_the_same_month=8,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 10, 29),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 11, 8),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 11, 8),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=9,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 11, 12),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=9,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 11, 15),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 11, 18),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 11, 22),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 11, 24),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 11, 25),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 11, 26),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 11, 30),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 11, 30),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 1),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=10,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 1),
+      description='BK-Abrechnung (BIKO ⟶ BKV)',
+      label='42WT',
+      ref_not_in_the_same_month=9,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 7),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 8),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=10,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 14),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 14),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=10,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 16),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 20),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 22),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 23),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 27),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 29),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 30),
+      description='NKP (VNB ⟶ MGV)',
+      label='21WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2027, 12, 30),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2028, 1, 3),
+      description='BK-Abrechnung (BIKO ⟶ BKV)',
+      label='42WT',
+      ref_not_in_the_same_month=10,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2028, 1, 10),
+      description='''
+        Versand der BG-SummenZR (Kat B.)(ÜNB ⟶ NB)
+        Versand Netzzeitreihen (VNB ⟶ BIKO)
+        Abrechnungs-ZR endg. BRW (VNB ⟶ LF)
+  
+      ''',
+      label='5WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2028, 1, 10),
+      description='NKP MG-Überlappung (VNB ⟶ MGV)',
+      label='26WT',
+      ref_not_in_the_same_month=11,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2028, 1, 14),
+      description='letztmalig Datenannahme zur 1. BK-Abrechnung beim BIKO',
+      label='30WT',
+      ref_not_in_the_same_month=11,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2028, 1, 17),
+      description='Eingang Netzzeitreihen (VNB ⟶ VNB)',
+      label='10WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2028, 1, 19),
+      description='''
+        BK-SummenZR (VNB/ÜNB ⟶ BIKO & BIKO ⟶ BKV)
+        LF-SummenZR (VNB ⟶ LF (bei Zuordnungsermächt.))
+        BK-Summen vorl./endg. BRW (VNB ⟶ MGV)
+  
+      ''',
+      label='12WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2028, 1, 21),
+      description='BK-Summen vorl./endg. BRW (MGV ⟶ BKV)',
+      label='14WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2028, 1, 25),
+      description='Zuordnungslisten (VNB ⟶ LF)',
+      label='16WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2028, 1, 26),
+      description='''
+        BK-Zuordnungsliste (VNB ⟶ BKV)
+        Deklarationsliste (VNB ⟶ MGV)
+  
+      ''',
+      label='17WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2028, 1, 27),
+      description='''
+        Dateneingang der DZR Stand 15. WT (BIKO ⟵ VNB)
+        Deklarationsmitteilung (MGV ⟶ BKV)
+  
+      ''',
+      label='18WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2028, 1, 31),
+      description='''
+        Ausgleichsenergiepreise (BIKO ⟶ BKV)
+        Abstimmung NKP zw. VNB
+  
+      ''',
+      label='20WT',
+      ref_not_in_the_same_month=None,
+    ),
+    FristWithAttributes(
+      date=datetime.date(2028, 1, 31),
+      description='BK-Zuordnungsliste (VNB ⟶ BKV)',
+      label='LWT',
+      ref_not_in_the_same_month=None,
+    ),
+  ])
+# ---
