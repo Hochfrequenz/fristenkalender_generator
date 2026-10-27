@@ -72,16 +72,16 @@ wheels = [
 
 [[package]]
 name = "bdew-datetimes"
-version = "0.11.0"
+version = "0.12.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "holidays" },
     { name = "python-dateutil" },
     { name = "pytz" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/bd/3d/d1e7664d21a8771c41d766a415c8e14325d46e934c90255ca51a84f0d764/bdew_datetimes-0.11.0.tar.gz", hash = "sha256:0f6bbd7a2569f13194bcf707afa3b518621d12c603bea5aa0e9847fa16c56434", size = 16194, upload-time = "2026-01-11T18:14:05.474Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ad/c6/3ddca74b30b27dcd3d581a5a5f9dd2067e2b60498ee3eb073301271eca05/bdew_datetimes-0.12.0.tar.gz", hash = "sha256:d44cef53b826add289fd956ecabc2ab61d44892c65adb4337800a1a8e662a0b7", size = 47079, upload-time = "2026-10-17T16:04:51.842Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/91/94/d3293a7b58ffb173c6a618a2245f6e77440a6d6bb4e51d772e1b168af0a0/bdew_datetimes-0.11.0-py3-none-any.whl", hash = "sha256:c92e444bd47a967b324826a3c450b88f2cd5de1e317b1d27380763168a490e81", size = 13909, upload-time = "2026-01-11T18:14:03.976Z" },
+    { url = "https://files.pythonhosted.org/packages/93/12/9b31d13bf25ec7593a278eb064018ed512a7b9cce321b643a05511e675c7/bdew_datetimes-0.12.0-py3-none-any.whl", hash = "sha256:edf993d38dce69753becc626b7441cfacd3878bffbcd94fcbb19fef823a2ccc9", size = 14043, upload-time = "2026-10-17T16:04:50.93Z" },
 ]
 
 [[package]]
