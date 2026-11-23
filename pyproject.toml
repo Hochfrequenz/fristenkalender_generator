@@ -50,7 +50,7 @@ tests = [
     "syrupy==7.0.2"
 ]
 linting = [
-    "ruff==0.17.5"
+    "ruff==0.17.6"
 ]
 type_check = [
     "mypy==2.4.1",
